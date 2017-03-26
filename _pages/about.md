@@ -8,9 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-Project that I work in:
+Project that I own:
 
-* [seqcluter](https://github.com/lpantano/seqcluster)
+* [seqbuster](https://github.com/lpantano/seqbuster)
+* [seqcluster](https://github.com/lpantano/seqcluster)
+* [seqclusterViz](https://github.com/lpantano/seqclusterViz)
+
+Projects that I participate:
+
 * [bcbio-nextgen](http://github.com/chapmanb/bcbio-nextgen)
 * [cloudbiolinux](http://github.com/chapmanb/cloudbiolinux)
 * [bcbio.rnaseq](https://github.com/roryk/bcbio.rnaseq)
