@@ -24,3 +24,5 @@ Projects that I participate:
 
 
 Hope you enjoy!
+
+Download my [CV](../files/cv.pdf)
