@@ -21,7 +21,7 @@ Education
 GitHub contribution 
 ======
 
-Community supported project I activaly participate:
+Community supported project I actively participate:
 
 * [bcbio-nextgen](http://github.com/chapmanb/bcbio-nextgen)
 * [cloudbiolinux](http://github.com/chapmanb/cloudbiolinux)
@@ -29,37 +29,38 @@ Community supported project I activaly participate:
 * [bioconda](https://github.com/bioconda/bioconda-recipes)
 * [multiqc](https://github.com/ewels/MultiQC)
 
-Open project I own:
+Open projects I own:
+
 * [seqcluster](http://github.com/lpantano/seqcluster)
 * [seqclusterViz](http://github.com/lpantano/seqclusterViz)
 * [isomiRs](http://github.com/lpantano/isomiRs)
 * [DEGreport](http://github.com/lpantano/DEGreport)
-* [mirTOP](http://github.com/lpantano/mirTOP)
+* [mirTOP](http://github.com/mirtop/mirTOP)
 
 Work experience
 ======
 
 * Research Associate at Harvard Chan School Bioinformatic Core,
   2014–to date.
-  * development of tools for NGS data analysis
-  * Analysit of high through put data
+  * Development of tools for NGS data analysis
+  * Analyst of high-throughput data
   * Leading Bioinformatic analysis in the fibrosis project collaboration between Harvard and Boehringer Ingelheim 
 * Post-doct fellow at
   [IBB](http://ibb.uab.es/ibb/index.php?option=com_wrapper&Itemid=127), 2013–2014.
   * Analyzing de-novo transcripts due to inversion
   * Differential expression due to inversion in HapMap population
   * Involve in inversion database development
-* CTO at ASCIDEA (http://ascidea.com)
+* Founder and CTO at ASCIDEA (http://ascidea.com), 2011-2014
   * Leading a group of 3 bioinformaticians
   * Cloud computing architect
-  * Developper of computational pipelines
+  * Development of computational pipelines
 * Post-doctoral fellow at [Institut de Medicina Predictiva i
   Personalitzada del Cancer](http://www.imppc.org), 2011–2013.
   * small RNA characterization in human sperm samples
 * PhD student at [Center for Genomic
   Regulation](http://www.crg.es), 2006–2011.
   * small RNA characterization in human mental diseases
-  * development of tools for miRNA and small RNA analysis
+  * Development of tools for miRNA and small RNA analysis
 * Msc student at [Granada University](http://www.ugr.es), 2004–2006.
 
 Skills
