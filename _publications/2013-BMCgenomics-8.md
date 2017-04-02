@@ -4,10 +4,10 @@ collection: publications
 permalink: /publications/2013-BMCgenomics-8
 venue: "BMC genomics"
 paperurl: www.ncbi.nlm.nih.gov/pubmed/?term=23414127
-citation: 'F Llorens Franc,M Banez-Coronel Monica,L Pantano Lorena,R del Rio Jose Antonio,I Ferrer Isidre,X Estivill Xavier,E Marti Eulalia (2013) A highly expressed miR-101 isomiR is a functional silencing small RNA. <i>BMC genomics</i>'
+citation: 'F Llorens,M Banez-Coronel,**L Pantano**,R del,I Ferrer,X Estivill,E Marti (2013) A highly expressed miR-101 isomiR is a functional silencing small RNA. <i>BMC genomics</i>'
 ---
 
-F Llorens Franc,M Banez-Coronel Monica,L Pantano Lorena,R del Rio Jose Antonio,I Ferrer Isidre,X Estivill Xavier,E Marti Eulalia
+F Llorens,M Banez-Coronel,**L Pantano**,R del,I Ferrer,X Estivill,E Marti
 ## Abstract
 BACKGROUND: MicroRNAs (miRNAs) are short non-coding regulatory RNAs that control gene expression usually producing translational repression and gene silencing. High-throughput sequencing technologies have revealed heterogeneity at length and sequence level for the majority of mature miRNAs (IsomiRs). Most isomiRs can be explained by variability in either Dicer1 or Drosha cleavage during miRNA biogenesis at 5' or 3' of the miRNA (trimming variants). Although isomiRs have been described in different tissues and organisms, their functional validation as modulators of gene expression remains elusive. Here we have characterized the expression and function of a highly abundant miR-101 5'-trimming variant (5'-isomiR-101).
 

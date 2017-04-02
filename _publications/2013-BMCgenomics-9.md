@@ -4,10 +4,10 @@ collection: publications
 permalink: /publications/2013-BMCgenomics-9
 venue: "BMC genomics"
 paperurl: www.ncbi.nlm.nih.gov/pubmed/?term=23724959
-citation: 'F Llorens Franc.,M Hummel Manuela et al (2013) Microarray and deep sequencing cross-platform analysis of the mirRNome and isomiR variation in response to epidermal growth factor. <i>BMC genomics</i>'
+citation: 'F Llorens,M Hummel,**L Pantano**,X Pastor,A Vivancos,E Castillo,H Mattlin,A Ferrer,M Ingham,M Noguera,R Kofler,J Dohm,R Pluvinet,M Bayes,H Himmelbauer,R del,E Marti,L Sumoy (2013) Microarray and deep sequencing cross-platform analysis of the mirRNome and isomiR variation in response to epidermal growth factor. <i>BMC genomics</i>'
 ---
 
-F Llorens Franc.,M Hummel Manuela et al
+F Llorens,M Hummel,**L Pantano**,X Pastor,A Vivancos,E Castillo,H Mattlin,A Ferrer,M Ingham,M Noguera,R Kofler,J Dohm,R Pluvinet,M Bayes,H Himmelbauer,R del,E Marti,L Sumoy
 ## Abstract
 BACKGROUND: Epidermal Growth Factor (EGF) plays an important function in the regulation of cell growth, proliferation, and differentiation by binding to its receptor (EGFR) and providing cancer cells with increased survival responsiveness. Signal transduction carried out by EGF has been extensively studied at both transcriptional and post-transcriptional levels. Little is known about the involvement of microRNAs (miRNAs) in the EGF signaling pathway. miRNAs have emerged as major players in the complex networks of gene regulation, and cancer miRNA expression studies have evidenced a direct involvement of miRNAs in cancer progression.
 

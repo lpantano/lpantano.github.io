@@ -29,17 +29,37 @@ Community supported project I activaly participate:
 * [bioconda](https://github.com/bioconda/bioconda-recipes)
 * [multiqc](https://github.com/ewels/MultiQC)
 
+Open project I own:
+* [seqcluster](http://github.com/lpantano/seqcluster)
+* [seqclusterViz](http://github.com/lpantano/seqclusterViz)
+* [isomiRs](http://github.com/lpantano/isomiRs)
+* [DEGreport](http://github.com/lpantano/DEGreport)
+* [mirTOP](http://github.com/lpantano/mirTOP)
+
 Work experience
 ======
 
 * Research Associate at Harvard Chan School Bioinformatic Core,
   2014–to date.
+  * development of tools for NGS data analysis
+  * Analysit of high through put data
+  * Leading Bioinformatic analysis in the fibrosis project collaboration between Harvard and Boehringer Ingelheim 
 * Post-doct fellow at
   [IBB](http://ibb.uab.es/ibb/index.php?option=com_wrapper&Itemid=127), 2013–2014.
+  * Analyzing de-novo transcripts due to inversion
+  * Differential expression due to inversion in HapMap population
+  * Involve in inversion database development
+* CTO at ASCIDEA (http://ascidea.com)
+  * Leading a group of 3 bioinformaticians
+  * Cloud computing architect
+  * Developper of computational pipelines
 * Post-doctoral fellow at [Institut de Medicina Predictiva i
   Personalitzada del Cancer](http://www.imppc.org), 2011–2013.
+  * small RNA characterization in human sperm samples
 * PhD student at [Center for Genomic
   Regulation](http://www.crg.es), 2006–2011.
+  * small RNA characterization in human mental diseases
+  * development of tools for miRNA and small RNA analysis
 * Msc student at [Granada University](http://www.ugr.es), 2004–2006.
 
 Skills
@@ -107,11 +127,12 @@ Service and leadership
 * Former member of [ISCB student council](http://www.iscbsc.org),
   2010–2014.
 
-* 2017, NAR journal reviewer
-* BOSC 2014-17 abstrac reviewer
-* Mind the Gap Barcelona, 2013 - Chair
-* Student Council Symposium 2010-12 abstrac reviewier
+* Peer review, NAR journal, 2017
+* Programme committee, BOSC, 2014-to date
+* Chari, Mind the Gap Barcelona, 2013 
+* Master Thesis Supervisor, 2014, Universidad Autonoma de Barcelona
 
+* Programme committee, Student Council Symposium 
 * ISCB Student Council Symposium Long Beach, 2012 - Travel Fellowship
     chair
 * Spain, Portugal and North Africa Student Symposium Barcelona, 2012 -

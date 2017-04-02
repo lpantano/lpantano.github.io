@@ -25,10 +25,11 @@ for paper in bib_database.entries:
 	print paper['author']
 	abstract = unidecode(paper['abstract']) if 'abstract' in paper else 'comming soon'
 	authors = remove_specials(unidecode(paper['author'])).split(" and ")
-	authors = [ "%s %s" % (a.split()[1][0], a.split(",")[0]) for a in authors]
+	authors = [ "%s %s" % (a.split()[1][0], a.split()[0]) for a in authors]
 	summary = unidecode(abstract[:50])
 	link = "www.ncbi.nlm.nih.gov/pubmed/?term=%s" % paper['pmid'] if 'pmid' in paper else "Comming soon"
-	authors = (",").join(authors) if len(authors) < 10 else "%s et al" % (".,").join(authors[:2])
+	authors [a.replace("L Rubino", "L Pantano") for a in authors]
+	authors = (",").join([a if a !="L Pantano" else "**L Pantano**" for a in authors])
 	
 	print authors
 	citation = ("{authors} ({year}) {title} <i>{journal}</i>").format(authors=authors,
