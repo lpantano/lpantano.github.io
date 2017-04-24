@@ -1,7 +1,7 @@
 ---
 title: Genome assembly comparison identifies structural variants in the human genome.
 collection: publications
-permalink: /publications/2006-NatureGenetics-18
+permalink: /publications/2006-NatureGenetics-20
 venue: "Nature Genetics"
 paperurl: www.ncbi.nlm.nih.gov/pubmed/?term=17115057
 citation: 'R Khaja,J Zhang,J MacDonald,Y He,A Joseph-George,J Wei,M Rafiq,C Qian,M Shago,**L Pantano**,H Aburatani,K Jones,R Redon,M Hurles,L Armengol,X Estivill,R Mural,C Lee,S Scherer,L Feuk (2006) Genome assembly comparison identifies structural variants in the human genome. <i>Nature Genetics</i>'

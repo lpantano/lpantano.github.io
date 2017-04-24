@@ -1,7 +1,7 @@
 ---
 title: Microarray and deep sequencing cross-platform analysis of the mirRNome and isomiR variation in response to epidermal growth factor.
 collection: publications
-permalink: /publications/2013-BMCgenomics-9
+permalink: /publications/2013-BMCgenomics-11
 venue: "BMC genomics"
 paperurl: www.ncbi.nlm.nih.gov/pubmed/?term=23724959
 citation: 'F Llorens,M Hummel,**L Pantano**,X Pastor,A Vivancos,E Castillo,H Mattlin,A Ferrer,M Ingham,M Noguera,R Kofler,J Dohm,R Pluvinet,M Bayes,H Himmelbauer,R del,E Marti,L Sumoy (2013) Microarray and deep sequencing cross-platform analysis of the mirRNome and isomiR variation in response to epidermal growth factor. <i>BMC genomics</i>'

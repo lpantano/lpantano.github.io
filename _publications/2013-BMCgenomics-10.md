@@ -1,7 +1,7 @@
 ---
 title: A highly expressed miR-101 isomiR is a functional silencing small RNA.
 collection: publications
-permalink: /publications/2013-BMCgenomics-8
+permalink: /publications/2013-BMCgenomics-10
 venue: "BMC genomics"
 paperurl: www.ncbi.nlm.nih.gov/pubmed/?term=23414127
 citation: 'F Llorens,M Banez-Coronel,**L Pantano**,R del,I Ferrer,X Estivill,E Marti (2013) A highly expressed miR-101 isomiR is a functional silencing small RNA. <i>BMC genomics</i>'

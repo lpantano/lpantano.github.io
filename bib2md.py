@@ -28,7 +28,7 @@ for paper in bib_database.entries:
 	authors = [ "%s %s" % (a.split()[1][0], a.split()[0]) for a in authors]
 	summary = unidecode(abstract[:50])
 	link = "www.ncbi.nlm.nih.gov/pubmed/?term=%s" % paper['pmid'] if 'pmid' in paper else "Comming soon"
-	authors [a.replace("L Rubino", "L Pantano") for a in authors]
+	authors =[a.replace("L Rubino", "L Pantano") for a in authors]
 	authors = (",").join([a if a !="L Pantano" else "**L Pantano**" for a in authors])
 	
 	print authors

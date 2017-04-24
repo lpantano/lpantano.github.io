@@ -1,7 +1,7 @@
 ---
 title: ProSeeK A web server for MLPA probe design
 collection: publications
-permalink: /publications/2008-BMCGenomics-16
+permalink: /publications/2008-BMCGenomics-18
 venue: "BMC Genomics"
 paperurl: www.ncbi.nlm.nih.gov/pubmed/?term=19040730
 citation: '**L Pantano**,L Armengol,S Villatoro,X Estivill (2008) ProSeeK A web server for MLPA probe design <i>BMC Genomics</i>'

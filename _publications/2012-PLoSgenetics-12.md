@@ -1,7 +1,7 @@
 ---
 title: A Pathogenic Mechanism in Huntingtons Disease Involves Small CAG-Repeated RNAs with Neurotoxic Activity.
 collection: publications
-permalink: /publications/2012-PLoSgenetics-10
+permalink: /publications/2012-PLoSgenetics-12
 venue: "PLoS genetics"
 paperurl: www.ncbi.nlm.nih.gov/pubmed/?term=22383888
 citation: 'M Banez-Coronel,S Porta,B Kagerbauer,E Mateu-Huertas,**L Pantano**,I Ferrer,M Guzman,X Estivill,E Marti (2012) A Pathogenic Mechanism in Huntingtons Disease Involves Small CAG-Repeated RNAs with Neurotoxic Activity. <i>PLoS genetics</i>'

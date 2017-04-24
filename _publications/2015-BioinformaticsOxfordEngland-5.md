@@ -1,7 +1,7 @@
 ---
 title: Specific small-RNA signatures in the amygdala at premotor and motor stages of Parkinsons disease revealed by deep sequencing analysis.
 collection: publications
-permalink: /publications/2015-BioinformaticsOxfordEngland-3
+permalink: /publications/2015-BioinformaticsOxfordEngland-5
 venue: "Bioinformatics (Oxford England)"
 paperurl: www.ncbi.nlm.nih.gov/pubmed/?term=26530722
 citation: '**L Pantano**,M Friedlander,G Escaramis,E Lizano,J Pallares-Albanell,I Ferrer,X Estivill,E Marti (2015) Specific small-RNA signatures in the amygdala at premotor and motor stages of Parkinsons disease revealed by deep sequencing analysis. <i>Bioinformatics (Oxford England)</i>'

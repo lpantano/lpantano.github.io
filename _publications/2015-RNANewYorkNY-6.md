@@ -1,7 +1,7 @@
 ---
 title: The small RNA content of human sperm reveals pseudogene-derived piRNAs complementary to protein-coding genes.
 collection: publications
-permalink: /publications/2015-RNANewYorkNY-4
+permalink: /publications/2015-RNANewYorkNY-6
 venue: "RNA (New York N.Y.)"
 paperurl: www.ncbi.nlm.nih.gov/pubmed/?term=25904136
 citation: '**L Pantano**,M Jodar,M Bak,J Ballesca,N Tommerup,R Oliva,T Vavouri (2015) The small RNA content of human sperm reveals pseudogene-derived piRNAs complementary to protein-coding genes. <i>RNA (New York N.Y.)</i>'

@@ -1,7 +1,7 @@
 ---
 title: Genomic analyses identify molecular subtypes of pancreatic cancer
 collection: publications
-permalink: /publications/2016-Nature-2
+permalink: /publications/2016-Nature-4
 venue: "Nature"
 paperurl: www.ncbi.nlm.nih.gov/pubmed/?term=26909576
 citation: 'P Bailey,D Chang,K Nones,A Johns,A Patch,M Gingras,D Miller,A Christ,T Bruxner,M Quinn,C Nourse,L Murtaugh,I Harliwong,S Idrisoglu,S Manning,E Nourbakhsh,S Wani,L Fink,O Holmes,V Chin,M Anderson,S Kazakoff,C Leonard,F Newell,N Waddell,S Wood,Q Xu,P Wilson,N Cloonan,K Kassahn,D Taylor,K Quek,A Robertson,**L Pantano**,L Mincarelli,L Sanchez,L Evers,J Wu,M Pinese,M Cowley,M Jones,E Colvin,A Nagrial,E Humphrey,L Chantrill,A Mawson,J Humphris,A Chou,M Pajic,C Scarlett,A Pinho,M Giry-Laterriere,I Rooman,J Samra,J Kench,J Lovell,N Merrett,C Toon,K Epari,N Nguyen,A Barbour,N Zeps,K Moran-Jones,N Jamieson,J Graham,F Duthie,K Oien,J Hair,R Grutzmann,A Maitra,C Iacobuzio-Donahue,C Wolfgang,R Morgan,R Lawlor,V Corbo,C Bassi,B Rusev,P Capelli,R Salvia,G Tortora,D Mukhopadhyay,G Petersen,P Australian,D Munzy,W Fisher,S Karim,J Eshleman,R Hruban,C Pilarsky,J Morton,O Sansom,A Scarpa,E Musgrove,U Bailey,O Hofmann,R Sutherland,D Wheeler,A Gill,R Gibbs,J Pearson,N Waddell,A Biankin,S Grimmond (2016) Genomic analyses identify molecular subtypes of pancreatic cancer <i>Nature</i>'
