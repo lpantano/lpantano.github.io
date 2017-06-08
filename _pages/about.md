@@ -10,8 +10,8 @@ redirect_from:
 
 Project that I own:
 
-* [seqbuster](https://github.com/lpantano/seqbuster)
-* [seqcluster](https://github.com/lpantano/seqcluster)
+* [seqbuster](https://github.com/lpantano/seqbuster) ![](https://anaconda.org/bioconda/seqbuster/badges/downloads.svg)
+* [seqcluster](https://github.com/lpantano/seqcluster) ![](https://anaconda.org/bioconda/seqcluster/badges/downloads.svg)
 * [seqclusterViz](https://github.com/lpantano/seqclusterViz)
 * [isomiRs](http://bioconductor.org/packages/3.6/bioc/html/isomiRs.html) ![BioC Downloads](http://bioconductor.org//shields/downloads/isomiRs.svg)
 * [DEGreport](http://bioconductor.org/packages/3.6/bioc/html/DEGreport.html)![BioC Downloads](http://bioconductor.org//shields/downloads/DEGreport.svg)
