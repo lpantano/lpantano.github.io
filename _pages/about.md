@@ -21,7 +21,7 @@ Projects that I participate:
 
 * [bcbio-nextgen](http://github.com/chapmanb/bcbio-nextgen)
 * [cloudbiolinux](http://github.com/chapmanb/cloudbiolinux)
-* [bcbio.rnaseq](https://github.com/roryk/bcbio.rnaseq)
+* [bcbioRNASeq](https://github.com/hbc/bcbioRNASeq)
 * [bioconda](https://github.com/bioconda/bioconda-recipes)
 * [multiqc](https://github.com/ewels/MultiQC)
 
