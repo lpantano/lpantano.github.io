@@ -25,6 +25,10 @@ Projects that I participate:
 * [bioconda](https://github.com/bioconda/bioconda-recipes)
 * [multiqc](https://github.com/ewels/MultiQC)
 
+Hobbies:
+
+* [My photo gallary](https://ljadventures.exposure.co)
+
 
 Hope you enjoy!
 
