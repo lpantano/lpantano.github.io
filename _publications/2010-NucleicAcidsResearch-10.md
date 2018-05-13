@@ -1,7 +1,7 @@
 ---
 title: A myriad of miRNA variants in control and Huntingtons disease brain regions detected by massively parallel sequencing
 collection: publications
-permalink: /publications/2010-NucleicAcidsResearch-6
+permalink: /publications/2010-NucleicAcidsResearch-10
 venue: "Nucleic Acids Research"
 paperurl: www.ncbi.nlm.nih.gov/pubmed/?term=20591823
 citation: 'E Marti,**L Pantano**,M Banez-Coronel,F Llorens,E Minones-Moyano,S Porta,L Sumoy,I Ferrer,X Estivill (2010) A myriad of miRNA variants in control and Huntingtons disease brain regions detected by massively parallel sequencing <i>Nucleic Acids Research</i>'

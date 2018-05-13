@@ -1,7 +1,7 @@
 ---
 title: A non-biased framework for the annotation and classification of the non-miRNA small RNA transcriptome.
 collection: publications
-permalink: /publications/2011-BioinformaticsOxfordEngland-8
+permalink: /publications/2011-BioinformaticsOxfordEngland-12
 venue: "Bioinformatics (Oxford England)"
 paperurl: www.ncbi.nlm.nih.gov/pubmed/?term=21976421
 citation: '**L Pantano**,X Estivill,E Marti (2011) A non-biased framework for the annotation and classification of the non-miRNA small RNA transcriptome. <i>Bioinformatics (Oxford England)</i>'

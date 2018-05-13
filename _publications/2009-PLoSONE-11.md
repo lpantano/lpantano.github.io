@@ -1,7 +1,7 @@
 ---
 title: Identification of Copy Number Variants Defining Genomic Differences among Major Human Groups
 collection: publications
-permalink: /publications/2009-PLoSONE-4
+permalink: /publications/2009-PLoSONE-11
 venue: "PLoS ONE"
 paperurl: www.ncbi.nlm.nih.gov/pubmed/?term=19789632
 citation: 'L Armengol,S Villatoro,J Gonzalez,**L Pantano**,M Garcia-Aragones,R Rabionet,M Caceres,X Estivill (2009) Identification of Copy Number Variants Defining Genomic Differences among Major Human Groups <i>PLoS ONE</i>'

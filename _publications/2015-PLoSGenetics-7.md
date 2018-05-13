@@ -1,7 +1,7 @@
 ---
 title: Functional Impact and Evolution of a Novel Human Polymorphic Inversion That Disrupts a Gene and Creates a Fusion Transcript
 collection: publications
-permalink: /publications/2015-PLoSGenetics-15
+permalink: /publications/2015-PLoSGenetics-7
 venue: "PLoS Genetics"
 paperurl: www.ncbi.nlm.nih.gov/pubmed/?term=26427027
 citation: 'M Puig,D Castellano,**L Pantano**,C Giner-Delgado,D Izquierdo,M Gaya-Vidal,J Lucas-Lledo,T Esko,C Terao,F Matsuda,M Caceres (2015) Functional Impact and Evolution of a Novel Human Polymorphic Inversion That Disrupts a Gene and Creates a Fusion Transcript <i>PLoS Genetics</i>'

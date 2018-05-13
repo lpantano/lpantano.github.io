@@ -22,7 +22,6 @@ content = open(template).read()
 idx = 0
 for paper in bib_database.entries:
 	idx += 1
-	print paper['author']
 	abstract = unidecode(paper['abstract']) if 'abstract' in paper else 'comming soon'
 	authors = remove_specials(unidecode(paper['author'])).split(" and ")
 	authors = [ "%s %s" % (a.split()[1][0], a.split()[0]) for a in authors]
@@ -30,22 +29,22 @@ for paper in bib_database.entries:
 	link = "www.ncbi.nlm.nih.gov/pubmed/?term=%s" % paper['pmid'] if 'pmid' in paper else "Comming soon"
 	authors =[a.replace("L Rubino", "L Pantano") for a in authors]
 	authors = (",").join([a if a !="L Pantano" else "**L Pantano**" for a in authors])
-	
-	print authors
+
+	print remove_specials(unidecode(paper['title']))
 	citation = ("{authors} ({year}) {title} <i>{journal}</i>").format(authors=authors,
-													 year=paper['year'],
-													 title=remove_specials(unidecode(paper['title'])),
-													 journal=remove_specials(unidecode(paper['journal'])))
+                    year=paper['year'],
+                    title=remove_specials(unidecode(paper['title'])),
+                    journal=remove_specials(unidecode(paper['journal'])))
 	alpha_journal = ''.join(ch for ch in unidecode(paper['journal']) if ch.isalnum())
 	file_name = "%s-%s-%s" % (paper['year'], alpha_journal, idx)
-	out_content = string.Template(content).safe_substitute({'title': unidecode(remove_specials(paper['title'])), 
+	out_content = string.Template(content).safe_substitute({'title': unidecode(remove_specials(paper['title'])),
 															'file_name': file_name,
 															'journal': remove_specials(unidecode(paper['journal'])),
 															'paper_url': link,
 															'citation': citation,
 															'authors': unidecode(authors),
 															'abstract': clean(abstract)})
-	outname = op.join("_publications","%s.md" % file_name)
-	print out_content
+	outname = op.join("_publications", "%s.md" % file_name)
+	#print out_content
 	with (open(outname, 'w')) as outh:
 		print>>outh, out_content

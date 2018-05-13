@@ -1,7 +1,7 @@
 ---
 title: InvFEST a database integrating information of polymorphic inversions in the human genome
 collection: publications
-permalink: /publications/2014-NucleicAcidsResearch-13
+permalink: /publications/2014-NucleicAcidsResearch-19
 venue: "Nucleic Acids Research"
 paperurl: www.ncbi.nlm.nih.gov/pubmed/?term=24253300
 citation: 'A Martinez-Fundichely,S Casillas,R Egea,M Ramia,A Barbadilla,**L Pantano**,M Puig,M Caceres (2014) InvFEST a database integrating information of polymorphic inversions in the human genome <i>Nucleic Acids Research</i>'

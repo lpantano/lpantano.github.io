@@ -1,7 +1,7 @@
 ---
 title: Molecular phenotypic and sample-associated data to describe pluripotent stem cell lines and derivatives
 collection: publications
-permalink: /publications/2017-ScientificData-23
+permalink: /publications/2017-ScientificData-8
 venue: "Scientific Data"
 paperurl: www.ncbi.nlm.nih.gov/pubmed/?term=28350385
 citation: 'K Daily,S Ho,L Schriml,P Dexheimer,N Salomonis,R Schroll,S Bush,M Keddache,C Mayhew,S Lotia,T Perumal,K Dang,**L Pantano**,A Pico,E Grassman,D Nordling,W Hide,A Hatzopoulos,P Malik,J Cancelas,C Lutzko,B Aronow,L Omberg (2017) Molecular phenotypic and sample-associated data to describe pluripotent stem cell lines and derivatives <i>Scientific Data</i>'

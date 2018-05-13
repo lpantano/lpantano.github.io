@@ -1,7 +1,7 @@
 ---
 title: Fibroblast-derived induced pluripotent stem cells show no common retroviral vector insertions.
 collection: publications
-permalink: /publications/2009-StemcellsDaytonOhio-5
+permalink: /publications/2009-StemcellsDaytonOhio-16
 venue: "Stem cells (Dayton Ohio)"
 paperurl: www.ncbi.nlm.nih.gov/pubmed/?term=19008347
 citation: 'F Varas,M Stadtfeld,A De,N Maherali,T di,**L Pantano**,C Notredame,K Hochedlinger,T Graf (2009) Fibroblast-derived induced pluripotent stem cells show no common retroviral vector insertions. <i>Stem cells (Dayton Ohio)</i>'

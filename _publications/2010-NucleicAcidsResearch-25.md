@@ -1,7 +1,7 @@
 ---
 title: SeqBuster a bioinformatic tool for the processing and analysis of small RNAs datasets reveals ubiquitous miRNA modifications in human embryonic cells
 collection: publications
-permalink: /publications/2010-NucleicAcidsResearch-7
+permalink: /publications/2010-NucleicAcidsResearch-25
 venue: "Nucleic Acids Research"
 paperurl: Comming soon
 citation: '**L Pantano**,X Estivill,E Marti (2010) SeqBuster a bioinformatic tool for the processing and analysis of small RNAs datasets reveals ubiquitous miRNA modifications in human embryonic cells <i>Nucleic Acids Research</i>'
