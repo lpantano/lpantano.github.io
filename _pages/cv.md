@@ -10,7 +10,8 @@ redirect_from:
 {% include base_path %}
 
 Education
-======
+=========
+
 
 * B.S Biochemestry, University of Granada, 2005.
 * M.S. in Bioinformatics for health science, University of Pompeu
@@ -19,7 +20,7 @@ Education
   Regulation](http://www.crg.es), 2011.
 
 GitHub contribution 
-======
+===================
 
 Community supported project I actively participate:
 
@@ -35,13 +36,18 @@ Open projects I own:
 * [seqclusterViz](http://github.com/lpantano/seqclusterViz)
 * [isomiRs](http://github.com/lpantano/isomiRs)
 * [DEGreport](http://github.com/lpantano/DEGreport)
-* [mirTOP](http://github.com/mirtop/mirTOP)
+* [mirTOP](https://github.com/miRTop/mirtop)
 
 Work experience
-======
+===============
 
+* Research Scientist at Harvard Chan School Bioinformatic Core,
+  2017-to date.
+  * Development of tools for NGS data analysis
+  * Analyst of high-throughput data
+  * Leading Bioinformatic analysis in the fibrosis project collaboration between Harvard and Boehringer Ingelheim 
 * Research Associate at Harvard Chan School Bioinformatic Core,
-  2014–to date.
+  2014–2017.
   * Development of tools for NGS data analysis
   * Analyst of high-throughput data
   * Leading Bioinformatic analysis in the fibrosis project collaboration between Harvard and Boehringer Ingelheim 
@@ -65,6 +71,7 @@ Work experience
 
 Skills
 ======
+
 * LINUX SO
 * Cloud computing: Amazon EC2, S3, SQS, IAM
 * Control version system: svn and git
@@ -95,6 +102,8 @@ case/control studies
 Courses 
 =======
 
+* Fundamentals and Applications of Microfluidics @ Harvard Extension School 2018
+* Tissue Engineering for Clinical Applications @ Harvard Extension School 2017
 * Principles of fMRI 1 @ Coursera 2016
 * Practical Machine Learning @ Coursera 2016
 * Calculus One @ Coursera 2015
@@ -107,19 +116,21 @@ Courses
 * Advance R (CRG) 2008
 
 Talks
-======
+=====
+
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
 Teaching
-======
+========
+
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 Service and leadership
-======
+======================
 
 * Founder of [women in bioinformatics](https://www.meetup.com/Cambridge-woman-developers-in-bioinformatics/) 
   meet up at cambridge, 2014 – to date.
@@ -144,7 +155,10 @@ Service and leadership
 * ISCB Student Council Symposium Boston, 2010 - Volunteer
 
 Publications
-======
+============
+
+[Google Scholar](https://scholar.google.com/citations?user=MeQGlRwAAAAJ&hl=en)
+
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
