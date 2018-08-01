@@ -12,14 +12,13 @@ redirect_from:
 Education
 =========
 
-
 * B.S Biochemestry, University of Granada, 2005.
 * M.S. in Bioinformatics for health science, University of Pompeu
   Fabra, 2008.
 * Ph.D. in Biomedicine, [Center for Genomic
   Regulation](http://www.crg.es), 2011.
 
-GitHub contribution 
+GitHub contribution
 ===================
 
 Community supported project I actively participate:
@@ -30,13 +29,14 @@ Community supported project I actively participate:
 * [bioconda](https://github.com/bioconda/bioconda-recipes)
 * [multiqc](https://github.com/ewels/MultiQC)
 
-Open projects I own:
+Open projects I lead:
 
-* [seqcluster](http://github.com/lpantano/seqcluster)
-* [seqclusterViz](http://github.com/lpantano/seqclusterViz)
+* [seqcluster](http://github.com/lpantano/seqcluster) [20008100](https://www.ncbi.nlm.nih.gov/pubmed/20008100)
+* [seqclusterViz](http://github.com/lpantano/seqclusterViz) [26530722](https://www.ncbi.nlm.nih.gov/pubmed/26530722) and [21976421](https://www.ncbi.nlm.nih.gov/pubmed/21976421)  
 * [isomiRs](http://github.com/lpantano/isomiRs)
 * [DEGreport](http://github.com/lpantano/DEGreport)
 * [mirTOP](https://github.com/miRTop/mirtop)
+* [mirGFF3](https://github.com/miRTop/mirGFF3)
 
 Work experience
 ===============
@@ -45,12 +45,14 @@ Work experience
   2017-to date.
   * Development of tools for NGS data analysis
   * Analyst of high-throughput data
-  * Leading Bioinformatic analysis in the fibrosis project collaboration between Harvard and Boehringer Ingelheim 
+  * Leading Bioinformatic analysis in the fibrosis project collaboration between Harvard and Boehringer Ingelheim
+* Msc project supervisor at [UOC](www.uoc.edu), 2018 - to date.
+
 * Research Associate at Harvard Chan School Bioinformatic Core,
   2014–2017.
   * Development of tools for NGS data analysis
   * Analyst of high-throughput data
-  * Leading Bioinformatic analysis in the fibrosis project collaboration between Harvard and Boehringer Ingelheim 
+  * Leading Bioinformatic analysis in the fibrosis project collaboration between Harvard and Boehringer Ingelheim
 * Post-doct fellow at
   [IBB](http://ibb.uab.es/ibb/index.php?option=com_wrapper&Itemid=127), 2013–2014.
   * Analyzing de-novo transcripts due to inversion
@@ -69,6 +71,46 @@ Work experience
   * Development of tools for miRNA and small RNA analysis
 * Msc student at [Granada University](http://www.ugr.es), 2004–2006.
 
+
+Talks
+=====
+
+  <ul>{% for post in site.talks %}
+    {% include archive-single-talk-cv.html %}
+  {% endfor %}</ul>
+
+Teaching
+========
+
+  <ul>{% for post in site.teaching %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+Service and leadership
+======================
+
+* Founder of [women in bioinformatics](https://www.meetup.com/Cambridge-woman-developers-in-bioinformatics/)
+  meet up at cambridge, 2014 – to date.
+* Co-founder of [RSG Spain](http://www.rsgspain.org), the spanish
+  student group of ISCB student council, 2010.
+* Former member of [ISCB student council](http://www.iscbsc.org),
+  2010–2014.
+
+* Peer review, NAR journal, 2017
+* Programme committee, BOSC, 2014-to date
+* Chari, Mind the Gap Barcelona, 2013
+* Master Thesis Supervisor, 2014, Universidad Autonoma de Barcelona
+
+* Programme committee, Student Council Symposium
+* ISCB Student Council Symposium Long Beach, 2012 - Travel Fellowship
+    chair
+* Spain, Portugal and North Africa Student Symposium Barcelona, 2012 -
+    Program committee chair
+* ISCB Student Council Symposium Vienna, 2012 - Chair
+* Spain, Portugal and North Africa Student Symposium Malaga, 2011 -
+    Chair
+* ISCB Student Council Symposium Boston, 2010 - Volunteer
+
 Skills
 ======
 
@@ -78,6 +120,7 @@ Skills
 * High Performance Computing systems: lsf, slurm, sge
 * Basic web Server Development: HTML, DHTML, javascript, ccs3, php and cgi
 * Advance database management: mysql, sqlite3 and google datastore
+
 * Programming knowledge:
   * Basic C,C++ environment
   * Intermediate Java environment
@@ -99,7 +142,7 @@ case/control studies
   * Regression model application to data integration
 
 
-Courses 
+Courses
 =======
 
 * Fundamentals and Applications of Microfluidics @ Harvard Extension School 2018
@@ -115,44 +158,6 @@ Courses
 * Introduction to Artificial Intelligence (www.ai-class.org) 2011
 * Advance R (CRG) 2008
 
-Talks
-=====
-
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-========
-
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======================
-
-* Founder of [women in bioinformatics](https://www.meetup.com/Cambridge-woman-developers-in-bioinformatics/) 
-  meet up at cambridge, 2014 – to date.
-* Co-founder of [RSG Spain](http://www.rsgspain.org), the spanish
-  student group of ISCB student council, 2010.
-* Former member of [ISCB student council](http://www.iscbsc.org),
-  2010–2014.
-
-* Peer review, NAR journal, 2017
-* Programme committee, BOSC, 2014-to date
-* Chari, Mind the Gap Barcelona, 2013 
-* Master Thesis Supervisor, 2014, Universidad Autonoma de Barcelona
-
-* Programme committee, Student Council Symposium 
-* ISCB Student Council Symposium Long Beach, 2012 - Travel Fellowship
-    chair
-* Spain, Portugal and North Africa Student Symposium Barcelona, 2012 -
-    Program committee chair
-* ISCB Student Council Symposium Vienna, 2012 - Chair
-* Spain, Portugal and North Africa Student Symposium Malaga, 2011 -
-    Chair
-* ISCB Student Council Symposium Boston, 2010 - Volunteer
 
 Publications
 ============
@@ -162,4 +167,3 @@ Publications
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-
