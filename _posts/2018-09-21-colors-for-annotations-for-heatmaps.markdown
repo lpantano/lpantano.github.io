@@ -49,7 +49,7 @@ pheatmap(exp[most_variable,], scale = "row", show_rownames = FALSE,
          annotation_colors = degColors(design))
 ```
 
-![](degcolors_files/figure-markdown_github/unnamed-chunk-4-1.png)
+![](https://github.com/lpantano/mypubs/raw/master/code-blog/degcolor/degcolors_files/figure-markdown_github/unnamed-chunk-4-1.png)
 
 If you use `ComplexHeatmap` you can activate `col_fun = TRUE` to get it working.
 
