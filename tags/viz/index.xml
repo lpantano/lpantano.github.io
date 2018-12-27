@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>viz on My bits</title>
-    <link>http://localhost:1313/tags/viz/</link>
+    <link>http://lpantano.github.io/tags/viz/</link>
     <description>Recent content in viz on My bits</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Mon, 20 Mar 2017 17:50:01 -0400</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/viz/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lpantano.github.io/tags/viz/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>DEGreport to plot nice RNA-seq figures</title>
-      <link>http://localhost:1313/post/legacy/2017-03-20-degreport-rnaseq-figures/</link>
+      <link>http://lpantano.github.io/post/legacy/2017-03-20-degreport-rnaseq-figures/</link>
       <pubDate>Mon, 20 Mar 2017 17:50:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/post/legacy/2017-03-20-degreport-rnaseq-figures/</guid>
+      <guid>http://lpantano.github.io/post/legacy/2017-03-20-degreport-rnaseq-figures/</guid>
       <description>Differentially gene expression analysis with RNA-seq data is quite common nowadays, and there are pretty good Bioconductor packages for that: limma::voom, DESeq2 &amp;hellip;
 The code for that part is quite simple, being super quick to get a list of de-regulated genes. However, downstream analyses vary a lot depending on the project itself. But I found myself doing the same plots and analyses many times for different project, so I put together a bunch of plots and analyses using code from my colleagues at work (@HSPH bioinformatics core) and myself.</description>
     </item>
     
     <item>
       <title>Lying factor in figures</title>
-      <link>http://localhost:1313/post/legacy/2013-08-07-lying-factor-in-figures/</link>
+      <link>http://lpantano.github.io/post/legacy/2013-08-07-lying-factor-in-figures/</link>
       <pubDate>Wed, 07 Aug 2013 11:36:25 -0400</pubDate>
       
-      <guid>http://localhost:1313/post/legacy/2013-08-07-lying-factor-in-figures/</guid>
+      <guid>http://lpantano.github.io/post/legacy/2013-08-07-lying-factor-in-figures/</guid>
       <description>What is the lying factor in figures?
 It is the ratio between the difference of two numbers and the difference of the visualization of those two numbers. For instance:
 You have two groups, each group is represented by 4 and 2. The difference between 4 and 2 is 2. Since &amp;ldquo;a picture is worth a thousand words&amp;rdquo;, someone decides to represents those groups in a figure (yes, in excel to make it worst):</description>
@@ -35,10 +35,10 @@ You have two groups, each group is represented by 4 and 2. The difference betwee
     
     <item>
       <title>Visualizing science is also cool @polychart</title>
-      <link>http://localhost:1313/post/legacy/2012-08-14-visualizing-science-is-also-cool-polychart/</link>
+      <link>http://lpantano.github.io/post/legacy/2012-08-14-visualizing-science-is-also-cool-polychart/</link>
       <pubDate>Tue, 14 Aug 2012 15:28:12 -0400</pubDate>
       
-      <guid>http://localhost:1313/post/legacy/2012-08-14-visualizing-science-is-also-cool-polychart/</guid>
+      <guid>http://lpantano.github.io/post/legacy/2012-08-14-visualizing-science-is-also-cool-polychart/</guid>
       <description>One of my interest in science is finding new ways to visualize Big Data. Scientist are used to work with static visualization, that of course, is wonderful in the majority of the case. But it wouldn&amp;rsquo;t be better dynamic visualization for exploration? Play with your data, explore, and finally when you get that great figure that tell you everything you was looking for, you can export it to an image portable format.</description>
     </item>
     

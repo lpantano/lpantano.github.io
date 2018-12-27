@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks on My bits</title>
-    <link>http://localhost:1313/talk/</link>
+    <link>http://lpantano.github.io/talk/</link>
     <description>Recent content in Recent &amp; Upcoming Talks on My bits</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/talk/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lpantano.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>miRTOP: An open source community project for the development of a unified format file for miRNA data</title>
-      <link>http://localhost:1313/talk/bosc2018/</link>
+      <link>http://lpantano.github.io/talk/bosc2018/</link>
       <pubDate>Wed, 27 Jun 2018 13:13:02 -0900</pubDate>
       
-      <guid>http://localhost:1313/talk/bosc2018/</guid>
+      <guid>http://lpantano.github.io/talk/bosc2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Characterization of the small RNA transcriptome using the bcbio-nextgen python framework</title>
-      <link>http://localhost:1313/talk/bosc2016/</link>
+      <link>http://lpantano.github.io/talk/bosc2016/</link>
       <pubDate>Sat, 09 Jul 2016 14:54:17 +0100</pubDate>
       
-      <guid>http://localhost:1313/talk/bosc2016/</guid>
+      <guid>http://lpantano.github.io/talk/bosc2016/</guid>
       <description></description>
     </item>
     

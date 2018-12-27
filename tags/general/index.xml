@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>general on My bits</title>
-    <link>http://localhost:1313/tags/general/</link>
+    <link>http://lpantano.github.io/tags/general/</link>
     <description>Recent content in general on My bits</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Fri, 13 Apr 2012 10:45:07 -0400</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/general/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lpantano.github.io/tags/general/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bionformatics evolution 2005-2012</title>
-      <link>http://localhost:1313/post/legacy/2012-04-13-bionformatics-evolution-2005-2012/</link>
+      <link>http://lpantano.github.io/post/legacy/2012-04-13-bionformatics-evolution-2005-2012/</link>
       <pubDate>Fri, 13 Apr 2012 10:45:07 -0400</pubDate>
       
-      <guid>http://localhost:1313/post/legacy/2012-04-13-bionformatics-evolution-2005-2012/</guid>
+      <guid>http://lpantano.github.io/post/legacy/2012-04-13-bionformatics-evolution-2005-2012/</guid>
       <description>How much keywords in bioinformatics has changed in the past 7 years?
 I did a small and quick experiment. I took the abstract of the papers published in Bioinformatics during Jan-2005 and during Jan-2012. Then I represented the words according to their frequency with the wordle tool. And the result was:
     What is main difference? There are new concepts, of course, but the main difference is the size of the word DATA and the word METHOD, as it happens in the real world, data increased a lot, so we put it much more in our work, and we need a lof of new methods, so we highlight this in our work.</description>

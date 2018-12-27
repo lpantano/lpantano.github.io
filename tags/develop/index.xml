@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>develop on My bits</title>
-    <link>http://localhost:1313/tags/develop/</link>
+    <link>http://lpantano.github.io/tags/develop/</link>
     <description>Recent content in develop on My bits</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Wed, 23 Aug 2017 17:50:01 -0400</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/develop/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lpantano.github.io/tags/develop/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Subset of object creates bigger RDA file size than original object</title>
-      <link>http://localhost:1313/post/legacy/2017-08-24-subset-object-creates-bigger-file/</link>
+      <link>http://lpantano.github.io/post/legacy/2017-08-24-subset-object-creates-bigger-file/</link>
       <pubDate>Wed, 23 Aug 2017 17:50:01 -0400</pubDate>
       
-      <guid>http://localhost:1313/post/legacy/2017-08-24-subset-object-creates-bigger-file/</guid>
+      <guid>http://lpantano.github.io/post/legacy/2017-08-24-subset-object-creates-bigger-file/</guid>
       <description>This is a funny story, and I will try to tell you how I realized I don&amp;rsquo;t know anything about R in 400 words.
 I work at the Bioinformatic Core at Harvard TH School. People who know us, or collaborate with us, knows that we mainly use bcbio to analyze sequencing data (check it out, super cool tool).
 Something that we are working on is to load the data after bcbio finishes into R to ease the downstream analysis.</description>

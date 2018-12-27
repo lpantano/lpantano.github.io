@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>annotation on My bits</title>
-    <link>http://localhost:1313/tags/annotation/</link>
+    <link>http://lpantano.github.io/tags/annotation/</link>
     <description>Recent content in annotation on My bits</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Tue, 18 Sep 2012 12:10:24 -0400</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/annotation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lpantano.github.io/tags/annotation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>visualizing small RNA mapping complexity</title>
-      <link>http://localhost:1313/post/legacy/2012-09-18-visualizing-small-rna-mapping-complexity/</link>
+      <link>http://lpantano.github.io/post/legacy/2012-09-18-visualizing-small-rna-mapping-complexity/</link>
       <pubDate>Tue, 18 Sep 2012 12:10:24 -0400</pubDate>
       
-      <guid>http://localhost:1313/post/legacy/2012-09-18-visualizing-small-rna-mapping-complexity/</guid>
+      <guid>http://lpantano.github.io/post/legacy/2012-09-18-visualizing-small-rna-mapping-complexity/</guid>
       <description>I spent all my PhD working with small RNA sequences data. The main problem was, always those sequences that map in multiple locations, also denominated ambiguous sequences. From the very beginning, this made that pipelines remove this kind of sequences from the analysis, because you cannot assign them a unique location in the genome. But these sequences are interesting to study, since many of them change in size, for instance. This complexity is due to repeats in the genome and the scenario I am talking about here it is shown in the following figure: Each color it would be a different sRNA, and the lines show the locations of each sRNA.</description>
     </item>
     
