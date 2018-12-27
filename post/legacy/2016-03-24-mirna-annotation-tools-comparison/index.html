@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 3.2.0">
+  <meta name="generator" content="Hugo 0.53" />
+  <meta name="author" content="Lorena Pantano">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="In summary: I will show which is the best miRNA mapping tool. I used several options for this benchmarking:
+ miraligner from SeqBuster suit (I am one of the authors) bowtie2 and bowtie novoalign from novocraft suit GEM srnabench microrazer STAR miRExpress  I think that these are the most used, and other not used but good to try them. They were clearly developed for other purposes, but as well, they generate the input of many miRNA pipelines.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/post/legacy/2016-03-24-mirna-annotation-tools-comparison/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="http://localhost:1313/index.xml" type="application/rss+xml" title="My bits">
+  <link rel="feed" href="http://localhost:1313/index.xml" type="application/rss+xml" title="My bits">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="http://localhost:1313/post/legacy/2016-03-24-mirna-annotation-tools-comparison/">
+
+  
+  
+  
+  
+    
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@lopantano">
+  <meta property="twitter:creator" content="@lopantano">
+  
+  <meta property="og:site_name" content="My bits">
+  <meta property="og:url" content="http://localhost:1313/post/legacy/2016-03-24-mirna-annotation-tools-comparison/">
+  <meta property="og:title" content="miRNA Annotation Tools Comparison | My bits">
+  <meta property="og:description" content="In summary: I will show which is the best miRNA mapping tool. I used several options for this benchmarking:
+ miraligner from SeqBuster suit (I am one of the authors) bowtie2 and bowtie novoalign from novocraft suit GEM srnabench microrazer STAR miRExpress  I think that these are the most used, and other not used but good to try them. They were clearly developed for other purposes, but as well, they generate the input of many miRNA pipelines."><meta property="og:image" content="http://localhost:1313/img/portrait.jpg">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2016-03-24T19:49:01-04:00">
+  
+  <meta property="article:modified_time" content="2016-03-24T19:49:01-04:00">
+  
+
+  
+
+  
+
+  <title>miRNA Annotation Tools Comparison | My bits</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">My bits</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#publications_selected">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/talk/">
+            
+            <span>Talks</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#teaching">
+            
+            <span>Teaching</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">miRNA Annotation Tools Comparison</h1>
+
+  
+
+  
+    
+
+<div class="article-metadata">
+
+  
+  
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Lorena Pantano">
+  </span>
+  
+
+  <span class="article-date">
+    
+    <meta content="2016-03-24 19:49:01 -0400 -0400" itemprop="datePublished">
+    <time datetime="2016-03-24 19:49:01 -0400 -0400" itemprop="dateModified">
+      Mar 24, 2016
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Lorena Pantano">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=miRNA%20Annotation%20Tools%20Comparison&amp;url=http%3a%2f%2flocalhost%3a1313%2fpost%2flegacy%2f2016-03-24-mirna-annotation-tools-comparison%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fpost%2flegacy%2f2016-03-24-mirna-annotation-tools-comparison%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2fpost%2flegacy%2f2016-03-24-mirna-annotation-tools-comparison%2f&amp;title=miRNA%20Annotation%20Tools%20Comparison"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=http%3a%2f%2flocalhost%3a1313%2fpost%2flegacy%2f2016-03-24-mirna-annotation-tools-comparison%2f&amp;title=miRNA%20Annotation%20Tools%20Comparison"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=miRNA%20Annotation%20Tools%20Comparison&amp;body=http%3a%2f%2flocalhost%3a1313%2fpost%2flegacy%2f2016-03-24-mirna-annotation-tools-comparison%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      <p>In summary: I will show which is the best miRNA mapping tool. I used several options for this benchmarking:</p>
+
+<ul>
+<li>miraligner from <a href="http://github.com/lpantano/seqbuster" target="_blank">SeqBuster</a> suit (I am one of the authors)</li>
+<li><a href="http://bowtie-bio.sourceforge.net/bowtie2/index.shtml" target="_blank">bowtie2</a> and <a href="http://bowtie-bio.sourceforge.net/index.shtml" target="_blank">bowtie</a></li>
+<li><a href="http://www.novocraft.com/main/index.php" target="_blank">novoalign</a> from novocraft suit</li>
+<li><a href="http://algorithms.cnag.cat/wiki/The_GEM_library" target="_blank">GEM</a></li>
+<li><a href="http://arn.ugr.es/srnabench/" target="_blank">srnabench</a></li>
+<li><a href="http://www.seqan.de/projects/MicroRazerS.html." target="_blank">microrazer</a></li>
+<li><a href="https://github.com/alexdobin/STAR" target="_blank">STAR</a></li>
+<li><a href="http://mirexpress.mbc.nctu.edu.tw/" target="_blank">miRExpress</a></li>
+</ul>
+
+<p>I think that these are the most used, and other not used but good to try them. They were clearly developed for other purposes, but as well, they generate the input of many miRNA pipelines. I just wanted to know how well my tool was doing. The first aim to develop miraligner was to get annotated additions of nucleotides at the end of miRNA sequences, something that is very common in mirna biogenesis: <a href="http://en.wikipedia.org/wiki/IsomiR" target="_blank">isomirs</a> and often they are missed by short read and fast mappers. I have a <a href="https://github.com/lpantano/mypubs/tree/master/mirna/mirannotation" target="_blank">repository</a> for this kind of things, so anybody can reproduce my results, and check if I did something wrong, or comment on it. In this post I just want to know which tool detects more miRNA, for that I did two main steps:</p>
+
+<ol>
+<li>simulate a bunch of miRNAs (isomirs) with my python <a href="https://github.com/lpantano/seqbuster/blob/master/misc/miRNA.simulator.py" target="_blank">script</a> that is part of SeqBuster suit. I generated around 10000 sequences. Normally, one small-RNAseq library produces around half million different sequences.</li>
+<li>use only miRBase human precursors as reference genome</li>
+</ol>
+
+<p>I used default parameter for all, so probably there is a set of parameters that would be better for some tools, but I didn&rsquo;t search for them this time (happy to accept issues to add them). The <a href="http://rawgit.com/lpantano/mypubs/master/mirna/mirannotation/stats.html" target="_blank">results</a> are:</p>
+
+<ol>
+<li><strong>miraligner</strong> and <strong>STAR</strong> map <strong>more sequences</strong>. miraligner loses sequences shorter than 15 nt, normally (miRNA) are around 21, and those sequences map to repeat elements</li>
+<li>STAR is the best mapping, but need some parsing to reduce false positive. I think that pipelines should change to this tool.</li>
+<li><strong>GEM</strong> has problems with <strong>additions and nt substitutions</strong> in many cases, same as novoaligner (I will look at this in the future)</li>
+<li><strong>bowtie2/bowtie is the second</strong> that annotated most (and best)</li>
+<li><strong>microrazer</strong> has a problem with <strong>mismatches</strong>, but maybe there is some parameter to trick</li>
+<li><strong>miRExpress</strong> with default options only will map perfect matches sequences to precursor, so strongly recommended to allow errors to increase sensibility.</li>
+</ol>
+
+<p>I have to say that the advantage of <a href="https://github.com/lpantano/seqbuster/wiki/miraligner" target="_blank">miraligner</a> is that it gives you the sequence annotated as miRNA or precursor, and gives you the exactly modifications that sequences have if they are compared to miRBase database. And you could feed the results to my <a href="https://github.com/lpantano/seqbuster/wiki/isomiRs" target="_blank">R package</a> to plot isomers distribution of samples from different groups, and do differential expression analysis with DESeq2, or another tool. I didn&rsquo;t add time consumption because all of them run in a couple of minutes. In my next post I will focus in the the correct annotation of each sequence, and the possible problems with cross-mapping events, when the sequence comes from another regions of the genome but map to miRBase precursor as well [see my previous <a href="http://lorenapantano.wordpress.com/2013/05/27/mirna-annotation-complex-scenarios/" target="_blank">post</a> for more details]. As well I will use STAR with the full genome and see if the mapping continues being the best. In that case I will add a script to SeqBuster to parse the output of STAR for those who can map with STAR (need up to 32G for human genome)</p>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/mirna/">miRNA</a>
+  
+</div>
+
+
+
+    
+
+
+
+
+
+
+<div class="media author-card" itemscope itemtype="http://schema.org/Person">
+  
+  <img class="portrait mr-3" src="/img/portrait.jpg" itemprop="image" alt="Avatar">
+  
+  <div class="media-body">
+    <h5 class="card-title" itemprop="name"><a href="/">Lorena Pantano</a></h5>
+    <h6 class="card-subtitle">Research Scientist</h6>
+    
+    <ul class="network-icon" aria-hidden="true">
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="/#contact" >
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://twitter.com/lopantano" target="_blank" rel="noopener">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://scholar.google.es/citations?user=MeQGlRwAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+          <i class="ai ai-google-scholar"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://github.com/lpantano" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+
+
+
+    
+    
+    <div class="article-widget">
+      <div class="hr-light"></div>
+      <h3>Related</h3>
+      <ul>
+        
+        <li><a href="/post/legacy/2013-10-29-small-rna-abundance-miss-viz/">small RNA abundance [miss-] viz</a></li>
+        
+      </ul>
+    </div>
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<div class="container">
+  <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2018 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.d037ee5294b166a79dec317c58aea9cc.js"></script>
+
+    
+
+  </body>
+</html>
+

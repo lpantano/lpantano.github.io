@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>small RNA on My bits</title>
+    <link>http://localhost:1313/tags/small-rna/</link>
+    <description>Recent content in small RNA on My bits</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Tue, 29 Oct 2013 08:05:56 -0400</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/small-rna/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>small RNA abundance [miss-] viz</title>
+      <link>http://localhost:1313/post/legacy/2013-10-29-small-rna-abundance-miss-viz/</link>
+      <pubDate>Tue, 29 Oct 2013 08:05:56 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/legacy/2013-10-29-small-rna-abundance-miss-viz/</guid>
+      <description>My PhD was focused on small RNA sequencing data. I had a problem when I wanted to visualized the amount of small RNAs from the beginning. Here the problem, assume that you have a certain distribution of small RNA sequences abundance:
+seq1: 1500 times
+seq2: 3 times
+seq3: 2 times
+And you want to show the nucleotide composition of the first nucleotide. You can do it either counting the # of sequences (or abundance) in your set (1505) or the number of unique (different) sequences (3).</description>
+    </item>
+    
+    <item>
+      <title>miRNA annotation: complex scenarios</title>
+      <link>http://localhost:1313/post/legacy/2013-05-27-mirna-annotation-complex-scenarios/</link>
+      <pubDate>Mon, 27 May 2013 10:13:02 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/legacy/2013-05-27-mirna-annotation-complex-scenarios/</guid>
+      <description>Everybody who is working with microRNA knows about miRBase, it was the first miRNA catalogue. Everybody is using it to annotate small RNA sequences as miRNA or not. And it is great, and very helpfully&amp;hellip;but there are some cases that we should investigate our results.
+For instance, what happens with miR-1246? it is a recent miRNA, primate specific, detected by sequencing in different studies (1,2,3). The counts related to these sequences are not so high, actually very low after normalization, but still are there.</description>
+    </item>
+    
+    <item>
+      <title>visualizing small RNA mapping complexity</title>
+      <link>http://localhost:1313/post/legacy/2012-09-18-visualizing-small-rna-mapping-complexity/</link>
+      <pubDate>Tue, 18 Sep 2012 12:10:24 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/legacy/2012-09-18-visualizing-small-rna-mapping-complexity/</guid>
+      <description>I spent all my PhD working with small RNA sequences data. The main problem was, always those sequences that map in multiple locations, also denominated ambiguous sequences. From the very beginning, this made that pipelines remove this kind of sequences from the analysis, because you cannot assign them a unique location in the genome. But these sequences are interesting to study, since many of them change in size, for instance. This complexity is due to repeats in the genome and the scenario I am talking about here it is shown in the following figure: Each color it would be a different sRNA, and the lines show the locations of each sRNA.</description>
+    </item>
+    
+  </channel>
+</rss>

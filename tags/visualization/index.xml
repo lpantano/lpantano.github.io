@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visualization on My bits</title>
+    <link>http://localhost:1313/tags/visualization/</link>
+    <description>Recent content in Visualization on My bits</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    
+	<atom:link href="http://localhost:1313/tags/visualization/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Get colors for your heatmap annotation</title>
+      <link>http://localhost:1313/post/legacy/2018-09-21-colors-for-annotations-for-heatmaps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/legacy/2018-09-21-colors-for-annotations-for-heatmaps/</guid>
+      <description>This post will show how to configure quickly the colors for the annotation of rows/columns that go on top or on the side of a heatmap.
+I normally use pheatmap a lot. Recently I discovered ComplexHeatmap. In both cases I spend always sometime changing the colors of the annotations. I ended up coding a function inside my package DEGreport to do that.
+Given a data.frame with metadata data information will do:</description>
+    </item>
+    
+  </channel>
+</rss>

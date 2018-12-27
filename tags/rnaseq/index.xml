@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RNAseq on My bits</title>
+    <link>http://localhost:1313/tags/rnaseq/</link>
+    <description>Recent content in RNAseq on My bits</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Mon, 20 Mar 2017 17:50:01 -0400</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/rnaseq/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DEGreport to plot nice RNA-seq figures</title>
+      <link>http://localhost:1313/post/legacy/2017-03-20-degreport-rnaseq-figures/</link>
+      <pubDate>Mon, 20 Mar 2017 17:50:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/legacy/2017-03-20-degreport-rnaseq-figures/</guid>
+      <description>Differentially gene expression analysis with RNA-seq data is quite common nowadays, and there are pretty good Bioconductor packages for that: limma::voom, DESeq2 &amp;hellip;
+The code for that part is quite simple, being super quick to get a list of de-regulated genes. However, downstream analyses vary a lot depending on the project itself. But I found myself doing the same plots and analyses many times for different project, so I put together a bunch of plots and analyses using code from my colleagues at work (@HSPH bioinformatics core) and myself.</description>
+    </item>
+    
+  </channel>
+</rss>

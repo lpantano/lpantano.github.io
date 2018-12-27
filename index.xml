@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My bits on My bits</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in My bits on My bits</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Unification of miRNA and isomiR research: the mirGFF3 format and the mirtop API</title>
+      <link>http://localhost:1313/publication/desvignes-2018/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://localhost:1313/publication/desvignes-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Example Page</title>
+      <link>http://localhost:1313/tutorial/example/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tutorial/example/</guid>
+      <description>
+
+&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to plot miRNA, gene expression and functional analysis together</title>
+      <link>http://localhost:1313/post/legacy/2018-08-13-omic-figure-for-mirna-gene-functional-data/</link>
+      <pubDate>Sun, 12 Aug 2018 09:00:00 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/legacy/2018-08-13-omic-figure-for-mirna-gene-functional-data/</guid>
+      <description>&lt;p&gt;This post should show you an easy way to get the following data type
+integrated into a figure:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;functional enrichment analysis&lt;/li&gt;
+&lt;li&gt;gene expression data from any technology&lt;/li&gt;
+&lt;li&gt;miRNA expression data from any technology&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I am using the function &lt;code&gt;isoNetwork&lt;/code&gt; from the package &lt;code&gt;isomiRs&lt;/code&gt;, that of
+course is developed by me :) My ego is not that big, it is just I wanted
+a figure showing that information, and I couldn&amp;rsquo;t find any at a time,
+but if you know any, tweet me about it to @lopantano.&lt;/p&gt;
+
+&lt;p&gt;This function needs some pre-computed information, like the normalized
+expression and the targeted genes by miRNAs. Normally, the significant
+genes and miRNAs from a differentially expression analysis would do it.&lt;/p&gt;
+
+&lt;p&gt;The first requirement is two have these two datasets into a
+SummarizedExperiment object As an example, I am using the published data
+from Folic Acid Mouse model (GSE65267) that has been analyzed with
+bcbio-nextgen pipeline and bcbioRNASeq package.&lt;/p&gt;
+
+&lt;p&gt;I saved these analysis into an R object that contains:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;fa_mrna: gene expression&lt;/li&gt;
+&lt;li&gt;fa_mirna: miRNA expression&lt;/li&gt;
+&lt;li&gt;fa_cold: metadata&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;From that, I ran DESeq2 to get the significant genes and miRNAs from the
+comparison day14 vs day0 (normal).&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;R&amp;gt; load(&amp;quot;fa_isonetwork.rda&amp;quot;)
+R&amp;gt; library(isomiRs)
+R&amp;gt; library(DESeq2)
+R&amp;gt; library(SummarizedExperiment)
+R&amp;gt;
+R&amp;gt; mi_cold = fa_cold[colnames(fa_mirna), , drop = F]
+R&amp;gt; mi_dse = DESeqDataSetFromMatrix(round(2^fa_mirna), mi_cold, design = ~day)
+R&amp;gt; mi_dse = DESeq(mi_dse)
+R&amp;gt; mi_res = results(mi_dse, name = &amp;quot;day_day14_vs_normal&amp;quot;)
+R&amp;gt; mi_res = mi_res[!is.na(mi_res$padj), ]
+R&amp;gt; mi_top = row.names(mi_res[mi_res$padj &amp;lt; 0.05, ])
+R&amp;gt; mi_rse = SummarizedExperiment(assays = SimpleList(norm = fa_mirna), colData = mi_cold,
++     metadata = list(sign = mi_top))
+R&amp;gt;
+R&amp;gt; m_cold = fa_cold[colnames(fa_mrna), , drop = F]
+R&amp;gt; m_dse = DESeqDataSetFromMatrix(round(2^fa_mrna), m_cold, design = ~day)
+R&amp;gt; m_dse = DESeq(m_dse)
+R&amp;gt; m_res = results(m_dse, name = &amp;quot;day_day14_vs_normal&amp;quot;)
+R&amp;gt; m_res = m_res[!is.na(m_res$padj), ]
+R&amp;gt; m_top = row.names(m_res[m_res$padj &amp;lt; 0.05, ])
+R&amp;gt; m_rse = SummarizedExperiment(assays = SimpleList(norm = fa_mrna), colData = m_cold,
++     metadata = list(sign = m_top))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After that, I ran the functional analysis with &lt;a href=&#34;http://bioconductor.org/packages/release/bioc/html/clusterProfiler.html&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;clusterProfiler&lt;/code&gt; Bioc
+package&lt;/a&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;R&amp;gt; library(org.Mm.eg.db)
+R&amp;gt; library(clusterProfiler)
+R&amp;gt;
+R&amp;gt;
+R&amp;gt; ego &amp;lt;- enrichGO(m_top, org.Mm.eg.db, &amp;quot;ENSEMBL&amp;quot;, ont = &amp;quot;MF&amp;quot;, universe = rownames(m_res))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Actually, it could be anything as far as the table have the same naming
+that the one coming from this package.&lt;/p&gt;
+
+&lt;p&gt;Last step before the real integration analysis, is to get the predicted
+targets of the miRNA. This can be done with any package as far as you
+get a table with two columns: gene and mirna.&lt;/p&gt;
+
+&lt;p&gt;I used two options, one using the already implemented code in the
+package (that uses targetscan database):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;R&amp;gt; library(targetscan.Mm.eg.db)
+R&amp;gt; m2t = mirna2targetscan(mi_top, species = &amp;quot;mmu&amp;quot;, org = org.Mm.eg.db, keytype = &amp;quot;ENSEMBL&amp;quot;)
+R&amp;gt;
+R&amp;gt; mirna_targets = findTargets(mi_rse, m_rse, m2t[, c(&amp;quot;ENSEMBL&amp;quot;, &amp;quot;mir&amp;quot;)], summarize = &amp;quot;day&amp;quot;,
++     min_cor = -0.7)
+
+## Dimmension of cor matrix: 49 5233
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;or using the function &lt;code&gt;get_multimir&lt;/code&gt; implemented on &lt;a href=&#34;http://bioconductor.org/packages/release/bioc/html/multiMir.html&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;multiMiR&lt;/code&gt; Bioc
+package&lt;/a&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;R&amp;gt; library(multiMiR)
+R&amp;gt; multimir_results &amp;lt;- get_multimir(org = &amp;quot;mmu&amp;quot;, mirna = mi_top, table = &amp;quot;validated&amp;quot;,
++     summary = TRUE)
+R&amp;gt;
+R&amp;gt; library(magrittr)
+R&amp;gt; m2t_multimir = slot(multimir_results, &amp;quot;data&amp;quot;)[, c(&amp;quot;target_ensembl&amp;quot;, &amp;quot;mature_mirna_id&amp;quot;)] %&amp;gt;%
++     dplyr::filter(target_ensembl != &amp;quot;&amp;quot;) %&amp;gt;% dplyr::distinct()
+R&amp;gt;
+R&amp;gt; mirna_targets = findTargets(mi_rse, m_rse, m2t_multimir, summarize = &amp;quot;day&amp;quot;,
++     min_cor = -0.7)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In both cases, I ran &lt;code&gt;findTargets&lt;/code&gt; to use the expression data to make
+sure the correlation between the miRNA and predicted gene is negative
+since is the known biological function of miRNAs, being negative
+modulators.&lt;/p&gt;
+
+&lt;p&gt;Finally, we use &lt;code&gt;isoNetwork&lt;/code&gt; to put all the data together, and
+&lt;code&gt;isoPlotNet&lt;/code&gt; to create the final figure with all information.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;R&amp;gt; data &amp;lt;- isoNetwork(mi_rse, m_rse, min_fc = 0.1, summarize = &amp;quot;day&amp;quot;, target = mirna_targets,
++     enrich = ego)
+
+## Dimmension of cor matrix: 49 305
+
+R&amp;gt; isoPlotNet(data, minGenes = 1)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://github.com/lpantano/mypubs/raw/master/code-blog/isonetwork/post_files/figure-markdown_strict/unnamed-chunk-5-1.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It is an easy way to spot what pathways contain genes that are targeted
+by miRNAs.&lt;/p&gt;
+
+&lt;p&gt;Note that this function won&amp;rsquo;t indicate if a pathway is enriched on miRNA
+targets. It shows how these three different data set can be put together
+to explore the relationship among them.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;self-control in bioinformatics: be nice to your collaborator when
+they can not open a TSV file with excel.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>miRTOP: An open source community project for the development of a unified format file for miRNA data</title>
+      <link>http://localhost:1313/talk/bosc2018/</link>
+      <pubDate>Wed, 27 Jun 2018 13:13:02 -0900</pubDate>
+      
+      <guid>http://localhost:1313/talk/bosc2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Circulating miRNAs, isomiRs and small RNA clusters in human plasma and breast milk</title>
+      <link>http://localhost:1313/publication/rubio-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://localhost:1313/publication/rubio-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bcbioRNASeq: R package for bcbio RNA-seq analysis</title>
+      <link>http://localhost:1313/publication/steinbaugh-2017/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0100</pubDate>
+      
+      <guid>http://localhost:1313/publication/steinbaugh-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Subset of object creates bigger RDA file size than original object</title>
+      <link>http://localhost:1313/post/legacy/2017-08-24-subset-object-creates-bigger-file/</link>
+      <pubDate>Wed, 23 Aug 2017 17:50:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/legacy/2017-08-24-subset-object-creates-bigger-file/</guid>
+      <description>&lt;p&gt;This is a funny story, and I will try to tell you how I realized I don&amp;rsquo;t know anything about R in 400 words.&lt;/p&gt;
+
+&lt;p&gt;I work at the Bioinformatic Core at Harvard TH School. People who know us, or collaborate with us, knows that we mainly use
+&lt;a href=&#34;https://github.com/chapmanb/bcbio-nextgen&#34; target=&#34;_blank&#34;&gt;bcbio&lt;/a&gt; to analyze sequencing data (check it out, super cool tool).&lt;/p&gt;
+
+&lt;p&gt;Something that we are working on is to load the data after &lt;code&gt;bcbio&lt;/code&gt; finishes into R to ease the downstream analysis.
+For instance, for RNA-seq we have &lt;a href=&#34;https://github.com/hbc/bcbioRnaSeq&#34; target=&#34;_blank&#34;&gt;bcbioRnaSeq&lt;/a&gt; and for small RNA-seq we have &lt;a href=&#34;https://github.com/lpantano/bcbioSmallRna&#34; target=&#34;_blank&#34;&gt;bcbioSmallRna&lt;/a&gt;. In short,
+these R packages make easy the task to load all the data generated by &lt;code&gt;bcbio&lt;/code&gt; and wrap many methods and functions to generate the most used figures/analysis.&lt;/p&gt;
+
+&lt;p&gt;That is not the story. The story is that the &lt;code&gt;bcbioRNADataSet&lt;/code&gt; object in those packages contains all the data in order to make easy the use of different counts matrix,
+or subset to a smaller samples/genes. For instance, the object contains the DDS object (&lt;a href=&#34;http://bioconductor.org/packages/devel/bioc/html/DESeq2.html&#34; target=&#34;_blank&#34;&gt;DESeq2&lt;/a&gt; &lt;code&gt;DESeqDataSet&lt;/code&gt;),
+so we can use methods for this class or re-normalize at any point.&lt;/p&gt;
+
+&lt;p&gt;Well, when we implemented the &lt;code&gt;[&lt;/code&gt; method (this allows to subset the object), we discovered that the
+object coming from that method was twice as big when saving into an RDA file. For instance, if you have an object with 34K genes,
+100 samples that would be 900Mb when saving, then you subset to 1000 genes and 8 samples, you would end up with a file being 1.6G.&lt;/p&gt;
+
+&lt;p&gt;That is not nice, so I decided to play around. I don&amp;rsquo;t want you to read our code, because contains a lot of information, but feel free: &lt;a href=&#34;https://github.com/hbc/bcbioRnaseq/blob/master/R/methods-subset.R&#34; target=&#34;_blank&#34;&gt;subset&lt;/a&gt;. I value your time, so this is a &lt;a href=&#34;https://github.com/lpantano/mypubs/blob/master/examples/subsetObject/subset.R&#34; target=&#34;_blank&#34;&gt;dummy example&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The examples mainly creates different objects:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;dummyBig: 10K genes, 100 samples&lt;/li&gt;
+&lt;li&gt;dummySmall: 500 genes, 5 samples&lt;/li&gt;
+&lt;li&gt;dummySilly: subset of dummyBig using a silly function to subset, same size than dummySmall&lt;/li&gt;
+&lt;li&gt;dummySmart: subset of dummyBig using a smart function to subset, same size than dummySmall&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We should expect that &lt;code&gt;dummySilly&lt;/code&gt; and &lt;code&gt;dummySmart&lt;/code&gt; have a similar size than &lt;code&gt;dummySmall&lt;/code&gt;&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;This is the size of RDA files for each of them (size in Kb):&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;object&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;file&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;rdaSize&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;objSize&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;dummyBig&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;big.rda&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;2828.49 Kb&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;1588 Kb&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;dummySmall&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;micro.rda&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;24.19 Kb&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;42.6 Kb&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;dummySilly&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;microSilly.rda&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;4397.49 Kb&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;43.2 Kb&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;dummySmart&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;microSmart.rda&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;22.38 Kb&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;43.2 Kb&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;rdaSize is the size of the file using &lt;code&gt;save(obj, file = fileName.rda&lt;/code&gt; function. objSize is the size in memory in R using the function &lt;code&gt;format(object.size(obj))&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;As you can see, &lt;code&gt;microSilly&lt;/code&gt; is almost twice the original data, but &lt;code&gt;microSmart&lt;/code&gt; is the expected size.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;rsquo;t know the exact reason, but the &lt;a href=&#34;https://github.com/lpantano/mypubs/blob/master/examples/subsetObject/subset.R#L52&#34; target=&#34;_blank&#34;&gt;chunk of code&lt;/a&gt; that made the trick was to create an internal function to be called inside the method to re-generate the &lt;a href=&#34;http://bioconductor.org/packages/devel/bioc/html/DESeq2.html&#34; target=&#34;_blank&#34;&gt;DESeq2&lt;/a&gt; object with the smaller size.&lt;/p&gt;
+
+&lt;p&gt;I know there should be a better way to avoid this, but this worked. If you have any comment/advice post it &lt;a href=&#34;https://github.com/lpantano/mypubs/issues&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. My R session is below.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;honesty in bioinformatics: accept you develop without being an expert and that creates chaos.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;R version 3.4.1 (2017-06-30)
+Platform: x86_64-apple-darwin15.6.0 (64-bit)
+Running under: macOS Sierra 10.12.6
+
+Matrix products: default
+BLAS: /Library/Frameworks/R.framework/Versions/3.4/Resources/lib/libRblas.0.dylib
+LAPACK: /Library/Frameworks/R.framework/Versions/3.4/Resources/lib/libRlapack.dylib
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+attached base packages:
+[1] parallel  stats4    methods   stats     graphics  grDevices utils
+[8] datasets  base
+
+other attached packages:
+ [1] dplyr_0.7.2.9000           DESeq2_1.16.1
+ [3] SummarizedExperiment_1.6.3 DelayedArray_0.2.7
+ [5] matrixStats_0.52.2         Biobase_2.36.2
+ [7] GenomicRanges_1.28.4       GenomeInfoDb_1.12.2
+ [9] IRanges_2.10.2             S4Vectors_0.14.3
+[11] BiocGenerics_0.22.0
+
+loaded via a namespace (and not attached):
+ [1] Rcpp_0.12.12            locfit_1.5-9.1          lattice_0.20-35
+ [4] assertthat_0.2.0        digest_0.6.12           R6_2.2.2
+ [7] plyr_1.8.4              backports_1.1.0         acepack_1.4.1
+[10] RSQLite_2.0             highr_0.6               ggplot2_2.2.1
+[13] zlibbioc_1.22.0         rlang_0.1.2.9000        lazyeval_0.2.0
+[16] data.table_1.10.4       annotate_1.54.0         blob_1.1.0
+[19] rpart_4.1-11            Matrix_1.2-10           checkmate_1.8.2
+[22] splines_3.4.1           BiocParallel_1.10.1     geneplotter_1.54.0
+[25] stringr_1.2.0           foreign_0.8-69          htmlwidgets_0.8
+[28] RCurl_1.95-4.8          bit_1.1-12              munsell_0.4.3
+[31] compiler_3.4.1          pkgconfig_2.0.1         base64enc_0.1-3
+[34] htmltools_0.3.6         nnet_7.3-12             tibble_1.3.3.9001
+[37] gridExtra_2.2.1         htmlTable_1.9           GenomeInfoDbData_0.99.0
+[40] Hmisc_4.0-3             XML_3.98-1.9            bitops_1.0-6
+[43] grid_3.4.1              xtable_1.8-2            gtable_0.2.0
+[46] DBI_0.7                 magrittr_1.5            scales_0.4.1
+[49] stringi_1.1.5           XVector_0.16.0          genefilter_1.58.1
+[52] bindrcpp_0.2            latticeExtra_0.6-28     Formula_1.2-1
+[55] RColorBrewer_1.1-2      tools_3.4.1             bit64_0.9-7
+[58] glue_1.1.1.9000         survival_2.41-3         AnnotationDbi_1.38.2
+[61] colorspace_1.3-2        cluster_2.0.6           memoise_1.1.0
+[64] bindr_0.1               knitr_1.17
+
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DEGreport to plot nice RNA-seq figures</title>
+      <link>http://localhost:1313/post/legacy/2017-03-20-degreport-rnaseq-figures/</link>
+      <pubDate>Mon, 20 Mar 2017 17:50:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/legacy/2017-03-20-degreport-rnaseq-figures/</guid>
+      <description>&lt;p&gt;Differentially gene expression analysis with &lt;a href=&#34;https://en.wikipedia.org/wiki/RNA-Seq&#34; target=&#34;_blank&#34;&gt;RNA-seq&lt;/a&gt; data is quite common nowadays, and there are pretty good &lt;a href=&#34;http://bioconductor.org&#34; target=&#34;_blank&#34;&gt;Bioconductor&lt;/a&gt; packages for that: &lt;a href=&#34;http://bioconductor.org/packages/release/bioc/html/limma.html&#34; target=&#34;_blank&#34;&gt;limma::voom&lt;/a&gt;, &lt;a href=&#34;http://bioconductor.org/packages/release/bioc/html/DESeq2.html&#34; target=&#34;_blank&#34;&gt;DESeq2&lt;/a&gt; &amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;The code for that part is quite simple, being super quick to get a list of de-regulated genes. However, downstream analyses vary a lot depending on the project itself. But I found myself doing the same plots and analyses many times for different project, so I put together a bunch of plots and analyses using code from my colleagues at work (&lt;a href=&#34;http://bioinformatics.sph.harvard.edu&#34; target=&#34;_blank&#34;&gt;@HSPH bioinformatics core&lt;/a&gt;) and myself.&lt;/p&gt;
+
+&lt;p&gt;There are many possibilities, including QC figures, but the features that seem more interesting are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;plot of individual genes using multiple variables from the metadata. This would be an evolution of plotCounts function from DESeq2. Fig1&lt;/li&gt;
+&lt;li&gt;plot volcano plots labeling some genes. Fig2&lt;/li&gt;
+&lt;li&gt;clustering set of genes to find common patterns expression. Most useful for time seria data. You get as well the list of genes that follows that pattern, so you can use it for functional analysis, for instance. Fig3&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;note: maybe some features only available with development version&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://github.com/lpantano/mypubs/raw/master/DEG_viz/figure/plots-1.png&#34; alt=&#34;fig1&#34; /&gt;
+&lt;img src=&#34;https://github.com/lpantano/mypubs/raw/master/DEG_viz/figure/plots-3.png&#34; alt=&#34;fig2&#34; /&gt;
+&lt;img src=&#34;https://github.com/lpantano/mypubs/raw/master/DEG_viz/figure/plots-2.png&#34; alt=&#34;fig3&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Package available at &lt;a href=&#34;http://bioconductor.org/packages/devel/bioc/html/DEGreport.html&#34; target=&#34;_blank&#34;&gt;BioC page&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The code is available &lt;a href=&#34;https://github.com/lpantano/mypubs/blob/master/DEG_viz&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Hope you enjoy!&lt;/p&gt;
+
+&lt;p&gt;Any suggestion and/or issue is welcome &lt;a href=&#34;https://support.bioconductor.org/p/new/post/?tag_val=DEGreport&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;sincerity in bioinformatics: try hard to explain the limitation of your analysis to non-computational researchers&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Maintenance of macrophage transcriptional programs and intestinal homeostasis by epigenetic reader SP140</title>
+      <link>http://localhost:1313/publication/mehta-2017/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0100</pubDate>
+      
+      <guid>http://localhost:1313/publication/mehta-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Molecular, phenotypic, and sample-associated data to describe pluripotent stem cell lines and derivatives</title>
+      <link>http://localhost:1313/publication/daily-2017/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0100</pubDate>
+      
+      <guid>http://localhost:1313/publication/daily-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparative analysis of LIN28-RNA binding sites identified at single nucleotide resolution</title>
+      <link>http://localhost:1313/publication/ransey-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>http://localhost:1313/publication/ransey-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Empirical comparison of reduced representation bisulfite sequencing and Infinium BeadChip reproducibility and coverage of DNA methylation in humans</title>
+      <link>http://localhost:1313/publication/carmona-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>http://localhost:1313/publication/carmona-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Viewing RNA-seq data on the entire human genome</title>
+      <link>http://localhost:1313/publication/busby-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>http://localhost:1313/publication/busby-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Characterization of the small RNA transcriptome using the bcbio-nextgen python framework</title>
+      <link>http://localhost:1313/talk/bosc2016/</link>
+      <pubDate>Sat, 09 Jul 2016 14:54:17 +0100</pubDate>
+      
+      <guid>http://localhost:1313/talk/bosc2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>External Project</title>
+      <link>http://localhost:1313/project/external-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>http://localhost:1313/project/external-project/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

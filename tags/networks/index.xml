@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>networks on My bits</title>
+    <link>http://localhost:1313/tags/networks/</link>
+    <description>Recent content in networks on My bits</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 12 Aug 2018 09:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/networks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to plot miRNA, gene expression and functional analysis together</title>
+      <link>http://localhost:1313/post/legacy/2018-08-13-omic-figure-for-mirna-gene-functional-data/</link>
+      <pubDate>Sun, 12 Aug 2018 09:00:00 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/legacy/2018-08-13-omic-figure-for-mirna-gene-functional-data/</guid>
+      <description>This post should show you an easy way to get the following data type integrated into a figure:
+ functional enrichment analysis gene expression data from any technology miRNA expression data from any technology  I am using the function isoNetwork from the package isomiRs, that of course is developed by me :) My ego is not that big, it is just I wanted a figure showing that information, and I couldn&amp;rsquo;t find any at a time, but if you know any, tweet me about it to @lopantano.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>miRNA on My bits</title>
+    <link>http://localhost:1313/tags/mirna/</link>
+    <description>Recent content in miRNA on My bits</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 12 Aug 2018 09:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/mirna/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to plot miRNA, gene expression and functional analysis together</title>
+      <link>http://localhost:1313/post/legacy/2018-08-13-omic-figure-for-mirna-gene-functional-data/</link>
+      <pubDate>Sun, 12 Aug 2018 09:00:00 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/legacy/2018-08-13-omic-figure-for-mirna-gene-functional-data/</guid>
+      <description>This post should show you an easy way to get the following data type integrated into a figure:
+ functional enrichment analysis gene expression data from any technology miRNA expression data from any technology  I am using the function isoNetwork from the package isomiRs, that of course is developed by me :) My ego is not that big, it is just I wanted a figure showing that information, and I couldn&amp;rsquo;t find any at a time, but if you know any, tweet me about it to @lopantano.</description>
+    </item>
+    
+    <item>
+      <title>miRTOP: An open source community project for the development of a unified format file for miRNA data</title>
+      <link>http://localhost:1313/talk/bosc2018/</link>
+      <pubDate>Wed, 27 Jun 2018 13:13:02 -0900</pubDate>
+      
+      <guid>http://localhost:1313/talk/bosc2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>miRNA Annotation Tools Comparison</title>
+      <link>http://localhost:1313/post/legacy/2016-03-24-mirna-annotation-tools-comparison/</link>
+      <pubDate>Thu, 24 Mar 2016 19:49:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/legacy/2016-03-24-mirna-annotation-tools-comparison/</guid>
+      <description>In summary: I will show which is the best miRNA mapping tool. I used several options for this benchmarking:
+ miraligner from SeqBuster suit (I am one of the authors) bowtie2 and bowtie novoalign from novocraft suit GEM srnabench microrazer STAR miRExpress  I think that these are the most used, and other not used but good to try them. They were clearly developed for other purposes, but as well, they generate the input of many miRNA pipelines.</description>
+    </item>
+    
+    <item>
+      <title>small RNA abundance [miss-] viz</title>
+      <link>http://localhost:1313/post/legacy/2013-10-29-small-rna-abundance-miss-viz/</link>
+      <pubDate>Tue, 29 Oct 2013 08:05:56 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/legacy/2013-10-29-small-rna-abundance-miss-viz/</guid>
+      <description>My PhD was focused on small RNA sequencing data. I had a problem when I wanted to visualized the amount of small RNAs from the beginning. Here the problem, assume that you have a certain distribution of small RNA sequences abundance:
+seq1: 1500 times
+seq2: 3 times
+seq3: 2 times
+And you want to show the nucleotide composition of the first nucleotide. You can do it either counting the # of sequences (or abundance) in your set (1505) or the number of unique (different) sequences (3).</description>
+    </item>
+    
+  </channel>
+</rss>
