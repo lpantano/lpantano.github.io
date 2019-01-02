@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>MiRNA Wars: The isomiRs menance</title>
+      <link>http://lpantano.github.io/talk/big2018/</link>
+      <pubDate>Sun, 02 Dec 2018 15:06:12 +0100</pubDate>
+      
+      <guid>http://lpantano.github.io/talk/big2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Unification of miRNA and isomiR research: the mirGFF3 format and the mirtop API</title>
       <link>http://lpantano.github.io/publication/desvignes-2018/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0100</pubDate>
@@ -439,15 +448,6 @@ loaded via a namespace (and not attached):
       <pubDate>Sat, 09 Jul 2016 14:54:17 +0100</pubDate>
       
       <guid>http://lpantano.github.io/talk/bosc2016/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>External Project</title>
-      <link>http://lpantano.github.io/project/external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
-      
-      <guid>http://lpantano.github.io/project/external-project/</guid>
       <description></description>
     </item>
     
