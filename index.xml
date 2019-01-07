@@ -11,9 +11,18 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>miRNA variants (isomiRs): real molecules or sequencing artifacts?</title>
+      <link>http://lpantano.github.io/talk/hirm2018/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 -0500</pubDate>
+      
+      <guid>http://lpantano.github.io/talk/hirm2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>MiRNA Wars: The isomiRs menance</title>
       <link>http://lpantano.github.io/talk/big2018/</link>
-      <pubDate>Sun, 02 Dec 2018 15:06:12 +0100</pubDate>
+      <pubDate>Sun, 02 Dec 2018 15:06:12 -0500</pubDate>
       
       <guid>http://lpantano.github.io/talk/big2018/</guid>
       <description></description>
@@ -439,15 +448,6 @@ loaded via a namespace (and not attached):
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
       <guid>http://lpantano.github.io/publication/busby-2017/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Characterization of the small RNA transcriptome using the bcbio-nextgen python framework</title>
-      <link>http://lpantano.github.io/talk/bosc2016/</link>
-      <pubDate>Sat, 09 Jul 2016 14:54:17 +0100</pubDate>
-      
-      <guid>http://lpantano.github.io/talk/bosc2016/</guid>
       <description></description>
     </item>
     
