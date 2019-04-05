@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>http://lpantano.github.io/post/2019/2019-04-05-how-to-setup-remote-samples-with-bcbio/</loc>
+      <lastmod>2019-04-05T10:13:02-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>http://lpantano.github.io/talk/bioclub2019/</loc>
       <lastmod>2019-02-09T00:00:00-05:00</lastmod>
     </url>
@@ -22,6 +30,14 @@
     
       <loc>http://lpantano.github.io/publication/desvignes-2018/</loc>
       <lastmod>2018-12-01T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/post/legacy/2018-09-21-colors-for-annotations-for-heatmaps/</loc>
+      <lastmod>2018-09-21T10:13:02-04:00</lastmod>
     </url>
     
   
@@ -515,7 +531,7 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/basic-helix-loop-helix-transcription-factors-genet/</loc>
+      <loc>http://lpantano.github.io/tags/basic-helix-loop-helix-transcription-factors/genet/</loc>
       <lastmod>2016-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -631,7 +647,7 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/cytoplasmic-and-nuclear-genetics/</loc>
+      <loc>http://lpantano.github.io/tags/cytoplasmic-and-nuclear/genetics/</loc>
       <lastmod>2016-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -667,7 +683,7 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/dna-probes-chemical-synthesis/</loc>
+      <loc>http://lpantano.github.io/tags/dna-probes/chemical-synthesis/</loc>
       <lastmod>2008-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -676,7 +692,7 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/dna-binding-proteins-genetics/</loc>
+      <loc>http://lpantano.github.io/tags/dna-binding-proteins/genetics/</loc>
       <lastmod>2016-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -685,7 +701,7 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/dna-genetics/</loc>
+      <loc>http://lpantano.github.io/tags/dna/genetics/</loc>
       <lastmod>2006-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -784,7 +800,7 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/ductal-classification-genetics-immunology-metaboli/</loc>
+      <loc>http://lpantano.github.io/tags/ductal/classification/genetics/immunology/metaboli/</loc>
       <lastmod>2016-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1036,13 +1052,6 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/post/legacy/2018-09-21-colors-for-annotations-for-heatmaps/</loc>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>http://lpantano.github.io/tags/hela-cells/</loc>
       <lastmod>2013-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
@@ -1052,7 +1061,7 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/hepatocyte-nuclear-factor-3-beta-genetics/</loc>
+      <loc>http://lpantano.github.io/tags/hepatocyte-nuclear-factor-3-beta/genetics/</loc>
       <lastmod>2016-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1061,7 +1070,7 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/hepatocyte-nuclear-factor-3-gamma-genetics/</loc>
+      <loc>http://lpantano.github.io/tags/hepatocyte-nuclear-factor-3-gamma/genetics/</loc>
       <lastmod>2016-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1106,7 +1115,7 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/histone-demethylases-genetics/</loc>
+      <loc>http://lpantano.github.io/tags/histone-demethylases/genetics/</loc>
       <lastmod>2016-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1115,7 +1124,7 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/homeodomain-proteins-genetics/</loc>
+      <loc>http://lpantano.github.io/tags/homeodomain-proteins/genetics/</loc>
       <lastmod>2016-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1133,7 +1142,7 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/human-genetics/</loc>
+      <loc>http://lpantano.github.io/tags/human/genetics/</loc>
       <lastmod>2016-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1295,7 +1304,7 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/mutation-genetics/</loc>
+      <loc>http://lpantano.github.io/tags/mutation/genetics/</loc>
       <lastmod>2016-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1322,7 +1331,7 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/neoplasm-genetics/</loc>
+      <loc>http://lpantano.github.io/tags/neoplasm/genetics/</loc>
       <lastmod>2016-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1367,7 +1376,7 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/nuclear-proteins-genetics/</loc>
+      <loc>http://lpantano.github.io/tags/nuclear-proteins/genetics/</loc>
       <lastmod>2016-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1376,7 +1385,7 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/nucleic-acid-amplification-techniques-methods/</loc>
+      <loc>http://lpantano.github.io/tags/nucleic-acid-amplification-techniques/methods/</loc>
       <lastmod>2008-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1466,7 +1475,7 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/pancreatic-neoplasms-classification-genetics-imm/</loc>
+      <loc>http://lpantano.github.io/tags/pancreatic-neoplasms/classification/genetics/imm/</loc>
       <lastmod>2016-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1683,7 +1692,7 @@
     <url>
     
       <loc>http://lpantano.github.io/tags/r/</loc>
-      <lastmod>2018-08-12T09:00:00-04:00</lastmod>
+      <lastmod>2018-09-21T10:13:02-04:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1994,7 +2003,7 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/trans-activators-genetics/</loc>
+      <loc>http://lpantano.github.io/tags/trans-activators/genetics/</loc>
       <lastmod>2016-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -2012,7 +2021,7 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/transcription-factors-genetics/</loc>
+      <loc>http://lpantano.github.io/tags/transcription-factors/genetics/</loc>
       <lastmod>2016-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -2039,7 +2048,7 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/tumor-suppressor-protein-p53-genetics/</loc>
+      <loc>http://lpantano.github.io/tags/tumor-suppressor-protein-p53/genetics/</loc>
       <lastmod>2016-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -2048,7 +2057,7 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/tumor-suppressor-proteins-genetics/</loc>
+      <loc>http://lpantano.github.io/tags/tumor-suppressor-proteins/genetics/</loc>
       <lastmod>2016-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -2058,6 +2067,7 @@
     <url>
     
       <loc>http://lpantano.github.io/tags/visualization/</loc>
+      <lastmod>2018-09-21T10:13:02-04:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2085,6 +2095,15 @@
     
       <loc>http://lpantano.github.io/tags/base-sequence/</loc>
       <lastmod>2006-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/bcbio/</loc>
+      <lastmod>2019-04-05T10:13:02-04:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2355,6 +2374,15 @@
     
       <loc>http://lpantano.github.io/tags/polymerase-chain-reaction/</loc>
       <lastmod>2006-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/public-data/</loc>
+      <lastmod>2019-04-05T10:13:02-04:00</lastmod>
       <priority>0</priority>
     </url>
     

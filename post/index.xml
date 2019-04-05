@@ -13,6 +13,28 @@
     
     
     <item>
+      <title>How to set up public dataset analysis with bcbio-nextgen</title>
+      <link>http://lpantano.github.io/post/2019/2019-04-05-how-to-setup-remote-samples-with-bcbio/</link>
+      <pubDate>Fri, 05 Apr 2019 10:13:02 -0400</pubDate>
+      
+      <guid>http://lpantano.github.io/post/2019/2019-04-05-how-to-setup-remote-samples-with-bcbio/</guid>
+      <description>We use bcbio-nextgen for the analysis of sequencing data, mainly, (sc)RNAseq, smallRNAseq, DNASeq and ChIPSeq. It is not rare that we get collaborators who wants to re-analyze public data-set.
+Inside bcbio, we have bcbio_prepare_samples.py to help to merge multiple files that belong to the same sample into one file to make easier the configuration of bcbio. We extended this script to pull down data from GEO and SRA repository.
+If you have bcbio.</description>
+    </item>
+    
+    <item>
+      <title>Get colors for your heatmap annotation</title>
+      <link>http://lpantano.github.io/post/legacy/2018-09-21-colors-for-annotations-for-heatmaps/</link>
+      <pubDate>Fri, 21 Sep 2018 10:13:02 -0400</pubDate>
+      
+      <guid>http://lpantano.github.io/post/legacy/2018-09-21-colors-for-annotations-for-heatmaps/</guid>
+      <description>This post will show how to configure quickly the colors for the annotation of rows/columns that go on top or on the side of a heatmap.
+I normally use pheatmap a lot. Recently I discovered ComplexHeatmap. In both cases I spend always sometime changing the colors of the annotations. I ended up coding a function inside my package DEGreport to do that.
+Given a data.frame with metadata data information will do:</description>
+    </item>
+    
+    <item>
       <title>How to plot miRNA, gene expression and functional analysis together</title>
       <link>http://lpantano.github.io/post/legacy/2018-08-13-omic-figure-for-mirna-gene-functional-data/</link>
       <pubDate>Sun, 12 Aug 2018 09:00:00 -0400</pubDate>
@@ -114,17 +136,6 @@ For instance, what happens with miR-1246? it is a recent miRNA, primate specific
       <description>How much keywords in bioinformatics has changed in the past 7 years?
 I did a small and quick experiment. I took the abstract of the papers published in Bioinformatics during Jan-2005 and during Jan-2012. Then I represented the words according to their frequency with the wordle tool. And the result was:
     What is main difference? There are new concepts, of course, but the main difference is the size of the word DATA and the word METHOD, as it happens in the real world, data increased a lot, so we put it much more in our work, and we need a lof of new methods, so we highlight this in our work.</description>
-    </item>
-    
-    <item>
-      <title>Get colors for your heatmap annotation</title>
-      <link>http://lpantano.github.io/post/legacy/2018-09-21-colors-for-annotations-for-heatmaps/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://lpantano.github.io/post/legacy/2018-09-21-colors-for-annotations-for-heatmaps/</guid>
-      <description>This post will show how to configure quickly the colors for the annotation of rows/columns that go on top or on the side of a heatmap.
-I normally use pheatmap a lot. Recently I discovered ComplexHeatmap. In both cases I spend always sometime changing the colors of the annotations. I ended up coding a function inside my package DEGreport to do that.
-Given a data.frame with metadata data information will do:</description>
     </item>
     
   </channel>

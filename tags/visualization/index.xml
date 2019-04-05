@@ -7,6 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Fri, 21 Sep 2018 10:13:02 -0400</lastBuildDate>
     
 	<atom:link href="http://lpantano.github.io/tags/visualization/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +15,7 @@
     <item>
       <title>Get colors for your heatmap annotation</title>
       <link>http://lpantano.github.io/post/legacy/2018-09-21-colors-for-annotations-for-heatmaps/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 21 Sep 2018 10:13:02 -0400</pubDate>
       
       <guid>http://lpantano.github.io/post/legacy/2018-09-21-colors-for-annotations-for-heatmaps/</guid>
       <description>This post will show how to configure quickly the colors for the annotation of rows/columns that go on top or on the side of a heatmap.

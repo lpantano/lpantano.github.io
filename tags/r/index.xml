@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 12 Aug 2018 09:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 21 Sep 2018 10:13:02 -0400</lastBuildDate>
     
 	<atom:link href="http://lpantano.github.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Get colors for your heatmap annotation</title>
+      <link>http://lpantano.github.io/post/legacy/2018-09-21-colors-for-annotations-for-heatmaps/</link>
+      <pubDate>Fri, 21 Sep 2018 10:13:02 -0400</pubDate>
+      
+      <guid>http://lpantano.github.io/post/legacy/2018-09-21-colors-for-annotations-for-heatmaps/</guid>
+      <description>This post will show how to configure quickly the colors for the annotation of rows/columns that go on top or on the side of a heatmap.
+I normally use pheatmap a lot. Recently I discovered ComplexHeatmap. In both cases I spend always sometime changing the colors of the annotations. I ended up coding a function inside my package DEGreport to do that.
+Given a data.frame with metadata data information will do:</description>
+    </item>
     
     <item>
       <title>How to plot miRNA, gene expression and functional analysis together</title>
@@ -31,17 +42,6 @@
       <description>This is a funny story, and I will try to tell you how I realized I don&amp;rsquo;t know anything about R in 400 words.
 I work at the Bioinformatic Core at Harvard TH School. People who know us, or collaborate with us, knows that we mainly use bcbio to analyze sequencing data (check it out, super cool tool).
 Something that we are working on is to load the data after bcbio finishes into R to ease the downstream analysis.</description>
-    </item>
-    
-    <item>
-      <title>Get colors for your heatmap annotation</title>
-      <link>http://lpantano.github.io/post/legacy/2018-09-21-colors-for-annotations-for-heatmaps/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://lpantano.github.io/post/legacy/2018-09-21-colors-for-annotations-for-heatmaps/</guid>
-      <description>This post will show how to configure quickly the colors for the annotation of rows/columns that go on top or on the side of a heatmap.
-I normally use pheatmap a lot. Recently I discovered ComplexHeatmap. In both cases I spend always sometime changing the colors of the annotations. I ended up coding a function inside my package DEGreport to do that.
-Given a data.frame with metadata data information will do:</description>
     </item>
     
   </channel>
