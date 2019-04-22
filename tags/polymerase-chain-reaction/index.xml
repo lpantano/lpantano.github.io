@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>polymerase chain reaction on My bits</title>
+    <title>Polymerase Chain Reaction on My bits</title>
     <link>http://lpantano.github.io/tags/polymerase-chain-reaction/</link>
-    <description>Recent content in polymerase chain reaction on My bits</description>
+    <description>Recent content in Polymerase Chain Reaction on My bits</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 01 Jan 2006 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 01 Feb 2009 00:00:00 -0500</lastBuildDate>
     
 	<atom:link href="http://lpantano.github.io/tags/polymerase-chain-reaction/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fibroblast-derived induced pluripotent stem cells show no common retroviral vector insertions.</title>
+      <link>http://lpantano.github.io/publication/varas-2009/</link>
+      <pubDate>Sun, 01 Feb 2009 00:00:00 -0500</pubDate>
+      
+      <guid>http://lpantano.github.io/publication/varas-2009/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genome assembly comparison identifies structural variants in the human genome.</title>
+      <link>http://lpantano.github.io/publication/khaja-2006/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 -0500</pubDate>
+      
+      <guid>http://lpantano.github.io/publication/khaja-2006/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Genome assembly comparison identifies structural variants in the human genome.</title>

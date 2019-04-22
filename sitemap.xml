@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     
@@ -6,6 +5,42 @@
     
       <loc>http://lpantano.github.io/post/2019/2019-04-05-how-to-setup-remote-samples-with-bcbio/</loc>
       <lastmod>2019-04-05T10:13:02-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/</loc>
+      <lastmod>2019-04-05T10:13:02-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/</loc>
+      <lastmod>2019-04-05T10:13:02-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/bcbio/</loc>
+      <lastmod>2019-04-05T10:13:02-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/public-data/</loc>
+      <lastmod>2019-04-05T10:13:02-04:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -28,6 +63,24 @@
     
     <url>
     
+      <loc>http://lpantano.github.io/publication_types/2/</loc>
+      <lastmod>2018-12-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/publication_types/</loc>
+      <lastmod>2018-12-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>http://lpantano.github.io/publication/desvignes-2018/</loc>
       <lastmod>2018-12-01T00:00:00-05:00</lastmod>
     </url>
@@ -38,6 +91,24 @@
     
       <loc>http://lpantano.github.io/post/legacy/2018-09-21-colors-for-annotations-for-heatmaps/</loc>
       <lastmod>2018-09-21T10:13:02-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/r/</loc>
+      <lastmod>2018-09-21T10:13:02-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/visualization/</loc>
+      <lastmod>2018-09-21T10:13:02-04:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -62,6 +133,33 @@
     
       <loc>http://lpantano.github.io/post/legacy/2018-08-13-omic-figure-for-mirna-gene-functional-data/</loc>
       <lastmod>2018-08-12T09:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/mirna/</loc>
+      <lastmod>2018-08-12T09:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/networks/</loc>
+      <lastmod>2018-08-12T09:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/isomir/</loc>
+      <lastmod>2018-06-27T13:13:02-09:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -100,8 +198,44 @@
     
     <url>
     
+      <loc>http://lpantano.github.io/tags/develop/</loc>
+      <lastmod>2017-08-23T17:50:01-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>http://lpantano.github.io/post/legacy/2017-03-20-degreport-rnaseq-figures/</loc>
       <lastmod>2017-03-20T17:50:01-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/rnaseq/</loc>
+      <lastmod>2017-03-20T17:50:01-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/small-rnaseq/</loc>
+      <lastmod>2017-03-20T17:50:01-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/viz/</loc>
+      <lastmod>2017-03-20T17:50:01-04:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -124,6 +258,24 @@
     
     <url>
     
+      <loc>http://lpantano.github.io/tags/cims/</loc>
+      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/clip/</loc>
+      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>http://lpantano.github.io/publication/ransey-2017/</loc>
       <lastmod>2017-01-01T00:00:00-05:00</lastmod>
     </url>
@@ -140,6 +292,42 @@
     
     <url>
     
+      <loc>http://lpantano.github.io/tags/ideogram/</loc>
+      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/javascript/</loc>
+      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/lin28/</loc>
+      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/next-generation-sequencing/</loc>
+      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>http://lpantano.github.io/post/</loc>
       <lastmod>2017-01-01T00:00:00-05:00</lastmod>
     </url>
@@ -150,6 +338,15 @@
     
       <loc>http://lpantano.github.io/publication/</loc>
       <lastmod>2017-01-01T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/rna-seq/</loc>
+      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -180,536 +377,6 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/project/external-project/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/project/internal-project/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/post/legacy/2016-03-24-mirna-annotation-tools-comparison/</loc>
-      <lastmod>2016-03-24T19:49:01-04:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/publication/bailey-2016/</loc>
-      <lastmod>2016-01-01T00:00:00-05:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/publication/pantano-2015/</loc>
-      <lastmod>2015-11-01T00:00:00-04:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/publication/pantano-2015-a/</loc>
-      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/publication/puig-2015/</loc>
-      <lastmod>2015-01-01T00:00:00-05:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/publication/ost-2014/</loc>
-      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/publication/martinez-fundichely-2014/</loc>
-      <lastmod>2014-01-01T00:00:00-05:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/publication/meijer-2014/</loc>
-      <lastmod>2014-01-01T00:00:00-05:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/post/legacy/2013-10-29-small-rna-abundance-miss-viz/</loc>
-      <lastmod>2013-10-29T08:05:56-04:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/post/legacy/2013-08-07-lying-factor-in-figures/</loc>
-      <lastmod>2013-08-07T11:36:25-04:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/post/legacy/2013-05-27-mirna-annotation-complex-scenarios/</loc>
-      <lastmod>2013-05-27T10:13:02-04:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/publication/llorens-2013/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/publication/llorens-2013-a/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/post/legacy/2012-09-18-visualizing-small-rna-mapping-complexity/</loc>
-      <lastmod>2012-09-18T12:10:24-04:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/post/legacy/2012-08-14-visualizing-science-is-also-cool-polychart/</loc>
-      <lastmod>2012-08-14T15:28:12-04:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/post/legacy/2012-04-13-bionformatics-evolution-2005-2012/</loc>
-      <lastmod>2012-04-13T10:45:07-04:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/publication/banez-coronel-2012/</loc>
-      <lastmod>2012-02-01T00:00:00-05:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/publication/pantano-2011/</loc>
-      <lastmod>2011-11-01T00:00:00-04:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/publication/marti-2010/</loc>
-      <lastmod>2010-01-01T00:00:00-05:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/publication/pantano-2010/</loc>
-      <lastmod>2010-01-01T00:00:00-05:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/publication/varas-2009/</loc>
-      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/publication/armengol-2009/</loc>
-      <lastmod>2009-01-01T00:00:00-05:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/publication/pantano-2008/</loc>
-      <lastmod>2008-01-01T00:00:00-05:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/publication/grynberg-2007/</loc>
-      <lastmod>2007-01-01T00:00:00-05:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/publication/khaja-2006/</loc>
-      <lastmod>2006-01-01T00:00:00-05:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/genetic-variation/</loc>
-      <lastmod>2006-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/genome/</loc>
-      <lastmod>2006-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/genomics/</loc>
-      <lastmod>2016-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/internet/</loc>
-      <lastmod>2008-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/user-computer-interface/</loc>
-      <lastmod>2008-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/publication_types/2/</loc>
-      <lastmod>2018-12-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/algorithms/</loc>
-      <lastmod>2008-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/amyloid-beta-protein-precursor/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/amyloid-beta-protein-precursor-deficiency/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/amyloid-beta-protein-precursor-genetics/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/animal/</loc>
-      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/animals/</loc>
-      <lastmod>2016-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/argonaute-proteins/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/argonaute-proteins-metabolism/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/base-sequence/</loc>
-      <lastmod>2006-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/basic-helix-loop-helix-transcription-factors/genet/</loc>
-      <lastmod>2016-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/biology/</loc>
-      <lastmod>2012-02-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/blotting/</loc>
-      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/cims/</loc>
-      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/clip/</loc>
-      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/carbohydrate-metabolism/</loc>
-      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/carcinoma/</loc>
-      <lastmod>2016-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/cell-line/</loc>
-      <lastmod>2016-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/computational-biology/</loc>
-      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/cyclooxygenase-2/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/cyclooxygenase-2-deficiency/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/cyclooxygenase-2-genetics/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/cytoplasmic-and-nuclear/genetics/</loc>
-      <lastmod>2016-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/dead-box-rna-helicases/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/dead-box-rna-helicases-metabolism/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/dna-methylation/</loc>
-      <lastmod>2016-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/dna-probes/chemical-synthesis/</loc>
-      <lastmod>2008-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/dna-binding-proteins/genetics/</loc>
-      <lastmod>2016-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/dna/genetics/</loc>
-      <lastmod>2006-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>http://lpantano.github.io/tags/deep-learning/</loc>
       <lastmod>2016-04-27T00:00:00-04:00</lastmod>
       <priority>0</priority>
@@ -728,8 +395,24 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/diet/</loc>
-      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
+      <loc>http://lpantano.github.io/project/external-project/</loc>
+      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/project/internal-project/</loc>
+      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/project/</loc>
+      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -737,8 +420,16 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/disease-models/</loc>
-      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
+      <loc>http://lpantano.github.io/post/legacy/2016-03-24-mirna-annotation-tools-comparison/</loc>
+      <lastmod>2016-03-24T19:49:01-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/genome/</loc>
+      <lastmod>2016-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -746,8 +437,8 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/drosophila-melanogaster/</loc>
-      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
+      <loc>http://lpantano.github.io/tags/animals/</loc>
+      <lastmod>2016-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -755,8 +446,8 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/drosophila-melanogaster-genetics/</loc>
-      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
+      <loc>http://lpantano.github.io/tags/basic-helix-loop-helix-transcription-factors/genet/</loc>
+      <lastmod>2016-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -764,8 +455,8 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/drosophila-melanogaster-metabolism/</loc>
-      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
+      <loc>http://lpantano.github.io/tags/carcinoma/</loc>
+      <lastmod>2016-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -773,8 +464,8 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/dual-specificity-phosphatase-1/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <loc>http://lpantano.github.io/tags/cell-line/</loc>
+      <lastmod>2016-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -782,8 +473,8 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/dual-specificity-phosphatase-1-deficiency/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <loc>http://lpantano.github.io/tags/cytoplasmic-and-nuclear/genetics/</loc>
+      <lastmod>2016-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -791,8 +482,17 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/dual-specificity-phosphatase-1-genetics/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <loc>http://lpantano.github.io/tags/dna-methylation/</loc>
+      <lastmod>2016-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/dna-binding-proteins/genetics/</loc>
+      <lastmod>2016-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -809,96 +509,6 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/embryo/</loc>
-      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/epidermal-growth-factor/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/epidermal-growth-factor-pharmacology/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/epigenesis/</loc>
-      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/eye-color/</loc>
-      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/female/</loc>
-      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/fibroblasts/</loc>
-      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/fibroblasts-cytology/</loc>
-      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/fibroblasts-virology/</loc>
-      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/fluorescence/</loc>
-      <lastmod>2006-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>http://lpantano.github.io/tags/gene-expression-regulation/</loc>
       <lastmod>2016-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
@@ -908,44 +518,8 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/gene-expression-regulation-genetics/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>http://lpantano.github.io/tags/gene-regulatory-networks/</loc>
       <lastmod>2016-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/gene-silencing/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/gene-targeting/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/gene-expression/</loc>
-      <lastmod>2012-02-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -971,63 +545,8 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/genetic-predisposition-to-disease/</loc>
-      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/genetic-vectors/</loc>
-      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/genetic-vectors-genetics/</loc>
-      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/genetic-drug-effects/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/genetic-genetics/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/genetics-and-genomics/</loc>
-      <lastmod>2012-02-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/genome/</loc>
+      <loc>http://lpantano.github.io/publication/bailey-2016/</loc>
       <lastmod>2016-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
     </url>
     
   
@@ -1035,25 +554,7 @@
     <url>
     
       <loc>http://lpantano.github.io/tags/genomics/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/genomics-methods/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/hela-cells/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <lastmod>2016-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1079,42 +580,6 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/heterochromatin/</loc>
-      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/heterochromatin-metabolism/</loc>
-      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/high-throughput-nucleotide-sequencing/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/high-throughput-nucleotide-sequencing-methods/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>http://lpantano.github.io/tags/histone-demethylases/genetics/</loc>
       <lastmod>2016-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
@@ -1126,15 +591,6 @@
     
       <loc>http://lpantano.github.io/tags/homeodomain-proteins/genetics/</loc>
       <lastmod>2016-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/human/</loc>
-      <lastmod>2006-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1160,78 +616,6 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/ideogram/</loc>
-      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/in-situ-hybridization/</loc>
-      <lastmod>2006-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/javascript/</loc>
-      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/kruppel-like-transcription-factors/</loc>
-      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/kruppel-like-transcription-factors-genetics/</loc>
-      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/lin28/</loc>
-      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/long-interspersed-nucleotide-elements/</loc>
-      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/male/</loc>
-      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>http://lpantano.github.io/tags/mice/</loc>
       <lastmod>2016-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
@@ -1241,89 +625,8 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/micrornas/</loc>
-      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/micrornas-classification/</loc>
-      <lastmod>2011-11-01T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/micrornas-genetics/</loc>
-      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/micrornas-metabolism/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/molecular-biology/</loc>
-      <lastmod>2012-02-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/molecular-sequence-annotation/</loc>
-      <lastmod>2011-11-01T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/molecular-cell-biology/</loc>
-      <lastmod>2012-02-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>http://lpantano.github.io/tags/mutation/genetics/</loc>
       <lastmod>2016-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/</loc>
-      <lastmod>2017-10-15T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/myeloid-cell-leukemia-sequence-1-protein/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1349,116 +652,8 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/next-generation-sequencing/</loc>
-      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/nonmammalian/</loc>
-      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/nonmammalian-metabolism/</loc>
-      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>http://lpantano.github.io/tags/nuclear-proteins/genetics/</loc>
       <lastmod>2016-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/nucleic-acid-amplification-techniques/methods/</loc>
-      <lastmod>2008-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/nucleic-acids/</loc>
-      <lastmod>2012-02-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/obesity/</loc>
-      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/obesity-genetics/</loc>
-      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/obesity-metabolism/</loc>
-      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/octamer-transcription-factor-3/</loc>
-      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/octamer-transcription-factor-3-genetics/</loc>
-      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/oligonucleotide-array-sequence-analysis/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/oligonucleotide-array-sequence-analysis-methods/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1484,278 +679,8 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/phylogeny/</loc>
-      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/pluripotent-stem-cells/</loc>
-      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/pluripotent-stem-cells-cytology/</loc>
-      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/pluripotent-stem-cells-metabolism/</loc>
-      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/pluripotent-stem-cells-virology/</loc>
-      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/polycomb-repressive-complex-2/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/polycomb-repressive-complex-2-deficiency/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/polycomb-repressive-complex-2-genetics/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/polymerase-chain-reaction/</loc>
-      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>http://lpantano.github.io/tags/prognosis/</loc>
       <lastmod>2016-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/project/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/promoter-regions/</loc>
-      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/proteins/</loc>
-      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/proteins-metabolism/</loc>
-      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/proto-oncogene-proteins/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/proto-oncogene-proteins-c-bcl-2/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/proto-oncogene-proteins-c-bcl-2-deficiency/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/proto-oncogene-proteins-c-bcl-2-genetics/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/proto-oncogene-proteins-c-myc/</loc>
-      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/proto-oncogene-proteins-c-myc-genetics/</loc>
-      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/proto-oncogene-proteins-metabolism/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/pseudogenes/</loc>
-      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/publication_types/</loc>
-      <lastmod>2018-12-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/r/</loc>
-      <lastmod>2018-09-21T10:13:02-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/rna/</loc>
-      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/rna-isoforms/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/rna-isoforms-genetics/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/rna-isoforms-metabolism/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/rna-seq/</loc>
-      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/rna-methods/</loc>
-      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/rnaseq/</loc>
-      <lastmod>2017-03-20T17:50:01-04:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1772,230 +697,8 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/research-article/</loc>
-      <lastmod>2012-02-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/retroviridae/</loc>
-      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/retroviridae-genetics/</loc>
-      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/soxb1-transcription-factors/</loc>
-      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/soxb1-transcription-factors-genetics/</loc>
-      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/sequence-alignment/</loc>
-      <lastmod>2006-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/sequence-analysis/</loc>
-      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/signal-transduction/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/signal-transduction-drug-effects/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/signal-transduction-genetics/</loc>
-      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/slides/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/slides/example-slides/</loc>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/small-interfering/</loc>
-      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/small-interfering-genetics/</loc>
-      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/small-interfering-metabolism/</loc>
-      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/small-untranslated/</loc>
-      <lastmod>2011-11-01T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/small-untranslated-chemistry/</loc>
-      <lastmod>2011-11-01T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/small-untranslated-classification/</loc>
-      <lastmod>2011-11-01T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/software/</loc>
-      <lastmod>2011-11-01T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/southern/</loc>
-      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/spermatozoa/</loc>
-      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/spermatozoa-metabolism/</loc>
-      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>http://lpantano.github.io/tags/survival-analysis/</loc>
       <lastmod>2016-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/</loc>
-      <lastmod>2006-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/testis/</loc>
-      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/testis-metabolism/</loc>
-      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2066,8 +769,16 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/visualization/</loc>
-      <lastmod>2018-09-21T10:13:02-04:00</lastmod>
+      <loc>http://lpantano.github.io/publication/pantano-2015/</loc>
+      <lastmod>2015-11-01T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/bcbio-srnaseq/</loc>
+      <lastmod>2015-11-01T00:00:00-04:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2075,8 +786,817 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/algorithms/</loc>
-      <lastmod>2008-01-01T00:00:00-05:00</lastmod>
+      <loc>http://lpantano.github.io/tags/srna-methods/</loc>
+      <lastmod>2015-11-01T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/long-interspersed-nucleotide-elements/</loc>
+      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/male/</loc>
+      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/micrornas/</loc>
+      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/micrornas-genetics/</loc>
+      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/phylogeny/</loc>
+      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/promoter-regions/</loc>
+      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/proteins/</loc>
+      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/proteins-metabolism/</loc>
+      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/pseudogenes/</loc>
+      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/rna/</loc>
+      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/rna-methods/</loc>
+      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/sequence-analysis/</loc>
+      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/small-interfering/</loc>
+      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/small-interfering-genetics/</loc>
+      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/small-interfering-metabolism/</loc>
+      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/spermatozoa/</loc>
+      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/spermatozoa-metabolism/</loc>
+      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/testis/</loc>
+      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/testis-metabolism/</loc>
+      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/publication/pantano-2015-a/</loc>
+      <lastmod>2015-06-01T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/publication/puig-2015/</loc>
+      <lastmod>2015-01-01T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/animal/</loc>
+      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/carbohydrate-metabolism/</loc>
+      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/diet/</loc>
+      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/disease-models/</loc>
+      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/drosophila-melanogaster/</loc>
+      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/drosophila-melanogaster-genetics/</loc>
+      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/drosophila-melanogaster-metabolism/</loc>
+      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/embryo/</loc>
+      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/epigenesis/</loc>
+      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/eye-color/</loc>
+      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/female/</loc>
+      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/genetic-predisposition-to-disease/</loc>
+      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/heterochromatin/</loc>
+      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/heterochromatin-metabolism/</loc>
+      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/nonmammalian/</loc>
+      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/nonmammalian-metabolism/</loc>
+      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/obesity/</loc>
+      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/obesity-genetics/</loc>
+      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/obesity-metabolism/</loc>
+      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/publication/ost-2014/</loc>
+      <lastmod>2014-12-01T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/publication/martinez-fundichely-2014/</loc>
+      <lastmod>2014-01-01T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/publication/meijer-2014/</loc>
+      <lastmod>2014-01-01T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/small-rna/</loc>
+      <lastmod>2013-10-29T08:05:56-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/post/legacy/2013-10-29-small-rna-abundance-miss-viz/</loc>
+      <lastmod>2013-10-29T08:05:56-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/post/legacy/2013-08-07-lying-factor-in-figures/</loc>
+      <lastmod>2013-08-07T11:36:25-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/post/legacy/2013-05-27-mirna-annotation-complex-scenarios/</loc>
+      <lastmod>2013-05-27T10:13:02-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/publication/llorens-2013/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/amyloid-beta-protein-precursor/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/amyloid-beta-protein-precursor-deficiency/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/amyloid-beta-protein-precursor-genetics/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/argonaute-proteins/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/argonaute-proteins-metabolism/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/cyclooxygenase-2/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/cyclooxygenase-2-deficiency/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/cyclooxygenase-2-genetics/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/dead-box-rna-helicases/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/dead-box-rna-helicases-metabolism/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/dual-specificity-phosphatase-1/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/dual-specificity-phosphatase-1-deficiency/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/dual-specificity-phosphatase-1-genetics/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/epidermal-growth-factor/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/epidermal-growth-factor-pharmacology/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/gene-expression-regulation-genetics/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/gene-silencing/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/gene-targeting/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/genetic-drug-effects/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/genetic-genetics/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/genomics-methods/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/hela-cells/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/high-throughput-nucleotide-sequencing/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/high-throughput-nucleotide-sequencing-methods/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/publication/llorens-2013-a/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/myeloid-cell-leukemia-sequence-1-protein/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/oligonucleotide-array-sequence-analysis/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/oligonucleotide-array-sequence-analysis-methods/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/polycomb-repressive-complex-2/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/polycomb-repressive-complex-2-deficiency/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/polycomb-repressive-complex-2-genetics/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/proto-oncogene-proteins/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/proto-oncogene-proteins-c-bcl-2/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/proto-oncogene-proteins-c-bcl-2-deficiency/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/proto-oncogene-proteins-c-bcl-2-genetics/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/proto-oncogene-proteins-metabolism/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/rna-isoforms/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/rna-isoforms-genetics/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/rna-isoforms-metabolism/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/signal-transduction/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/signal-transduction-drug-effects/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/signal-transduction-genetics/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/micrornas-metabolism/</loc>
+      <lastmod>2013-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2093,8 +1613,32 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/base-sequence/</loc>
-      <lastmod>2006-01-01T00:00:00-05:00</lastmod>
+      <loc>http://lpantano.github.io/post/legacy/2012-09-18-visualizing-small-rna-mapping-complexity/</loc>
+      <lastmod>2012-09-18T12:10:24-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/post/legacy/2012-08-14-visualizing-science-is-also-cool-polychart/</loc>
+      <lastmod>2012-08-14T15:28:12-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/post/legacy/2012-04-13-bionformatics-evolution-2005-2012/</loc>
+      <lastmod>2012-04-13T10:45:07-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/general/</loc>
+      <lastmod>2012-04-13T10:45:07-04:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2102,8 +1646,16 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/bcbio/</loc>
-      <lastmod>2019-04-05T10:13:02-04:00</lastmod>
+      <loc>http://lpantano.github.io/publication/banez-coronel-2012/</loc>
+      <lastmod>2012-02-01T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/biology/</loc>
+      <lastmod>2012-02-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2111,9 +1663,132 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/bcbio-srnaseq/</loc>
-      <lastmod>2015-11-01T00:00:00-04:00</lastmod>
+      <loc>http://lpantano.github.io/tags/gene-expression/</loc>
+      <lastmod>2012-02-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/genetics-and-genomics/</loc>
+      <lastmod>2012-02-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/molecular-biology/</loc>
+      <lastmod>2012-02-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/molecular-cell-biology/</loc>
+      <lastmod>2012-02-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/nucleic-acids/</loc>
+      <lastmod>2012-02-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/research-article/</loc>
+      <lastmod>2012-02-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/publication/pantano-2011/</loc>
+      <lastmod>2011-11-01T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/micrornas-classification/</loc>
+      <lastmod>2011-11-01T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/molecular-sequence-annotation/</loc>
+      <lastmod>2011-11-01T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/small-untranslated/</loc>
+      <lastmod>2011-11-01T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/small-untranslated-chemistry/</loc>
+      <lastmod>2011-11-01T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/small-untranslated-classification/</loc>
+      <lastmod>2011-11-01T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/software/</loc>
+      <lastmod>2011-11-01T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/publication/marti-2010/</loc>
+      <lastmod>2010-01-01T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/publication/pantano-2010/</loc>
+      <lastmod>2010-01-01T00:00:00-05:00</lastmod>
     </url>
     
   
@@ -2131,51 +1806,6 @@
     
       <loc>http://lpantano.github.io/tags/computational-biology/</loc>
       <lastmod>2010-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/develop/</loc>
-      <lastmod>2017-08-23T17:50:01-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/dna/</loc>
-      <lastmod>2006-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/dna-genetics/</loc>
-      <lastmod>2006-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/dna-probes/</loc>
-      <lastmod>2008-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/dna-probes-chemical-synthesis/</loc>
-      <lastmod>2008-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2210,106 +1840,7 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/fluorescence/</loc>
-      <lastmod>2006-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/general/</loc>
-      <lastmod>2012-04-13T10:45:07-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>http://lpantano.github.io/tags/genetic-variation/</loc>
-      <lastmod>2010-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/genome/</loc>
-      <lastmod>2006-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/genomics/</loc>
-      <lastmod>2006-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/human/</loc>
-      <lastmod>2006-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/humans/</loc>
-      <lastmod>2010-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/internet/</loc>
-      <lastmod>2008-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/iscb/</loc>
-      <lastmod>2007-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/isomir/</loc>
-      <lastmod>2018-06-27T13:13:02-09:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/mirna/</loc>
-      <lastmod>2018-08-12T09:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/micrornas/</loc>
       <lastmod>2010-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -2327,8 +1858,205 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/micrornas-metabolism/</loc>
-      <lastmod>2010-01-01T00:00:00-05:00</lastmod>
+      <loc>http://lpantano.github.io/tags/blotting/</loc>
+      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/publication/varas-2009/</loc>
+      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/fibroblasts/</loc>
+      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/fibroblasts-cytology/</loc>
+      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/fibroblasts-virology/</loc>
+      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/genetic-vectors/</loc>
+      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/genetic-vectors-genetics/</loc>
+      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/kruppel-like-transcription-factors/</loc>
+      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/kruppel-like-transcription-factors-genetics/</loc>
+      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/octamer-transcription-factor-3/</loc>
+      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/octamer-transcription-factor-3-genetics/</loc>
+      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/pluripotent-stem-cells/</loc>
+      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/pluripotent-stem-cells-cytology/</loc>
+      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/pluripotent-stem-cells-metabolism/</loc>
+      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/pluripotent-stem-cells-virology/</loc>
+      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/polymerase-chain-reaction/</loc>
+      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/proto-oncogene-proteins-c-myc/</loc>
+      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/proto-oncogene-proteins-c-myc-genetics/</loc>
+      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/retroviridae/</loc>
+      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/retroviridae-genetics/</loc>
+      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/soxb1-transcription-factors/</loc>
+      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/soxb1-transcription-factors-genetics/</loc>
+      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/southern/</loc>
+      <lastmod>2009-02-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2345,8 +2073,78 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/networks/</loc>
-      <lastmod>2018-08-12T09:00:00-04:00</lastmod>
+      <loc>http://lpantano.github.io/publication/armengol-2009/</loc>
+      <lastmod>2009-01-01T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/internet/</loc>
+      <lastmod>2008-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/user-computer-interface/</loc>
+      <lastmod>2008-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/algorithms/</loc>
+      <lastmod>2008-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/dna-probes/chemical-synthesis/</loc>
+      <lastmod>2008-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/nucleic-acid-amplification-techniques/methods/</loc>
+      <lastmod>2008-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/publication/pantano-2008/</loc>
+      <lastmod>2008-01-01T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/dna-probes/</loc>
+      <lastmod>2008-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/dna-probes-chemical-synthesis/</loc>
+      <lastmod>2008-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2372,7 +2170,24 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/polymerase-chain-reaction/</loc>
+      <loc>http://lpantano.github.io/publication/grynberg-2007/</loc>
+      <lastmod>2007-01-01T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/iscb/</loc>
+      <lastmod>2007-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/base-sequence/</loc>
       <lastmod>2006-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -2381,8 +2196,8 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/public-data/</loc>
-      <lastmod>2019-04-05T10:13:02-04:00</lastmod>
+      <loc>http://lpantano.github.io/tags/dna/genetics/</loc>
+      <lastmod>2006-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2390,8 +2205,34 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/rna/</loc>
-      <lastmod>2010-01-01T00:00:00-05:00</lastmod>
+      <loc>http://lpantano.github.io/tags/fluorescence/</loc>
+      <lastmod>2006-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/publication/khaja-2006/</loc>
+      <lastmod>2006-01-01T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/human/</loc>
+      <lastmod>2006-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/in-situ-hybridization/</loc>
+      <lastmod>2006-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2408,8 +2249,17 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/sequence-analysis/</loc>
-      <lastmod>2010-01-01T00:00:00-05:00</lastmod>
+      <loc>http://lpantano.github.io/tags/dna/</loc>
+      <lastmod>2006-01-01T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://lpantano.github.io/tags/dna-genetics/</loc>
+      <lastmod>2006-01-01T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2426,8 +2276,7 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/small-rna/</loc>
-      <lastmod>2013-10-29T08:05:56-04:00</lastmod>
+      <loc>http://lpantano.github.io/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -2435,8 +2284,7 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/small-rnaseq/</loc>
-      <lastmod>2017-03-20T17:50:01-04:00</lastmod>
+      <loc>http://lpantano.github.io/slides/</loc>
       <priority>0</priority>
     </url>
     
@@ -2444,36 +2292,7 @@
     
     <url>
     
-      <loc>http://lpantano.github.io/tags/software/</loc>
-      <lastmod>2010-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/srna-methods/</loc>
-      <lastmod>2015-11-01T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/user-computer-interface/</loc>
-      <lastmod>2008-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://lpantano.github.io/tags/viz/</loc>
-      <lastmod>2017-03-20T17:50:01-04:00</lastmod>
-      <priority>0</priority>
+      <loc>http://lpantano.github.io/slides/example-slides/</loc>
     </url>
     
   
