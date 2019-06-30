@@ -37,8 +37,8 @@
       
       <guid>http://lpantano.github.io/home/about/</guid>
       <description>Me Computational biologist focused on genomic regulation and data integration. 12 years of experience in biological data analysis using the most well-established tools and contributing to novel algorithms to improve the quantification and visualization of genomic data. I approach scientific challenges with passion and believe that a collaboration and not an individual alone can successfully conquer them.
-Community: JOSS editor. Join our women in bioinformatics in Boston area.
-My tools:    Tool Downloads     seqbuster    seqcluster    seqclusterViz    isomiRs    DEGreport     contributing to: bcbio-nextgen, cloudbiolinux, bcbioRNASeq, bioconda, multiqc</description>
+Community JOSS editor. Join our women in bioinformatics in Boston area.
+My tools    Tool Downloads     seqbuster    seqcluster    seqclusterViz    isomiRs    DEGreport     contributing to: nf-core, bcbio-nextgen, cloudbiolinux, bcbioRNASeq, bioconda, multiqc</description>
     </item>
     
     <item>
@@ -119,7 +119,7 @@ My tools:    Tool Downloads     seqbuster    seqcluster    seqclusterViz    isom
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>http://lpantano.github.io/home/teaching/</guid>
-      <description> Small RNAseq analysis, Harvard T.H. Chan School of Public Health, Boston, MA 2015-2018 Data visualization, PRBB, Spain 2013 Workshop of ChIP-Seq analysis, University of Vic, Spain 2013 Workshop of Metagenomic, University of Vic, Spain 2013 Workshop of small RNA analysis, CRG, Spain 2010  </description>
+      <description> PILMBC 211 Reproducible RNAseq pipeline I , PILM-MIT, MA 2019 PILMBC 103 Best practices on remote storage and computing systems, PILM-MIT, MA 2019 Small RNAseq analysis, Harvard T.H. Chan School of Public Health, Boston, MA 2015-2018 Data visualization, PRBB, Spain 2013 Workshop of ChIP-Seq analysis, University of Vic, Spain 2013 Workshop of Metagenomic, University of Vic, Spain 2013 Workshop of small RNA analysis, CRG, Spain 2010  </description>
     </item>
     
     <item>
