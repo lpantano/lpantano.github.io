@@ -4,12 +4,11 @@
     <title>Tags on My bits</title>
     <link>http://lpantano.github.io/tags/</link>
     <description>Recent content in Tags on My bits</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Fri, 05 Apr 2019 10:13:02 -0400</lastBuildDate>
     
-	<atom:link href="http://lpantano.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://lpantano.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -171,24 +170,6 @@
       <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
       
       <guid>http://lpantano.github.io/tags/rna-seq/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deep Learning</title>
-      <link>http://lpantano.github.io/tags/deep-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
-      
-      <guid>http://lpantano.github.io/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Demo</title>
-      <link>http://lpantano.github.io/tags/demo/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
-      
-      <guid>http://lpantano.github.io/tags/demo/</guid>
       <description></description>
     </item>
     
