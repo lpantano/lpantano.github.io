@@ -637,108 +637,98 @@ genome folder:</p>
 <p>I realized that when I found, after 100 <code>ls/cat/less/grep</code>, this file with these
 lines of code:</p>
 
-<p>````
-cellranger-3.0.2/cellranger-cs/3.0.2/lib/python/cellranger/utils.py
+<pre><code>cellranger-3.0.2/cellranger-cs/3.0.2/lib/python/cellranger/utils.py
 def _load_reference_metadata_file(reference_path):
     reference_metadata_file = os.path.join(reference_path, cr_constants.REFERENCE_METADATA_FILE)
-    with open(reference_metadata_file, &lsquo;r&rsquo;) as f:
-        return json.load(f)</p>
+    with open(reference_metadata_file, 'r') as f:
+        return json.load(f)
+</code></pre>
 
-<pre><code>
-So, easy peasy, I changed that to 110. I relaunched the job I was using to test,
-and found that it was still setting up 220G...WHY!?!!? well, it seems if you relaunch 
+<p>So, easy peasy, I changed that to 110. I relaunched the job I was using to test,
+and found that it was still setting up 220G&hellip;WHY!?!!? well, it seems if you relaunch
 in a step where the alignment has already begun, there is a cache for the resources.
 So after more time trying to figure out this and asking myself, why I decided my
-career path to be bioinformatics, I tried a fresh start and...IT WORKED. 
+career path to be bioinformatics, I tried a fresh start and&hellip;IT WORKED.</p>
 
-&gt; How happy one can be to see a job requesting the expected resources.
+<blockquote>
+<p>How happy one can be to see a job requesting the expected resources.</p>
 
-&gt; Incredible happy!
+<p>Incredible happy!</p>
+</blockquote>
 
-I went a step further, and looked how much memory actually it was using during the
-alignment step, and I saw that actually only needs 64G, so I updated to 72G, to 
-gain more karma from the HPC world.
+<p>I went a step further, and looked how much memory actually it was using during the
+alignment step, and I saw that actually only needs 64G, so I updated to 72G, to
+gain more karma from the HPC world.</p>
 
-There is one more thing, that will set jobs of 72G and 4 cores, if you want to 
-increase the number of cores, then use this option `--mempercore 6` or whatever number
-that you want: `mempercore = 72G/final_cores`.
+<p>There is one more thing, that will set jobs of 72G and 4 cores, if you want to
+increase the number of cores, then use this option <code>--mempercore 6</code> or whatever number
+that you want: <code>mempercore = 72G/final_cores</code>.</p>
 
-## Workflow
+<h2 id="workflow">Workflow</h2>
 
-Finally, I felt that I was doing my best to behave and avoid making angry other
-people using the hpc. The final setup looks like this:
-
-
-* meta-script to send all the samples to a master job: `runner.sh`. It accepts
-      a file where first column is `sample name` and second column is `fastq_path`
-</code></pre>
-
-<p>set -o pipefail  # trace ERR through pipes
-set -o errtrace  # trace ERR through &lsquo;time command&rsquo; and other functions
-set -o nounset   ## set -u : exit the script if you try to use an uninitialised variable
-set -o errexit   ## set -e : exit the script if any statement returns a non-true return value</p>
-
-<h1 id="set-v-you-can-uncomment-all-these-lines-to-have-a-better-debugging">set -v # you can uncomment all these lines to have a better debugging</h1>
-
-<h1 id="set-x">set -x</h1>
-
-<h1 id="export-ps4-bash-source-lineno-funcname-0-funcname-0">export PS4=&lsquo;+(${BASH_SOURCE}:${LINENO}): ${FUNCNAME[0]:+${FUNCNAME[0]}(): }&rsquo;</h1>
-
-<p>while IFS=&rdquo; &ldquo; read -r sample paths</p>
-
-<p>do</p>
-
-<p>RUN=0
-if [[ ! -e $sample/filtered_feature_bc_matrix.h5 ]]; then
-    RUN=1 # run if the final output is not there yet
-fi</p>
-
-<p>if [[  -e  $sample/_lock ]]; then
-    echo $sample is locked, please:
-    echo rm $sample/_lock
-    RUN=0 # but don&rsquo;t do anything if is locked
-fi</p>
-
-<p>if [[ $RUN == 1 ]]; then
-    echo sbatch -J $sample -o logs/$sample.o -e logs/$sample.e scripts/om-counts-cluster.slurm $sample $paths
-    sbatch -J $sample -o logs/$sample.o -e logs/$sample.e scripts/om-counts-cluster.slurm $sample $paths
-fi</p>
-
-<p>done &lt; $1</p>
-
-<pre><code>
-* SBATCH script with cellranger command: `counter.slurm`
-</code></pre>
-
-<p>#!/bin/bash
-#SBATCH -N 1
-#SBATCH -c 1
-#SBATCH &ndash;mem=6000
-#SBATCH -t 0-48:00:00</p>
-
-<h1 id="sbatch-j-cellr-1">SBATCH -J &ldquo;cellr-$1&rdquo;</h1>
-
-<h1 id="sbatch-e-job-counts-1-e">SBATCH -e job-counts-$1.e</h1>
-
-<h1 id="sbatch-o-job-counts-1-o">SBATCH -o job-counts-$1.o</h1>
-
-<h2 id="sbatch-mail-type-end-fail-this-line-is-commented">SBATCH &ndash;mail-type=END,FAIL # this line is commented</h2>
-
-<h2 id="sbatch-mail-user-user-mit-edu-this-line-is-commented">SBATCH &ndash;mail-user=user@mit.edu  # this line is commented</h2>
-
-<p>SCRIPTPATH=&ldquo;PATHTOSCRIPTS&rdquo;
-cellranger count &ndash;id=$1 &ndash;transcriptome=GRCh38_pre_mRNA &ndash;fastqs=$2 &ndash;sample=$1 &ndash;jobmode=$SCRIPTPATH/slurm.template &ndash;maxjobs=3 &ndash;jobinterval=1000</p>
-
-<p>if [ $? -eq 0 ]; then
-    echo OK
-    mv $1 results/.
-else
-    echo $1 FAIL
-fi
-```</p>
+<p>Finally, I felt that I was doing my best to behave and avoid making angry other
+people using the hpc. The final setup looks like this:</p>
 
 <ul>
-<li>template script for <code>cellranger</code> as shown above</li>
+<li><p>meta-script to send all the samples to a master job: <code>runner.sh</code>. It accepts
+  a file where first column is <code>sample name</code> and second column is <code>fastq_path</code></p>
+
+<pre><code>set -o pipefail  # trace ERR through pipes
+set -o errtrace  # trace ERR through 'time command' and other functions
+set -o nounset   ## set -u : exit the script if you try to use an uninitialised variable
+set -o errexit   ## set -e : exit the script if any statement returns a non-true return value
+# set -v # you can uncomment all these lines to have a better debugging 
+# set -x
+# export PS4='+(${BASH_SOURCE}:${LINENO}): ${FUNCNAME[0]:+${FUNCNAME[0]}(): }'
+
+while IFS=&quot; &quot; read -r sample paths
+
+do 
+
+RUN=0
+if [[ ! -e $sample/filtered_feature_bc_matrix.h5 ]]; then
+RUN=1 # run if the final output is not there yet
+fi
+
+if [[  -e  $sample/_lock ]]; then
+echo $sample is locked, please:
+echo rm $sample/_lock
+RUN=0 # but don't do anything if is locked
+fi
+
+if [[ $RUN == 1 ]]; then
+echo sbatch -J $sample -o logs/$sample.o -e logs/$sample.e scripts/om-counts-cluster.slurm $sample $paths
+sbatch -J $sample -o logs/$sample.o -e logs/$sample.e scripts/om-counts-cluster.slurm $sample $paths
+fi
+
+done &lt; $1
+</code></pre></li>
+
+<li><p>SBATCH script with cellranger command: <code>counter.slurm</code></p>
+
+<pre><code>#!/bin/bash
+#SBATCH -N 1
+#SBATCH -c 1
+#SBATCH --mem=6000
+#SBATCH -t 0-48:00:00
+# SBATCH -J &quot;cellr-$1&quot;
+# SBATCH -e job-counts-$1.e
+# SBATCH -o job-counts-$1.o
+## SBATCH --mail-type=END,FAIL # this line is commented
+## SBATCH --mail-user=user@mit.edu  # this line is commented
+
+SCRIPTPATH=&quot;PATHTOSCRIPTS&quot;
+cellranger count --id=$1 --transcriptome=GRCh38_pre_mRNA --fastqs=$2 --sample=$1 --jobmode=$SCRIPTPATH/slurm.template --maxjobs=3 --jobinterval=1000
+
+if [ $? -eq 0 ]; then
+echo OK
+mv $1 results/.
+else
+echo $1 FAIL
+fi
+</code></pre></li>
+
+<li><p>template script for <code>cellranger</code> as shown above</p></li>
 </ul>
 
 <h3 id="other-tips">Other tips</h3>
