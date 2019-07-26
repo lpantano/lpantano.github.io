@@ -13,10 +13,10 @@
     
     <item>
       <title>How to set up cellranger to make your hpc admin happy</title>
-      <link>http://lpantano.github.io/post/2019/2019-07-12-cellranger-efficiency-in-hpc/</link>
+      <link>http://lpantano.github.io/post/2019/2019-07-12-cellranger-efficiency-in-hpc-copy/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://lpantano.github.io/post/2019/2019-07-12-cellranger-efficiency-in-hpc/</guid>
+      <guid>http://lpantano.github.io/post/2019/2019-07-12-cellranger-efficiency-in-hpc-copy/</guid>
       <description>
 
 &lt;p&gt;I found myself to force to use &lt;a href=&#34;https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/advanced/cluster-mode&#34; target=&#34;_blank&#34;&gt;cellranger&lt;/a&gt;. Meanwhile it helps a lot to
@@ -67,7 +67,7 @@ you can specify a template file:&lt;/p&gt;
 #SBATCH --mem=__MRO_MEM_GB__G
 #SBATCH -o __MRO_STDOUT__
 #SBATCH -e __MRO_STDERR__
-#SBATCH -t 0-48:00:00 
+#SBATCH -t 0-48:00:00
 #SBATCH --qos=&amp;quot;normal&amp;quot;
 
  __MRO_CMD__
@@ -75,7 +75,7 @@ you can specify a template file:&lt;/p&gt;
 
 &lt;p&gt;The command would look like this:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;cellranger count --id=SAMPLE --transcriptome=GRCh38_pre_mRNA \ 
+&lt;pre&gt;&lt;code&gt;cellranger count --id=SAMPLE --transcriptome=GRCh38_pre_mRNA \
           --fastqs=PATH2FASTQS --sample=SAMPLE \
           --jobmode=slurm.template \
           --maxjobs=3 --jobinterval=1000
@@ -84,6 +84,15 @@ you can specify a template file:&lt;/p&gt;
 
 &lt;p&gt;I was feeling victory, ha ha ha, BUT I saw that the &lt;code&gt;ALIGN&lt;/code&gt; step was requesting
 220G of memory&amp;hellip;. WHAT!!!!!????? or better &lt;a href=&#34;https://www.destroyallsoftware.com/talks/wat&#34; target=&#34;_blank&#34;&gt;WATTT????!!!!!&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;note&lt;/strong&gt;: this is set up during genome generation with the parameters:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+    --memgb=&amp;lt;num&amp;gt;       Maximum memory (GB) used when aligning reads with STAR.
+                          Defaults to 16.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;note&lt;/strong&gt;: default is 16G but if I use that then my jobs are cancelled because using more memory than requested, as I expected considering STAR needs more than that for human genome.&lt;/p&gt;
 
 &lt;p&gt;I guess I didn&amp;rsquo;t look at the first place I should have looked, but it took me
 some time to discovered that the memory is coming from a file in the reference
@@ -152,13 +161,13 @@ people using the hpc. The final setup looks like this:&lt;/p&gt;
 set -o errtrace  # trace ERR through &#39;time command&#39; and other functions
 set -o nounset   ## set -u : exit the script if you try to use an uninitialised variable
 set -o errexit   ## set -e : exit the script if any statement returns a non-true return value
-# set -v # you can uncomment all these lines to have a better debugging 
+# set -v # you can uncomment all these lines to have a better debugging
 # set -x
 # export PS4=&#39;+(${BASH_SOURCE}:${LINENO}): ${FUNCNAME[0]:+${FUNCNAME[0]}(): }&#39;
 
 while IFS=&amp;quot; &amp;quot; read -r sample paths
 
-do 
+do
 
 RUN=0
 if [[ ! -e $sample/filtered_feature_bc_matrix.h5 ]]; then

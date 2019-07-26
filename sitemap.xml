@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://lpantano.github.io/post/2019/2019-07-12-cellranger-efficiency-in-hpc/</loc>
+    <loc>http://lpantano.github.io/post/2019/2019-07-12-cellranger-efficiency-in-hpc-copy/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -2957,12 +2957,6 @@
   </url>
   
   <url>
-    <loc>http://lpantano.github.io/tags/genetic-variation/</loc>
-    <lastmod>2010-01-01T00:00:00-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://lpantano.github.io/publication/marti-2010/</loc>
     <lastmod>2010-01-01T00:00:00-05:00</lastmod>
   </url>
@@ -3010,6 +3004,12 @@
   
   <url>
     <loc>http://lpantano.github.io/tags/embryonic-stem-cells-metabolism/</loc>
+    <lastmod>2010-01-01T00:00:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/genetic-variation/</loc>
     <lastmod>2010-01-01T00:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>

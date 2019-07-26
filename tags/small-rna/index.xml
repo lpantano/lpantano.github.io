@@ -30,12 +30,16 @@ seq3: 2 times&lt;/p&gt;
 
   
 
+
+
+
 &lt;figure&gt;
 
-&lt;img src=&#34;http://lpantano.github.io/img/images/ntabundance11.png&#34; width=&#34;1000px&#34; /&gt;
+&lt;img src=&#34;http://lpantano.github.io/img/images/ntabundance11.png&#34; width=&#34;1000px&#34; &gt;
 
 
 &lt;/figure&gt;
+
 
 &lt;p&gt;and if you go for the second option:&lt;/p&gt;
 
@@ -44,12 +48,16 @@ seq3: 2 times&lt;/p&gt;
 
   
 
+
+
+
 &lt;figure&gt;
 
-&lt;img src=&#34;http://lpantano.github.io/img/images/ntabundance2.png&#34; width=&#34;1000px&#34; /&gt;
+&lt;img src=&#34;http://lpantano.github.io/img/images/ntabundance2.png&#34; width=&#34;1000px&#34; &gt;
 
 
 &lt;/figure&gt;
+
 
 &lt;p&gt;Which is the best option? well, although papers in small RNA data still continue showing the first option, I think that this should be validated some way.&lt;/p&gt;
 
@@ -62,12 +70,16 @@ seq3: 2 times&lt;/p&gt;
 
   
 
+
+
+
 &lt;figure&gt;
 
-&lt;img src=&#34;http://lpantano.github.io/img/images/ntabundance3.png&#34; width=&#34;1000px&#34; /&gt;
+&lt;img src=&#34;http://lpantano.github.io/img/images/ntabundance3.png&#34; width=&#34;1000px&#34; &gt;
 
 
 &lt;/figure&gt;
+
 
 &lt;p&gt;We can conclude that at position 1, there are few sequences starting with A that are  90 of the data. Also we can see how the 60% of unique sequences have a G at position 10. This helps us to catch any biological signature if it exists, and avoid the misleading information in this kind of figures.&lt;/p&gt;
 </description>
@@ -88,9 +100,12 @@ seq3: 2 times&lt;/p&gt;
 
   
 
+
+
+
 &lt;figure&gt;
 
-&lt;img src=&#34;http://lpantano.github.io/img/images/mir1246.png&#34; /&gt;
+&lt;img src=&#34;http://lpantano.github.io/img/images/mir1246.png&#34; &gt;
 
 
 
@@ -100,6 +115,7 @@ seq3: 2 times&lt;/p&gt;
 &lt;/figcaption&gt;
 
 &lt;/figure&gt;
+
 
 &lt;p&gt;We see that there is a repeat element (ERV, retrovirus) and also it is a pretty conserved region. Until here, everything allright. But, I realized some time ago, annotating some data that I had, that the mature miRNA annotates in other regions:&lt;/p&gt;
 
@@ -170,9 +186,12 @@ seq3: 2 times&lt;/p&gt;
 
   
 
+
+
+
 &lt;figure&gt;
 
-&lt;img src=&#34;http://lpantano.github.io/img/images/u2-3.png&#34; /&gt;
+&lt;img src=&#34;http://lpantano.github.io/img/images/u2-3.png&#34; &gt;
 
 
 
@@ -183,6 +202,7 @@ seq3: 2 times&lt;/p&gt;
 
 &lt;/figure&gt;
 
+
 &lt;p&gt;The question that arises now: is this a real miRNA, or a sub-product, or both? with any function? Maybe there is more than one precursor, or maybe it is a miRNA-like snRNA. Moreover, the secondary structure of these U2 is very similar to a miRNA precursor hairpin (fig 3).&lt;/p&gt;
 
 
@@ -190,9 +210,12 @@ seq3: 2 times&lt;/p&gt;
 
   
 
+
+
+
 &lt;figure&gt;
 
-&lt;img src=&#34;http://lpantano.github.io/img/images/u2-ss-strand.png&#34; /&gt;
+&lt;img src=&#34;http://lpantano.github.io/img/images/u2-ss-strand.png&#34; &gt;
 
 
 
@@ -202,6 +225,7 @@ seq3: 2 times&lt;/p&gt;
 &lt;/figcaption&gt;
 
 &lt;/figure&gt;
+
 
 &lt;p&gt;One cause of this annotation could be that the unique precursor conserved beyond primates is the one mentioned in miRBase, while the other U2 locations are primate-specific. Extra analyses should be done to reveal the real nature of this miRNA. Results suggest that, either the miRNA has more than one precursor, or a sub-product, or both.&lt;/p&gt;
 
@@ -241,12 +265,16 @@ BMC Biol. 8:58(2010).&lt;/p&gt;
 
   
 
+
+
+
 &lt;figure&gt;
 
-&lt;img src=&#34;http://lpantano.github.io/img/images/network.png&#34; width=&#34;500px&#34; /&gt;
+&lt;img src=&#34;http://lpantano.github.io/img/images/network.png&#34; width=&#34;500px&#34; &gt;
 
 
 &lt;/figure&gt;
+
 
 &lt;p&gt;It is very easy to detect high complexity regions, where locations are connected because some sRNAs map to anywhere else. From here, you can add more information, as the average size of the sRNAs inside each location, or the expression (red: low, yellow:high).   &lt;img src=&#34;{{ site.baseurl }}/assets/net-exp-3.png&#34; alt=&#34;&#34; title=&#34;network of sRNA complexity&#34; /&gt; In a quick view you can check the complexity of your small RNA data and the expression associated. The code is published at &lt;a href=&#34;http://rpubs.com/lpantano/1719&#34; title=&#34;sRNA mappability&#34; target=&#34;_blank&#34;&gt;Rpub repository&lt;/a&gt;.&lt;/p&gt;
 </description>

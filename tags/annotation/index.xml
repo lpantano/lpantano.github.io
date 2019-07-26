@@ -26,12 +26,16 @@
 
   
 
+
+
+
 &lt;figure&gt;
 
-&lt;img src=&#34;http://lpantano.github.io/img/images/network.png&#34; width=&#34;500px&#34; /&gt;
+&lt;img src=&#34;http://lpantano.github.io/img/images/network.png&#34; width=&#34;500px&#34; &gt;
 
 
 &lt;/figure&gt;
+
 
 &lt;p&gt;It is very easy to detect high complexity regions, where locations are connected because some sRNAs map to anywhere else. From here, you can add more information, as the average size of the sRNAs inside each location, or the expression (red: low, yellow:high).   &lt;img src=&#34;{{ site.baseurl }}/assets/net-exp-3.png&#34; alt=&#34;&#34; title=&#34;network of sRNA complexity&#34; /&gt; In a quick view you can check the complexity of your small RNA data and the expression associated. The code is published at &lt;a href=&#34;http://rpubs.com/lpantano/1719&#34; title=&#34;sRNA mappability&#34; target=&#34;_blank&#34;&gt;Rpub repository&lt;/a&gt;.&lt;/p&gt;
 </description>
