@@ -3,93 +3,88 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://lpantano.github.io/post/2019/2019-10-03-move-to-egenesis/</loc>
+    <lastmod>2019-10-03T17:42:40-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/</loc>
+    <lastmod>2019-10-03T17:42:40-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/post/</loc>
+    <lastmod>2019-10-03T17:42:40-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://lpantano.github.io/publication_types/2/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/alex-thompson/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/arshed-al-obeidi/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/ben-a-croker/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/daniel-e-bauer/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/gabriela-alexe/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/jennifer-helble/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/john-n-hutchinson/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/kathleen-hanlon/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/kimberly-stegmaier/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/lorena-pantano/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/meghan-bliss-moreau/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/publication_types/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -100,7 +95,6 @@
   <url>
     <loc>http://lpantano.github.io/authors/shu-wang/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -114,62 +108,48 @@
   </url>
   
   <url>
-    <loc>http://lpantano.github.io/post/</loc>
+    <loc>http://lpantano.github.io/tags/hpc/</loc>
+    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/singlecell/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/hpc/</loc>
-    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/singlecell/</loc>
-    <lastmod>2019-07-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/david-t-breault/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/diana-l-carlone/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/emanuele-pignatti/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/lauren-miller/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/logan-massman/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/paulo-kofuji/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -180,13 +160,11 @@
   <url>
     <loc>http://lpantano.github.io/authors/sining-leng/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/william-c-engeland/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -197,55 +175,46 @@
   <url>
     <loc>http://lpantano.github.io/authors/aroa-soriano/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/cory-v-gerlach/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/eulalia-marti/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/georgia-escaramis/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/jagesh-v-shah/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/joan-pallares-albanell/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m-teresa-zomeno-abellan/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/miguel-f-segura/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/mira-pavkovic/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -256,31 +225,31 @@
   <url>
     <loc>http://lpantano.github.io/authors/robert-a-everley/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/sarah-a-boswell/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/sergine-brutus/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/shannan-h-sui/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/vishal-s-vaidya/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/bcbio/</loc>
+    <lastmod>2019-04-05T10:13:02-04:00</lastmod>
   </url>
   
   <url>
@@ -289,20 +258,8 @@
   </url>
   
   <url>
-    <loc>http://lpantano.github.io/tags/bcbio/</loc>
-    <lastmod>2019-04-05T10:13:02-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://lpantano.github.io/tags/public-data/</loc>
     <lastmod>2019-04-05T10:13:02-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/talk/</loc>
-    <lastmod>2019-02-09T00:00:00-05:00</lastmod>
   </url>
   
   <url>
@@ -313,7 +270,11 @@
   <url>
     <loc>http://lpantano.github.io/authors/mirtop-group/</loc>
     <lastmod>2019-02-09T00:00:00-05:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/talk/</loc>
+    <lastmod>2019-02-09T00:00:00-05:00</lastmod>
   </url>
   
   <url>
@@ -324,109 +285,91 @@
   <url>
     <loc>http://lpantano.github.io/authors/aristeidis-g-telonis/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/bastian-fromm/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/elisa-ficarra/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/eric-londin/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/ernesto-aparicio-puerta/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/gianvito-urgese/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/ioannis-s-vlachos/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/isidore-rigoutsos/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/jason-sydes/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/jeffery-ma/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/john-h-postlethwait/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/karen-eilbeck/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/marc-k.-halushka/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/marc-r-friedlander/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/michael-hackenberg/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/phillipe-loher/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/roderic-espin/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/thomas-desvignes/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -437,7 +380,6 @@
   <url>
     <loc>http://lpantano.github.io/authors/victor-barrera/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -448,13 +390,11 @@
   <url>
     <loc>http://lpantano.github.io/tags/r/</loc>
     <lastmod>2018-09-21T10:13:02-04:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/visualization/</loc>
     <lastmod>2018-09-21T10:13:02-04:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -465,103 +405,91 @@
   <url>
     <loc>http://lpantano.github.io/tags/mirna/</loc>
     <lastmod>2018-08-12T09:00:00-04:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/networks/</loc>
     <lastmod>2018-08-12T09:00:00-04:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/anne-klibanski/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/benjamin-a.-olenchock/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/carbohydrate-metabolism/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/clary-b.-clish/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/endocrinology/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/fatty-acid-oxidation/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/gerald-i.-shulman/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/hang-lee/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/john-okeefe/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/kerry-a.-pierce/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/leptin/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/matthew-l.-steinhauser/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/metabolism/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/mingyue-lun/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/pouneh-k.-fazeli/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/selected/</loc>
+    <lastmod>2018-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -570,51 +498,23 @@
   </url>
   
   <url>
-    <loc>http://lpantano.github.io/tags/selected/</loc>
-    <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://lpantano.github.io/authors/aristeidis-g.-telonis/</loc>
     <lastmod>2018-06-27T13:13:02-09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/ioannis-s.-vlachos/</loc>
     <lastmod>2018-06-27T13:13:02-09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/authors/john-h.-postlethwait/</loc>
-    <lastmod>2018-06-27T13:13:02-09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/authors/peter-batzel/</loc>
-    <lastmod>2018-06-27T13:13:02-09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/authors/shruthi-bandyadka/</loc>
-    <lastmod>2018-06-27T13:13:02-09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/authors/yin-lu/</loc>
-    <lastmod>2018-06-27T13:13:02-09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/isomir/</loc>
     <lastmod>2018-06-27T13:13:02-09:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/authors/john-h.-postlethwait/</loc>
+    <lastmod>2018-06-27T13:13:02-09:00</lastmod>
   </url>
   
   <url>
@@ -623,15 +523,28 @@
   </url>
   
   <url>
+    <loc>http://lpantano.github.io/authors/peter-batzel/</loc>
+    <lastmod>2018-06-27T13:13:02-09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/authors/shruthi-bandyadka/</loc>
+    <lastmod>2018-06-27T13:13:02-09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/authors/yin-lu/</loc>
+    <lastmod>2018-06-27T13:13:02-09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://lpantano.github.io/authors/alfredo-mayor/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/carles-hernandez-ferrer/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -642,121 +555,51 @@
   <url>
     <loc>http://lpantano.github.io/authors/dietmar-fernandez-orth/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/juan-r.-gonzalez/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/kilian-vellve/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/maria-pique-borras/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/mariona-bustamante/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/mercedes-rubio/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/ramon-carreras/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/silvia-agramunt/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/xavier-estivill/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/yaris-sarria/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/authors/brad-a.-chapman/</loc>
-    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/authors/john-n.-hutchinson/</loc>
-    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/authors/kayleigh-d.-rutherford/</loc>
-    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/authors/mary-e.-piper/</loc>
-    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/authors/meeta-mistry/</loc>
-    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/authors/michael-j.-steinbaugh/</loc>
-    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/authors/oliver-hofmann/</loc>
-    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/authors/radhika-s.-khetani/</loc>
-    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/authors/rory-d.-kirchner/</loc>
-    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/authors/shannan-ho-sui/</loc>
-    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -765,14 +608,63 @@
   </url>
   
   <url>
-    <loc>http://lpantano.github.io/post/legacy/2017-08-24-subset-object-creates-bigger-file/</loc>
-    <lastmod>2017-08-23T17:50:01-04:00</lastmod>
+    <loc>http://lpantano.github.io/authors/brad-a.-chapman/</loc>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/authors/john-n.-hutchinson/</loc>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/authors/kayleigh-d.-rutherford/</loc>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/authors/mary-e.-piper/</loc>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/authors/meeta-mistry/</loc>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/authors/michael-j.-steinbaugh/</loc>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/authors/oliver-hofmann/</loc>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/authors/radhika-s.-khetani/</loc>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/authors/rory-d.-kirchner/</loc>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/authors/shannan-ho-sui/</loc>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/develop/</loc>
     <lastmod>2017-08-23T17:50:01-04:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/post/legacy/2017-08-24-subset-object-creates-bigger-file/</loc>
+    <lastmod>2017-08-23T17:50:01-04:00</lastmod>
   </url>
   
   <url>
@@ -783,157 +675,131 @@
   <url>
     <loc>http://lpantano.github.io/tags/rnaseq/</loc>
     <lastmod>2017-03-20T17:50:01-04:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/small-rnaseq/</loc>
     <lastmod>2017-03-20T17:50:01-04:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/viz/</loc>
     <lastmod>2017-03-20T17:50:01-04:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/alan-c.-mullen/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/alexander-r.-pico/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/antonis-k.-hatzopoulos/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/bruce-j.-aronow/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/carolyn-lutzko/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/chan-zhou/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/christopher-mayhew/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/cisca-wijmenga/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/d.-alexander-cronkite/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/diana-nordling/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/elke-grassman/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/fatemeh-adiliaghdam/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/fei-ji/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/georg-m.-lauer/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/hajera-amatullah/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/james-c.-lee/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/jose-a.-cancelas/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/jose-d.-pagan/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/kate-l.-jeffrey/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/kenneth-daily/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/kristen-dang/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/larsson-omberg/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/lynn-m.-schriml/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -944,13 +810,11 @@
   <url>
     <loc>http://lpantano.github.io/authors/megha-basavappa/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/mehdi-keddache/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -961,175 +825,146 @@
   <url>
     <loc>http://lpantano.github.io/authors/nathan-salomonis/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/phillip-j.-dexheimer/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/pierre-tonnerre/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/punam-malik/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/ramnik-j.-xavier/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/robert-m.-anthony/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/robin-schroll/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/ruslan-sadreyev/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/samad-lotia/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/sara-a.-morrison/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/shannan-j.-ho-sui/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/sreehaas-digumarthi/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/stacy-bush/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/stuti-mehta/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/tahnee-l.-saunders/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/terry-k.-means/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/thanneer-m.-perumal/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/vinod-kumar/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/winston-hide/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/yang-li/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a.-bjorkbom/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/alexandra-m.-binder/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/allan-c.-just/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/andrea-a.-baccarelli/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/b.-busby/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/b.-upton/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/benedetta-izzi/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/cims/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/clip/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1140,13 +975,11 @@
   <url>
     <loc>http://lpantano.github.io/authors/e.-ransey/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/e.m.-weitz/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1157,97 +990,81 @@
   <url>
     <loc>http://lpantano.github.io/tags/ideogram/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j.-zhu/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j.w.-szostak/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/javascript/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/joel-schwartz/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/juan-j.-carmona/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/karin-b.-michels/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/l.-pantano/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/lin28/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/next-generation-sequencing/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/p.-biecek/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/p.-sliz/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/pantel-s.-vokonas/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/rna-seq/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/sami-s.-amr/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/v.s.-lelyveld/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1258,19 +1075,16 @@
   <url>
     <loc>http://lpantano.github.io/authors/william-p.-accomando/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/xihong-lin/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/brad-chapman/</loc>
     <lastmod>2016-07-09T14:54:17+01:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1281,19 +1095,16 @@
   <url>
     <loc>http://lpantano.github.io/authors/john-hutchinson/</loc>
     <lastmod>2016-07-09T14:54:17+01:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/rory-kirchner/</loc>
     <lastmod>2016-07-09T14:54:17+01:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/shannon-ho-sui/</loc>
     <lastmod>2016-07-09T14:54:17+01:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -1302,297 +1113,253 @@
   </url>
   
   <url>
-    <loc>http://lpantano.github.io/tags/genome/</loc>
+    <loc>http://lpantano.github.io/tags/genomics/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a-barbour/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a-chou/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a-j-gill/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a-l-johns/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a-m-nagrial/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a-m-patch/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a-maitra/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a-mawson/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a-n-christ/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a-robertson/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a-scarpa/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a-v-biankin/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a-v-pinho/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/animals/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/b-rusev/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/basic-helix-loop-helix-transcription-factors/genet/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/c-a-iacobuzio-donahue/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/c-bassi/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/c-j-scarlett/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/c-l-wolfgang/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/c-leonard/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/c-nourse/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/c-pilarsky/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/c-w-toon/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/carcinoma/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/cell-line/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/cytoplasmic-and-nuclear/genetics/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/d-a-wheeler/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/d-k-chang/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/d-k-miller/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/d-m-munzy/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/d-mukhopadhyay/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/d-taylor/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/dna-methylation/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/dna-binding-proteins/genetics/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/ductal/classification/genetics/immunology/metaboli/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/e-a-musgrove/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/e-k-colvin/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/e-nourbakhsh/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/e-s-humphrey/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/f-duthie/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/f-newell/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/g-m-petersen/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/g-tortora/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/gene-expression-regulation/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/gene-regulatory-networks/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/genes/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/genetic/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/genome/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1601,555 +1368,463 @@
   </url>
   
   <url>
-    <loc>http://lpantano.github.io/tags/genomics/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://lpantano.github.io/tags/hepatocyte-nuclear-factor-3-beta/genetics/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/hepatocyte-nuclear-factor-3-gamma/genetics/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/histone-demethylases/genetics/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/homeodomain-proteins/genetics/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/human/genetics/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/humans/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/i-harliwong/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/i-rooman/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/initiative-australian-pancreatic-cancer-genome/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j-a-lovell/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j-g-kench/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j-hair/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j-humphris/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j-p-morton/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j-r-eshleman/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j-s-graham/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j-s-samra/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j-v-pearson/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j-wu/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/k-epari/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/k-moran-jones/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/k-nones/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/k-oien/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/k-quek/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/k-s-kassahn/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/l-a-chantrill/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/l-c-murtaugh/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/l-evers/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/l-fink/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/l-mincarelli/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/l-n-sanchez/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/l-pantano/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m-c-gingras/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m-c-quinn/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m-d-jones/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m-giry-laterriere/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m-j-anderson/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m-j-cowley/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m-pajic/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m-pinese/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/mice/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/mutation/genetics/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/n-b-jamieson/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/n-cloonan/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/n-d-merrett/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/n-q-nguyen/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/n-waddell/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/n-zeps/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/neoplasm/genetics/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/neoplastic/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/nuclear-proteins/genetics/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/o-hofmann/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/o-holmes/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/o-j-sansom/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/p-bailey/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/p-capelli/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/p-j-wilson/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/pancreatic/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/pancreatic-neoplasms/classification/genetics/imm/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/prognosis/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/q-xu/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/r-a-gibbs/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/r-a-morgan/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/r-grutzmann/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/r-h-hruban/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/r-l-sutherland/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/r-salvia/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/r-t-lawlor/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/receptors/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/s-a-karim/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/s-idrisoglu/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/s-kazakoff/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/s-m-grimmond/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/s-manning/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/s-wani/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/s-wood/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/survival-analysis/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/t-j-bruxner/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/trans-activators/genetics/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/transcription/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/transcription-factors/genetics/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/transcriptome/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/tumor/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/tumor-suppressor-protein-p53/genetics/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/tumor-suppressor-proteins/genetics/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/u-m-bailey/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/v-chin/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/v-corbo/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/w-e-fisher/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/bcbio-srnaseq/</loc>
+    <lastmod>2015-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/esther-lizano/</loc>
     <lastmod>2015-11-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/isidre-ferrer/</loc>
     <lastmod>2015-11-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -2158,165 +1833,133 @@
   </url>
   
   <url>
-    <loc>http://lpantano.github.io/tags/bcbio-srnaseq/</loc>
-    <lastmod>2015-11-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://lpantano.github.io/tags/srna-methods/</loc>
     <lastmod>2015-11-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/josep-lluis-ballesca/</loc>
     <lastmod>2015-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/long-interspersed-nucleotide-elements/</loc>
     <lastmod>2015-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/mads-bak/</loc>
     <lastmod>2015-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/male/</loc>
     <lastmod>2015-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/meritxell-jodar/</loc>
     <lastmod>2015-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/micrornas/</loc>
     <lastmod>2015-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/micrornas-genetics/</loc>
     <lastmod>2015-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/niels-tommerup/</loc>
     <lastmod>2015-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/phylogeny/</loc>
     <lastmod>2015-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/promoter-regions/</loc>
     <lastmod>2015-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/proteins/</loc>
     <lastmod>2015-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/proteins-metabolism/</loc>
     <lastmod>2015-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/pseudogenes/</loc>
     <lastmod>2015-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/rna/</loc>
-    <lastmod>2015-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/rna-methods/</loc>
-    <lastmod>2015-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/rafael-oliva/</loc>
     <lastmod>2015-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/rna/</loc>
+    <lastmod>2015-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/rna-methods/</loc>
+    <lastmod>2015-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/sequence-analysis/</loc>
     <lastmod>2015-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/small-interfering/</loc>
     <lastmod>2015-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/small-interfering-genetics/</loc>
     <lastmod>2015-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/small-interfering-metabolism/</loc>
     <lastmod>2015-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/spermatozoa/</loc>
     <lastmod>2015-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/spermatozoa-metabolism/</loc>
     <lastmod>2015-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/tanya-vavouri/</loc>
     <lastmod>2015-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/testis/</loc>
     <lastmod>2015-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/testis-metabolism/</loc>
     <lastmod>2015-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -2327,31 +1970,26 @@
   <url>
     <loc>http://lpantano.github.io/authors/carla-giner-delgado/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/chikashi-terao/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/david-castellano/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/david-izquierdo/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/fumihiko-matsuda/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -2362,217 +2000,181 @@
   <url>
     <loc>http://lpantano.github.io/authors/jose-ignacio-lucas-lledo/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/magdalena-gaya-vidal/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/mario-caceres/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/marta-puig/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/tonu-esko/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/adelheid-lempradl/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/animal/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/anita-ost/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/carlos-ribeiro/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/diet/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/disease-models/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/drosophila-melanogaster/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/drosophila-melanogaster-genetics/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/drosophila-melanogaster-metabolism/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/eduard-casas/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/embryo/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/epigenesis/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/eye-color/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/female/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/genetic-predisposition-to-disease/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/gunter-reuter/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/heterochromatin/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/heterochromatin-metabolism/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j.-andrew-pospisilik/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/marius-ruf/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/marlon-stoeckius/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/mattias-alenius/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/melanie-weigert/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/merdin-deniz/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/nicola-iovino/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/nikolaus-rajewsky/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/nonmammalian/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/nonmammalian-metabolism/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/obesity/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/obesity-genetics/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/obesity-metabolism/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -2583,709 +2185,591 @@
   <url>
     <loc>http://lpantano.github.io/authors/pavel-m.-itskov/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/steffen-heyne/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/theodor-tiko/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/ulrike-boenisch/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a.-bauman/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a.-bisognin/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a.-carbone/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a.-coppe/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a.-eulalio/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a.-jasinska/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a.-khorshidi/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a.-kozomara/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a.-marco/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a.-mathelier/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a.-mele/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a.-nahvi/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a.-neri/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a.-rothballer/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a.-tocilj/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a.-ventura/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a.-vilborg/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a.-wilczynska/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a.-c.-jungkamp/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a.c.-siepel/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a.d.-haase/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a.e.-willis/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a.m.-smith/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a.m.-vannucchi/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a.n.-packer/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a.s.-otoole/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/a.t.-irving/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/alexander-martinez-fundichely/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/antonio-barbadilla/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/b.-chen/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/b.-shafit-zagardo/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/b.-zhang/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/b.b.-yang/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/b.l.-davidson/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/b.r.j.-williams/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/c.-henzler/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/c.-lin/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/c.-matranga/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/c.-menzel/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/c.-park/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/c.-romualdi/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/c.-russ/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/c.-shin/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/c.-d.-kuhn/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/c.b.-giles/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/c.e.-mccoy/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/c.j.-hynes/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/c.l.-noland/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/c.m.-suter/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/c.p.-bracken/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/c.t.-neilsen/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/d.-baek/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/d.-betel/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/d.-fatkin/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/d.-grimm/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/d.-kaczynska/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/d.-kuzuoglu-ozturk/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/d.-piper/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/d.-saulep/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/d.-schrubeler/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/d.-wang/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/d.-xu/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/d.-young/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/d.c.-liebler/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/d.j.-patel/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/d.p.-bartel/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/d.s.-schwarz/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/d.t.-humphreys/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/e.-anderson/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/e.-elkayam/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/e.-huntzinger/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/e.-izaurralde/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/e.-marti/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/e.-minones-moyano/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/e.c.-lai/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/e.j.-lee/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/e.m.-greene/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/e.r.-lunde/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/ewan-m-smith/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/f.-biamonte/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/f.-liu/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/f.-llorens/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/f.-mackay/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/f.-zhang/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/f.a.-kolb/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/f.v.-rivas/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/g.-hannon/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/g.-hutvagner/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/g.-sales/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/g.-sheng/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/g.h.-wei/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/g.j.-goodall/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/g.j.-hannon/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/g.s.-wardle/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/h.-cui/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/h.-groetahans/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/h.-grosshans/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/h.-hu/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/h.-li/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/h.-zhang/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/h.-zhou/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/h.-s.-suh/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/h.a.-meijer/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/h.j.-fehling/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/h.r.-chiang/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/h.r.-patel/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/h.y.-hu/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/h.y.-lee/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/hedda-a-meijer/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/i.-bussing/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/i.-ferrer/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/i.-loedige/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/i.-markiewicz/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/i.-rusinova/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -3296,697 +2780,581 @@
   <url>
     <loc>http://lpantano.github.io/authors/j.-duebel/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j.-han/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j.-hausser/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j.-krol/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j.-li/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j.-liu/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j.-lopez-orozco/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j.-richter/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j.-winter/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j.-wu/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j.-j.-song/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j.-s.-yang/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j.a.-doudna/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j.a.-steitz/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j.b.-zang/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j.d.-godfrey/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j.d.-wren/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j.e.-babiarz/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j.e.-braun/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j.g.-ruby/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j.h.l.-hui/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j.j.-rossi/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j.l.-clancy/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j.m.-pare/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j.p.-aragon/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/j.w.-xuan/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/k.-giovannitti/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/k.-jaronczyk/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/k.-sobczak/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/k.-todoerti/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/k.-zhou/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/k.c.-chen/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/k.m.-sanders/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/k.s.-kosik/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/l.-agnelli/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/l.-burger/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/l.-cannon/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/l.-fang/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/l.-guo/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/l.-jiang/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/l.-jin/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/l.-jones/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/l.-joshua-tor/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/l.-perez/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/l.-song/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/l.-sumoy/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/l.-tarassishin/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/l.-wohbold/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/l.-wu/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/l.e.-jones/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/l.w.-schoenfeld/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m.-ascano/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m.-banez-coronel/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m.-biasiolo/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m.-bushell/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m.-drath/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m.-fasier/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m.-hafner/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m.-he/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m.-khorshid/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m.-kobayashi/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m.-landthaler/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m.-li/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m.-lionetti/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m.-milan/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m.-munschauer/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m.-ohanian/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m.-ronshaugen/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m.-rubio/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m.-xie/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m.-yoda/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m.-d.-shu/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m.a.-behlke/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m.a.-kay/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m.b.-stadler/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m.c.-siomi/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m.c.-zink/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m.d.-philips/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m.g.-dozmorov/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m.j.-serra/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m.l.-arcila/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m.p.-gantier/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/m.q.-zhang/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/martin-bushell/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/miquel-ramia/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/n.-aronin/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/n.-haines/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/n.-lee/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/n.-sestan/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/n.-shen/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/n.-spies/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/n.-tahbaz/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/n.h.-tolia/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/o.-loudig/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/o.-sawant/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/p.-berninger/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/p.-guglielmelli/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/p.-khaitovich/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/p.-lapointe/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/p.-lasko/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/p.-mu/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/p.b.-kwak/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/p.d.-zamore/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/p.j.-halvey/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/p.j.-hertzog/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/q.-liu/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/r.-girija-devi/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/r.-green/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/r.-manfredini/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/r.-montanez/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/r.-norfo/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/r.b.-darnell/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/r.c.-miranda/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/r.j.c.-slebos/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/r.v.-spriggs/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/raquel-egea/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -3997,457 +3365,381 @@
   <url>
     <loc>http://lpantano.github.io/authors/s.-balaraman/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/s.-bicker/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/s.-bortoluzzi/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/s.-chatterjee/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/s.-chen/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/s.-diederichs/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/s.-djuranovic/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/s.-griffiths-jones/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/s.-gu/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/s.-iwasaki/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/s.-juranek/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/s.-katsuma/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/s.-luo/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/s.-miller/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/s.-porta/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/s.-ribi/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/s.-ro/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/s.c.-lee/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/s.e.-washburn/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/s.q.-harper/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/s.w.-chi/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/s.w.-robinson/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/s.w.-shan/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/sonia-casillas/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/t.-du/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/t.-kawamata/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/t.-preiss/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/t.-shatseva/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/t.-suzuki/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/t.-tuschl/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/t.a.-cudd/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/t.c.-hobman/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/t.m.-rana/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/t.s.-miki/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/u.-wilczynska/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/v.-busskamp/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/v.-yartseva/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/v.c.-auyeung/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/v.n.-kim/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/w.-chen/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/w.-filipowicz/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/w.-yan/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/w.-y.-lu/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/w.j.-krzyzosiak/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/w.k.-johnston/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/w.t.-lu/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/w.w.-du/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/x.-belles/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/x.-estivill/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/x.-huang/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/x.-luo/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/x.-wang/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/x.-yan/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/x.-yang/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/x.-ye/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/y.-huang/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/y.-liu/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/y.-sakaguchi/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/y.-shyr/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/y.-tang/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/y.-tomari/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/y.-wang/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/y.-xing/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/y.-xu/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/y.-zheng/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/y.h.-zhou/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/y.w.-kong/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/z.-deng/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/z.-li/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/z.-lu/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/z.-paroo/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/z.-xu/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/z.-ying/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/z.j.-huang/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/z.j.-rutnam/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/small-rna/</loc>
     <lastmod>2013-10-29T08:05:56-04:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -4473,217 +3765,181 @@
   <url>
     <loc>http://lpantano.github.io/tags/amyloid-beta-protein-precursor/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/amyloid-beta-protein-precursor-deficiency/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/amyloid-beta-protein-precursor-genetics/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/ana-vivancos/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/anna-ferrer/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/argonaute-proteins/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/argonaute-proteins-metabolism/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/cyclooxygenase-2/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/cyclooxygenase-2-deficiency/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/cyclooxygenase-2-genetics/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/dead-box-rna-helicases/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/dead-box-rna-helicases-metabolism/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/dual-specificity-phosphatase-1/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/dual-specificity-phosphatase-1-deficiency/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/dual-specificity-phosphatase-1-genetics/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/epidermal-growth-factor/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/epidermal-growth-factor-pharmacology/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/ester-castillo/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/franc-llorens/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/gene-expression-regulation-genetics/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/gene-silencing/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/gene-targeting/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/genetic-drug-effects/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/genetic-genetics/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/genomics-methods/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/hela-cells/</loc>
-    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/heidi-mattlin/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/heinz-himmelbauer/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/hela-cells/</loc>
+    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/high-throughput-nucleotide-sequencing/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/high-throughput-nucleotide-sequencing-methods/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/jose-antonio-del-rio/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/juliane-c-dohm/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/lauro-sumoy/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/manuela-hummel/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/marc-noguera/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/matthew-ingham/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -4692,153 +3948,128 @@
   </url>
   
   <url>
+    <loc>http://lpantano.github.io/tags/micrornas-metabolism/</loc>
+    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://lpantano.github.io/tags/myeloid-cell-leukemia-sequence-1-protein/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/monica-bayes/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/monica-banez-coronel/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/oligonucleotide-array-sequence-analysis/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/oligonucleotide-array-sequence-analysis-methods/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/polycomb-repressive-complex-2/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/polycomb-repressive-complex-2-deficiency/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/polycomb-repressive-complex-2-genetics/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/proto-oncogene-proteins/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/proto-oncogene-proteins-c-bcl-2/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/proto-oncogene-proteins-c-bcl-2-deficiency/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/proto-oncogene-proteins-c-bcl-2-genetics/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/proto-oncogene-proteins-metabolism/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/rna-isoforms/</loc>
-    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/rna-isoforms-genetics/</loc>
-    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/rna-isoforms-metabolism/</loc>
-    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/raquel-pluvinet/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/rna-isoforms/</loc>
+    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/rna-isoforms-genetics/</loc>
+    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/rna-isoforms-metabolism/</loc>
+    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/robert-kofler/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/signal-transduction/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/signal-transduction-drug-effects/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/signal-transduction-genetics/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/xavier-pastor/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/micrornas-metabolism/</loc>
-    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/-eulalia-marti/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/annotation/</loc>
     <lastmod>2012-09-18T12:10:24-04:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -4859,7 +4090,6 @@
   <url>
     <loc>http://lpantano.github.io/tags/general/</loc>
     <lastmod>2012-04-13T10:45:07-04:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -4870,67 +4100,56 @@
   <url>
     <loc>http://lpantano.github.io/tags/biology/</loc>
     <lastmod>2012-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/birgit-kagerbauer/</loc>
     <lastmod>2012-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/elisabet-mateu-huertas/</loc>
     <lastmod>2012-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/gene-expression/</loc>
     <lastmod>2012-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/genetics-and-genomics/</loc>
     <lastmod>2012-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/manuel-guzman/</loc>
     <lastmod>2012-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/molecular-biology/</loc>
     <lastmod>2012-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/molecular-cell-biology/</loc>
     <lastmod>2012-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/nucleic-acids/</loc>
     <lastmod>2012-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/research-article/</loc>
     <lastmod>2012-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/silvia-porta/</loc>
     <lastmod>2012-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -4941,37 +4160,36 @@
   <url>
     <loc>http://lpantano.github.io/tags/micrornas-classification/</loc>
     <lastmod>2011-11-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/molecular-sequence-annotation/</loc>
     <lastmod>2011-11-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/small-untranslated/</loc>
     <lastmod>2011-11-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/small-untranslated-chemistry/</loc>
     <lastmod>2011-11-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/small-untranslated-classification/</loc>
     <lastmod>2011-11-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/software/</loc>
     <lastmod>2011-11-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/genetic-variation/</loc>
+    <lastmod>2010-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -4980,9 +4198,38 @@
   </url>
   
   <url>
+    <loc>http://lpantano.github.io/tags/cell-differentiation/</loc>
+    <lastmod>2010-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/computational-biology/</loc>
+    <lastmod>2010-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://lpantano.github.io/authors/elena-minones-moyano/</loc>
     <lastmod>2010-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/embryonic-stem-cells/</loc>
+    <lastmod>2010-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/embryonic-stem-cells-cytology/</loc>
+    <lastmod>2010-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/embryonic-stem-cells-metabolism/</loc>
+    <lastmod>2010-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/micrornas-chemistry/</loc>
+    <lastmod>2010-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -4993,67 +4240,21 @@
   <url>
     <loc>http://lpantano.github.io/authors/slvia-porta/</loc>
     <lastmod>2010-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/cell-differentiation/</loc>
-    <lastmod>2010-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/computational-biology/</loc>
-    <lastmod>2010-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/embryonic-stem-cells/</loc>
-    <lastmod>2010-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/embryonic-stem-cells-cytology/</loc>
-    <lastmod>2010-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/embryonic-stem-cells-metabolism/</loc>
-    <lastmod>2010-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/genetic-variation/</loc>
-    <lastmod>2010-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/micrornas-chemistry/</loc>
-    <lastmod>2010-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/alessandro-di-tullio/</loc>
     <lastmod>2009-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/blotting/</loc>
     <lastmod>2009-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/cedric-notredame/</loc>
     <lastmod>2009-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -5064,169 +4265,141 @@
   <url>
     <loc>http://lpantano.github.io/tags/fibroblasts/</loc>
     <lastmod>2009-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/fibroblasts-cytology/</loc>
     <lastmod>2009-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/fibroblasts-virology/</loc>
     <lastmod>2009-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/florencio-varas/</loc>
     <lastmod>2009-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/genetic-vectors/</loc>
     <lastmod>2009-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/genetic-vectors-genetics/</loc>
     <lastmod>2009-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/konrad-hochedlinger/</loc>
     <lastmod>2009-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/kruppel-like-transcription-factors/</loc>
     <lastmod>2009-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/kruppel-like-transcription-factors-genetics/</loc>
     <lastmod>2009-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/luisa-de-andres-aguayo/</loc>
     <lastmod>2009-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/matthias-stadtfeld/</loc>
     <lastmod>2009-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/authors/nimet-maherali/</loc>
-    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/octamer-transcription-factor-3/</loc>
-    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/octamer-transcription-factor-3-genetics/</loc>
-    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/pluripotent-stem-cells/</loc>
-    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/pluripotent-stem-cells-cytology/</loc>
-    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/pluripotent-stem-cells-metabolism/</loc>
-    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/pluripotent-stem-cells-virology/</loc>
-    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/polymerase-chain-reaction/</loc>
-    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/proto-oncogene-proteins-c-myc/</loc>
-    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/proto-oncogene-proteins-c-myc-genetics/</loc>
-    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/retroviridae/</loc>
-    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/retroviridae-genetics/</loc>
-    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/soxb1-transcription-factors/</loc>
-    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/soxb1-transcription-factors-genetics/</loc>
-    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/southern/</loc>
-    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/authors/thomas-graf/</loc>
-    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/mypapers/</loc>
     <lastmod>2009-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/authors/nimet-maherali/</loc>
+    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/octamer-transcription-factor-3/</loc>
+    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/octamer-transcription-factor-3-genetics/</loc>
+    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/pluripotent-stem-cells/</loc>
+    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/pluripotent-stem-cells-cytology/</loc>
+    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/pluripotent-stem-cells-metabolism/</loc>
+    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/pluripotent-stem-cells-virology/</loc>
+    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/polymerase-chain-reaction/</loc>
+    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/proto-oncogene-proteins-c-myc/</loc>
+    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/proto-oncogene-proteins-c-myc-genetics/</loc>
+    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/retroviridae/</loc>
+    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/retroviridae-genetics/</loc>
+    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/southern/</loc>
+    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/soxb1-transcription-factors/</loc>
+    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/soxb1-transcription-factors-genetics/</loc>
+    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/authors/thomas-graf/</loc>
+    <lastmod>2009-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -5237,55 +4410,66 @@
   <url>
     <loc>http://lpantano.github.io/authors/lluis-armengol/</loc>
     <lastmod>2009-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/manel-garca-aragones/</loc>
     <lastmod>2009-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/raquel-rabionet/</loc>
     <lastmod>2009-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/sergi-villatoro/</loc>
     <lastmod>2009-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/internet/</loc>
     <lastmod>2008-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/user-computer-interface/</loc>
     <lastmod>2008-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/algorithms/</loc>
     <lastmod>2008-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/dna-probes/</loc>
+    <lastmod>2008-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/dna-probes-chemical-synthesis/</loc>
+    <lastmod>2008-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/dna-probes/chemical-synthesis/</loc>
     <lastmod>2008-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/nucleic-acid-amplification-techniques/</loc>
+    <lastmod>2008-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/nucleic-acid-amplification-techniques-methods/</loc>
+    <lastmod>2008-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/nucleic-acid-amplification-techniques/methods/</loc>
     <lastmod>2008-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -5294,33 +4478,8 @@
   </url>
   
   <url>
-    <loc>http://lpantano.github.io/tags/dna-probes/</loc>
-    <lastmod>2008-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/dna-probes-chemical-synthesis/</loc>
-    <lastmod>2008-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/nucleic-acid-amplification-techniques/</loc>
-    <lastmod>2008-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/nucleic-acid-amplification-techniques-methods/</loc>
-    <lastmod>2008-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://lpantano.github.io/authors/geoff-macintyre/</loc>
     <lastmod>2007-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -5329,63 +4488,63 @@
   </url>
   
   <url>
+    <loc>http://lpantano.github.io/tags/iscb/</loc>
+    <lastmod>2007-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://lpantano.github.io/authors/pedro-lopes/</loc>
     <lastmod>2007-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/priscila-grynberg/</loc>
     <lastmod>2007-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/thomas-abeel/</loc>
     <lastmod>2007-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/iscb/</loc>
-    <lastmod>2007-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/ann-m-joseph-george/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/base-sequence/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/charles-lee/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/cheng-qian/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/dna/</loc>
+    <lastmod>2006-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/dna-genetics/</loc>
+    <lastmod>2006-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/dna/genetics/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/fluorescence/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -5396,121 +4555,91 @@
   <url>
     <loc>http://lpantano.github.io/authors/hiroyuki-aburatani/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/human/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/in-situ-hybridization/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/jeffrey-r-macdonald/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/john-wei/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/junjun-zhang/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/keith-jones/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/lars-feuk/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/mary-shago/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/matthew-hurles/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/muhammad-a-rafiq/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/razi-khaja/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/richard-j-mural/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/authors/richard-redon/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/sequence-alignment/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/authors/stephen-w-scherer/</loc>
-    <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/authors/yongshu-he/</loc>
-    <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/dna/</loc>
-    <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://lpantano.github.io/tags/dna-genetics/</loc>
-    <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lpantano.github.io/tags/situ-hybridization/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/authors/stephen-w-scherer/</loc>
+    <lastmod>2006-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/authors/yongshu-he/</loc>
+    <lastmod>2006-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -5519,7 +4648,6 @@
   
   <url>
     <loc>http://lpantano.github.io/categories/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>
