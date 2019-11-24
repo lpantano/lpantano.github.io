@@ -246,15 +246,6 @@
     </item>
     
     <item>
-      <title>*Genomics</title>
-      <link>http://lpantano.github.io/tags/genomics/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://lpantano.github.io/tags/genomics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Animals</title>
       <link>http://lpantano.github.io/tags/animals/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
@@ -368,6 +359,15 @@
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>http://lpantano.github.io/tags/genome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genomics</title>
+      <link>http://lpantano.github.io/tags/genomics/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://lpantano.github.io/tags/genomics/</guid>
       <description></description>
     </item>
     

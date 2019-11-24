@@ -1218,11 +1218,6 @@
   </url>
   
   <url>
-    <loc>http://lpantano.github.io/tags/genomics/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://lpantano.github.io/authors/a-barbour/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -1469,6 +1464,11 @@
   
   <url>
     <loc>http://lpantano.github.io/publication/bailey-2016/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lpantano.github.io/tags/genomics/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
   
