@@ -1,0 +1,140 @@
+<!DOCTYPE html><html lang="en" data-theme="light"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="canonical" href="https://lpantano.github.io/blog/2026-01-28-claude-custom-commands-paper-review/"><!-- SEO --><title>Systematic Paper Reviews with Claude Custom Commands — Lorena Pantano</title><meta name="description" content="Custom AI commands ensure consistent scientific paper reviews. Learn to automate any repeated workflow while maintaining quality and thoroughness through systematic evaluation."><meta name="author" content="Lorena Pantano"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:url" content="https://lpantano.github.io/blog/2026-01-28-claude-custom-commands-paper-review/"><meta property="og:title" content="Systematic Paper Reviews with Claude Custom Commands — Lorena Pantano"><meta property="og:description" content="Custom AI commands ensure consistent scientific paper reviews. Learn to automate any repeated workflow while maintaining quality and thoroughness through systematic evaluation."><meta property="og:image" content="https://lpantano.github.io/og-image.png"><!-- Twitter --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@lopantano"><meta name="twitter:title" content="Systematic Paper Reviews with Claude Custom Commands — Lorena Pantano"><meta name="twitter:description" content="Custom AI commands ensure consistent scientific paper reviews. Learn to automate any repeated workflow while maintaining quality and thoroughness through systematic evaluation."><meta name="twitter:image" content="https://lpantano.github.io/og-image.png"><!-- Favicon --><link rel="icon" type="image/png" href="/icon.png"><!-- Preconnect for fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="/_astro/global.b_JS8rjt.css">
+<style>.article-main[data-astro-cid-zm77yjld]{padding-top:calc(var(--nav-height) + var(--space-12));padding-bottom:var(--space-24);min-height:100vh}.article-container[data-astro-cid-zm77yjld]{max-width:760px}.article-header[data-astro-cid-zm77yjld]{margin-bottom:var(--space-12);padding-bottom:var(--space-8);border-bottom:1px solid var(--color-card-border)}.article-meta[data-astro-cid-zm77yjld]{display:flex;align-items:center;gap:var(--space-3);margin-bottom:var(--space-5)}.article-date[data-astro-cid-zm77yjld]{font-size:var(--text-sm);color:var(--color-text-tertiary);font-weight:500}.article-title[data-astro-cid-zm77yjld]{font-size:clamp(1.75rem,4vw,2.75rem);margin-bottom:var(--space-5);line-height:1.1;letter-spacing:-.015em}.article-description[data-astro-cid-zm77yjld]{font-size:var(--text-lg);color:var(--color-text-secondary);line-height:1.6;margin-bottom:var(--space-6);font-weight:400}.article-tags[data-astro-cid-zm77yjld]{display:flex;flex-wrap:wrap;gap:var(--space-2)}.article-content[data-astro-cid-zm77yjld]{margin-bottom:var(--space-12)}.article-footer[data-astro-cid-zm77yjld]{padding-top:var(--space-8);border-top:1px solid var(--color-card-border)}.back-link[data-astro-cid-zm77yjld]{display:inline-flex;align-items:center;gap:var(--space-2);font-size:var(--text-base);font-weight:500;color:var(--color-text-secondary);text-decoration:none;transition:color var(--transition-fast),gap var(--transition-fast)}.back-link[data-astro-cid-zm77yjld]:hover{color:var(--color-primary);gap:var(--space-3)}
+</style></head> <body>  <nav class="nav" id="main-nav" aria-label="Main navigation" data-astro-cid-dmqpwcec> <div class="nav-inner container" data-astro-cid-dmqpwcec> <!-- Logo --> <a href="/" class="nav-logo" aria-label="Lorena Pantano — Home" data-astro-cid-dmqpwcec>
+Lorena Pantano
+</a> <!-- Desktop nav links --> <ul class="nav-links" role="list" data-astro-cid-dmqpwcec> <li data-astro-cid-dmqpwcec> <a href="/#portfolio" class="nav-link" data-astro-cid-dmqpwcec> Portfolio </a> </li><li data-astro-cid-dmqpwcec> <a href="/#experience" class="nav-link" data-astro-cid-dmqpwcec> Experience </a> </li><li data-astro-cid-dmqpwcec> <a href="/#writing" class="nav-link" data-astro-cid-dmqpwcec> Writing </a> </li><li data-astro-cid-dmqpwcec> <a href="/#talks" class="nav-link" data-astro-cid-dmqpwcec> Talks </a> </li><li data-astro-cid-dmqpwcec> <a href="/#publications" class="nav-link" data-astro-cid-dmqpwcec> Publications </a> </li> </ul> <!-- Right actions --> <div class="nav-actions" data-astro-cid-dmqpwcec> <button data-theme-toggle aria-label="Switch to dark mode" class="theme-toggle" onclick="window.__toggleTheme()" title="Toggle dark mode" data-astro-cid-dmqpwcec> <!-- Sun icon (shown in dark mode) --> <svg class="theme-icon-dark hidden" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-astro-cid-dmqpwcec> <circle cx="12" cy="12" r="5" data-astro-cid-dmqpwcec></circle><line x1="12" y1="1" x2="12" y2="3" data-astro-cid-dmqpwcec></line><line x1="12" y1="21" x2="12" y2="23" data-astro-cid-dmqpwcec></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64" data-astro-cid-dmqpwcec></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78" data-astro-cid-dmqpwcec></line><line x1="1" y1="12" x2="3" y2="12" data-astro-cid-dmqpwcec></line><line x1="21" y1="12" x2="23" y2="12" data-astro-cid-dmqpwcec></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36" data-astro-cid-dmqpwcec></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22" data-astro-cid-dmqpwcec></line> </svg> <!-- Moon icon (shown in light mode) --> <svg class="theme-icon-light" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-astro-cid-dmqpwcec> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" data-astro-cid-dmqpwcec></path> </svg> </button> <!-- Mobile hamburger --> <button class="hamburger" id="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu" data-astro-cid-dmqpwcec> <span data-astro-cid-dmqpwcec></span><span data-astro-cid-dmqpwcec></span><span data-astro-cid-dmqpwcec></span> </button> </div> </div> </nav> <!-- Mobile menu overlay --> <div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Navigation menu" data-astro-cid-dmqpwcec> <div class="mobile-menu-header" data-astro-cid-dmqpwcec> <a href="/" class="nav-logo" onclick="closeMobileMenu()" data-astro-cid-dmqpwcec>Lorena Pantano</a> <button class="mobile-close" id="menu-close" aria-label="Close menu" data-astro-cid-dmqpwcec> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-astro-cid-dmqpwcec> <line x1="18" y1="6" x2="6" y2="18" data-astro-cid-dmqpwcec></line><line x1="6" y1="6" x2="18" y2="18" data-astro-cid-dmqpwcec></line> </svg> </button> </div> <ul class="mobile-nav-links" role="list" data-astro-cid-dmqpwcec> <li data-astro-cid-dmqpwcec> <a href="/#portfolio" class="mobile-nav-link" onclick="closeMobileMenu()" data-astro-cid-dmqpwcec> Portfolio </a> </li><li data-astro-cid-dmqpwcec> <a href="/#experience" class="mobile-nav-link" onclick="closeMobileMenu()" data-astro-cid-dmqpwcec> Experience </a> </li><li data-astro-cid-dmqpwcec> <a href="/#writing" class="mobile-nav-link" onclick="closeMobileMenu()" data-astro-cid-dmqpwcec> Writing </a> </li><li data-astro-cid-dmqpwcec> <a href="/#talks" class="mobile-nav-link" onclick="closeMobileMenu()" data-astro-cid-dmqpwcec> Talks </a> </li><li data-astro-cid-dmqpwcec> <a href="/#publications" class="mobile-nav-link" onclick="closeMobileMenu()" data-astro-cid-dmqpwcec> Publications </a> </li> </ul> <div class="mobile-social" data-astro-cid-dmqpwcec> <a href="https://github.com/lpantano" target="_blank" rel="noopener" aria-label="GitHub" data-astro-cid-dmqpwcec>GitHub</a> <a href="https://www.linkedin.com/in/lpantano/" target="_blank" rel="noopener" aria-label="LinkedIn" data-astro-cid-dmqpwcec>LinkedIn</a> <a href="https://scholar.google.co.uk/citations?user=MeQGlRwAAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar" data-astro-cid-dmqpwcec>Scholar</a> </div> </div> <div class="mobile-menu-backdrop" id="menu-backdrop" data-astro-cid-dmqpwcec></div> <script type="module">const c=document.getElementById("main-nav"),d=()=>{c?.classList.toggle("scrolled",window.scrollY>60)};window.addEventListener("scroll",d,{passive:!0});const e=document.getElementById("menu-toggle"),o=document.getElementById("mobile-menu"),s=document.getElementById("menu-close"),t=document.getElementById("menu-backdrop");function l(){o?.classList.add("open"),t?.classList.add("visible"),e?.setAttribute("aria-expanded","true"),document.body.style.overflow="hidden"}function n(){o?.classList.remove("open"),t?.classList.remove("visible"),e?.setAttribute("aria-expanded","false"),document.body.style.overflow=""}window.closeMobileMenu=n;e?.addEventListener("click",l);s?.addEventListener("click",n);t?.addEventListener("click",n);const i=document.documentElement.getAttribute("data-theme"),a=document.querySelector(".theme-icon-light"),m=document.querySelector(".theme-icon-dark");i==="dark"&&(a?.classList.add("hidden"),m?.classList.remove("hidden"));</script> <main class="article-main" data-astro-cid-zm77yjld> <div class="article-container container" data-astro-cid-zm77yjld> <header class="article-header" data-astro-cid-zm77yjld> <div class="article-meta" data-astro-cid-zm77yjld> <time class="article-date" data-astro-cid-zm77yjld>January 28, 2026</time> <span class="tag-category" data-astro-cid-zm77yjld>Data at Scale</span> </div> <h1 class="article-title" data-astro-cid-zm77yjld>Systematic Paper Reviews with Claude Custom Commands</h1> <p class="article-description" data-astro-cid-zm77yjld>Custom AI commands ensure consistent scientific paper reviews. Learn to automate any repeated workflow while maintaining quality and thoroughness through systematic evaluation.</p> <div class="article-tags" data-astro-cid-zm77yjld> <span class="tag" data-astro-cid-zm77yjld>AI-automation</span><span class="tag" data-astro-cid-zm77yjld>research-workflows</span><span class="tag" data-astro-cid-zm77yjld>scientific-computing</span><span class="tag" data-astro-cid-zm77yjld>paper-review</span><span class="tag" data-astro-cid-zm77yjld>bioinformatics</span><span class="tag" data-astro-cid-zm77yjld>reproducibility</span> </div> </header> <div class="article-content prose" data-astro-cid-zm77yjld>  <p>{{&#x3C; youtube YZry3CwDwAw >}}</p>
+<p><em>Note: Claude now calls custom commands “skills” - the functionality is identical, just renamed. This post uses the original “custom commands” terminology from the video.</em></p>
+<h2 id="the-problem-inconsistent-paper-reviews">The Problem: Inconsistent Paper Reviews</h2>
+<p>I review hundreds of scientific papers for the <a href="https://healthintegrityproject.org">Health Integrity Project</a>. We evaluate health claims—things you hear everywhere, like “Red raspberry leaf shortens labor”—and determine if scientific evidence supports them.</p>
+<p>The challenge? Consistency.</p>
+<p>Manual reviews take 30 minutes to 2 hours per paper. I might check for conflicts of interest thoroughly in one review, then forget in the next. Focus on statistical methods in one paper, skip bias assessment in another. My criteria shift paper to paper.</p>
+<p>This inconsistency doesn’t just waste time—it undermines scientific validity. If evaluation criteria change between papers, the entire project loses credibility.</p>
+<h2 id="the-solution-claude-custom-commands">The Solution: Claude Custom Commands</h2>
+<p>Claude custom commands tell the AI model exactly how to handle a specific task. I created a command that runs the same evaluation workflow every single time.</p>
+<p>The workflow asks:</p>
+<ul>
+<li>Are there conflicts of interest?</li>
+<li>Is this a valid study type (not narrative reviews)?</li>
+<li>Is the control group adequate?</li>
+<li>What biases exist?</li>
+<li>Do results align with the claim?</li>
+</ul>
+<p>Each paper goes through identical steps. Nothing gets skipped.</p>
+<h2 id="how-it-works">How It Works</h2>
+<p>A custom command is a markdown file in your project folder (<code>.claude/commands/</code>). Mine is called <code>review-paper.md</code>.</p>
+<h3 id="basic-structure">Basic Structure</h3>
+<p>Every custom command has three parts:</p>
+<ol>
+<li><strong>Input</strong>: What you provide</li>
+<li><strong>Task</strong>: What Claude should do</li>
+<li><strong>Output format</strong>: How results should look</li>
+</ol>
+<p>Here’s the minimal markdown structure:</p>
+<pre class="astro-code github-light" style="background-color:#fff;color:#24292e; overflow-x: auto;" tabindex="0" data-language="markdown"><code><span class="line"><span style="color:#005CC5;font-weight:bold"># Command Name</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#005CC5;font-weight:bold">## Input</span></span>
+<span class="line"><span style="color:#E36209">-</span><span style="color:#24292E"> Item 1 (e.g., paper location)</span></span>
+<span class="line"><span style="color:#E36209">-</span><span style="color:#24292E"> Item 2 (e.g., claim to evaluate)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#005CC5;font-weight:bold">## Task</span></span>
+<span class="line"><span style="color:#24292E">Step-by-step instructions for Claude to follow</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#005CC5;font-weight:bold">## Output Format</span></span>
+<span class="line"><span style="color:#24292E">How you want results structured</span></span></code></pre>
+<h3 id="my-paper-review-workflow">My Paper Review Workflow</h3>
+<pre class="astro-code github-light" style="background-color:#fff;color:#24292e; overflow-x: auto;" tabindex="0" data-language="markdown"><code><span class="line"><span style="color:#005CC5;font-weight:bold">## Step 1: Validation Screen</span></span>
+<span class="line"><span style="color:#E36209">-</span><span style="color:#24292E"> Check conflict of interest</span></span>
+<span class="line"><span style="color:#E36209">-</span><span style="color:#24292E"> Identify study type</span></span>
+<span class="line"><span style="color:#E36209">-</span><span style="color:#24292E"> Flag narrative reviews or meta-analyses</span></span>
+<span class="line"><span style="color:#E36209">-</span><span style="color:#24292E"> Output: VALID or INVALID with reasons</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#005CC5;font-weight:bold">## Step 2: Quality Assessment</span></span>
+<span class="line"><span style="color:#E36209">-</span><span style="color:#24292E"> Evaluate control groups</span></span>
+<span class="line"><span style="color:#E36209">-</span><span style="color:#24292E"> Assess statistical methods</span></span>
+<span class="line"><span style="color:#E36209">-</span><span style="color:#24292E"> Identify biases</span></span>
+<span class="line"><span style="color:#E36209">-</span><span style="color:#24292E"> Output: Quality rating with evidence</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#005CC5;font-weight:bold">## Step 3: Result Alignment</span></span>
+<span class="line"><span style="color:#E36209">-</span><span style="color:#24292E"> Compare study results to claim</span></span>
+<span class="line"><span style="color:#E36209">-</span><span style="color:#24292E"> Determine if supporting or contradicting</span></span>
+<span class="line"><span style="color:#E36209">-</span><span style="color:#24292E"> Output: Category recommendation</span></span></code></pre>
+<h2 id="real-example-raspberry-leaf-study">Real Example: Raspberry Leaf Study</h2>
+<p>I run the command: <code>/review-paper</code></p>
+<p>Claude asks for:</p>
+<ul>
+<li>Paper location</li>
+<li>Claim being evaluated</li>
+<li>Paper position (supporting or contradicting)</li>
+</ul>
+<p>I provide:</p>
+<ul>
+<li>Paper: <code>raspberry-study.pdf</code></li>
+<li>Claim: “Red raspberry leaf shortens labor and helps induce birth”</li>
+<li>Position: Supporting</li>
+</ul>
+<p>Claude starts the evaluation:</p>
+<p><strong>Step 1 Results:</strong></p>
+<ul>
+<li>Funding: Company involvement noted, but primary funding independent</li>
+<li>Study type: Human clinical trial (valid)</li>
+<li>No narrative meta-analysis</li>
+<li>Status: Proceed to quality check</li>
+</ul>
+<p><strong>Step 2 Results:</strong></p>
+<ul>
+<li>Control group: Present</li>
+<li>Statistical methods: Adequate sample size, appropriate tests</li>
+<li>Biases: Selection bias possible (self-reported outcomes)</li>
+</ul>
+<p><strong>Step 3 Results:</strong></p>
+<ul>
+<li>Study results: No significant difference in labor duration</li>
+<li>Alignment with claim: CONTRADICTS</li>
+<li>Category: Misinformation (claim unsupported by results)</li>
+</ul>
+<p>At each step, I can interact: “Dig deeper into selection bias” or “Show exact quote about labor duration from paper.”</p>
+<h2 id="beyond-paper-reviews">Beyond Paper Reviews</h2>
+<p>Custom commands work for any repeated workflow.</p>
+<p>Example for bioinformatics:</p>
+<pre class="astro-code github-light" style="background-color:#fff;color:#24292e; overflow-x: auto;" tabindex="0" data-language="markdown"><code><span class="line"><span style="color:#24292E">Command: /optimize-nextflow</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">Input: Pipeline directory</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">Task:</span></span>
+<span class="line"><span style="color:#E36209">1.</span><span style="color:#24292E"> Analyze resource usage from execution reports</span></span>
+<span class="line"><span style="color:#E36209">2.</span><span style="color:#24292E"> Calculate actual vs requested CPU/memory</span></span>
+<span class="line"><span style="color:#E36209">3.</span><span style="color:#24292E"> Ignore failed jobs</span></span>
+<span class="line"><span style="color:#E36209">4.</span><span style="color:#24292E"> Generate updated resource config</span></span>
+<span class="line"><span style="color:#E36209">5.</span><span style="color:#24292E"> Optional: Update nextflow.config</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292E">Output: Resource optimization recommendations</span></span></code></pre>
+<h2 id="why-this-matters">Why This Matters</h2>
+<p><strong>Time savings</strong>: Reviews that took 1-2 hours now take 30 minutes.</p>
+<p><strong>Consistency</strong>: Same questions, same order, every paper.</p>
+<p><strong>Thoroughness</strong>: Nothing gets forgotten or skipped.</p>
+<p><strong>Transparency</strong>: The workflow is documented and repeatable.</p>
+<p>The custom command doesn’t replace my judgment—it retrieves information and ensures I evaluate every paper the same way. I still make final decisions. I still dig deeper when needed.</p>
+<p><strong>What custom commands can’t do</strong>: Make subjective quality judgments, understand context outside the paper, or catch every nuance in complex statistical methods. They work best for structured, repeatable workflows where the steps are clear.</p>
+<p>But I never miss conflict of interest checks again. I never forget to assess control groups. The baseline evaluation happens consistently.</p>
+<h2 id="getting-started">Getting Started</h2>
+<ol>
+<li>Find a workflow you repeat frequently</li>
+<li>Document the steps</li>
+<li>Define input, task, and output format</li>
+<li>Create a markdown file in <code>.claude/commands/</code></li>
+<li>Test and refine</li>
+</ol>
+<p>Start simple. Even basic workflows benefit from automation.</p>
+<p>The goal isn’t to hand everything to AI. It’s to ensure your systematic processes stay systematic.</p>
+<hr>
+<p><strong>Resources:</strong></p>
+<ul>
+<li><a href="https://healthintegrityproject.org">Health Integrity Project</a> - Evidence-based health claim evaluation</li>
+<li><a href="https://code.claude.com/docs/en/skills">Claude Custom Commands/skills Documentation</a> - How to create your own commands</li>
+<li><a href="https://healthintegrityproject.org/workflow">Health Integrity Review Workflow</a> - Our paper evaluation process</li>
+</ul>
+<p><em>Have you tried custom commands for your repeated workflows? What tasks would benefit from systematic automation in your work?</em></p>  </div> <footer class="article-footer" data-astro-cid-zm77yjld> <a href="/" class="back-link" data-astro-cid-zm77yjld> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-astro-cid-zm77yjld> <line x1="19" y1="12" x2="5" y2="12" data-astro-cid-zm77yjld></line><polyline points="12 19 5 12 12 5" data-astro-cid-zm77yjld></polyline> </svg>
+Back to home
+</a> </footer> </div> </main> <footer class="footer" data-astro-cid-sz7xmlte> <div class="container footer-inner" data-astro-cid-sz7xmlte> <div class="footer-left" data-astro-cid-sz7xmlte> <a href="/" class="footer-logo" data-astro-cid-sz7xmlte>LP</a> <p class="footer-tagline" data-astro-cid-sz7xmlte>
+Building tools that turn genomic data into clear insights.
+</p> <div class="footer-social" data-astro-cid-sz7xmlte> <a href="https://github.com/lpantano" target="_blank" rel="noopener" aria-label="GitHub" data-astro-cid-sz7xmlte> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-sz7xmlte> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" data-astro-cid-sz7xmlte></path> </svg> </a> <a href="https://www.linkedin.com/in/lpantano/" target="_blank" rel="noopener" aria-label="LinkedIn" data-astro-cid-sz7xmlte> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-sz7xmlte> <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" data-astro-cid-sz7xmlte></path> </svg> </a> <a href="https://scholar.google.co.uk/citations?user=MeQGlRwAAAAJ&hl" target="_blank" rel="noopener" aria-label="Google Scholar" data-astro-cid-sz7xmlte> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-sz7xmlte> <path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 10a8 8 0 0 1 7.162 3.44L24 9.5z" data-astro-cid-sz7xmlte></path> </svg> </a> <a href="https://twitter.com/lopantano" target="_blank" rel="noopener" aria-label="Twitter" data-astro-cid-sz7xmlte> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-sz7xmlte> <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" data-astro-cid-sz7xmlte></path> </svg> </a> </div> </div> <nav class="footer-nav" aria-label="Footer navigation" data-astro-cid-sz7xmlte> <div class="footer-nav-col" data-astro-cid-sz7xmlte> <h4 class="footer-nav-heading" data-astro-cid-sz7xmlte>Navigation</h4> <ul data-astro-cid-sz7xmlte> <li data-astro-cid-sz7xmlte><a href="#portfolio" data-astro-cid-sz7xmlte>Portfolio</a></li> <li data-astro-cid-sz7xmlte><a href="#experience" data-astro-cid-sz7xmlte>Experience</a></li> <li data-astro-cid-sz7xmlte><a href="#writing" data-astro-cid-sz7xmlte>Writing</a></li> <li data-astro-cid-sz7xmlte><a href="#talks" data-astro-cid-sz7xmlte>Talks</a></li> <li data-astro-cid-sz7xmlte><a href="#publications" data-astro-cid-sz7xmlte>Publications</a></li> </ul> </div> <div class="footer-nav-col" data-astro-cid-sz7xmlte> <h4 class="footer-nav-heading" data-astro-cid-sz7xmlte>Community</h4> <ul data-astro-cid-sz7xmlte> <li data-astro-cid-sz7xmlte><a href="https://podcast.boston-wib.org/" target="_blank" rel="noopener" data-astro-cid-sz7xmlte>A Coffee with CompBio</a></li> <li data-astro-cid-sz7xmlte><a href="https://boston-wib.org" target="_blank" rel="noopener" data-astro-cid-sz7xmlte>Women in Bioinformatics</a></li> <li data-astro-cid-sz7xmlte><a href="https://massawis.org/board-members-2024-2025/" target="_blank" rel="noopener" data-astro-cid-sz7xmlte>AWIS MASS</a></li> <li data-astro-cid-sz7xmlte><a href="https://www.nextflow.io/" target="_blank" rel="noopener" data-astro-cid-sz7xmlte>Nextflow</a></li> </ul> </div> </nav> </div> <div class="footer-bottom" data-astro-cid-sz7xmlte> <div class="container footer-bottom-inner" data-astro-cid-sz7xmlte> <p class="footer-copy" data-astro-cid-sz7xmlte>© 2026 Lorena Pantano. All rights reserved.</p> <div class="footer-links" data-astro-cid-sz7xmlte> <a href="/privacy/" data-astro-cid-sz7xmlte>Privacy</a> <a href="/terms/" data-astro-cid-sz7xmlte>Terms</a> <a href="mailto:lpantano@iscb.org" data-astro-cid-sz7xmlte>Contact</a> </div> </div> </div> </footer>  <script type="module">const o=localStorage.getItem("theme")||"light";document.documentElement.setAttribute("data-theme",o);window.__toggleTheme=()=>{const e=document.documentElement.getAttribute("data-theme")==="dark"?"light":"dark";document.documentElement.setAttribute("data-theme",e),localStorage.setItem("theme",e),document.querySelectorAll("[data-theme-toggle]").forEach(t=>{t.setAttribute("aria-label",e==="dark"?"Switch to light mode":"Switch to dark mode"),t.querySelector(".theme-icon-light")?.classList.toggle("hidden",e==="dark"),t.querySelector(".theme-icon-dark")?.classList.toggle("hidden",e!=="dark")})};</script> </body> </html>
