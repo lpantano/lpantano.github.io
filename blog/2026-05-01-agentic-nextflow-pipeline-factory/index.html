@@ -1,0 +1,228 @@
+<!DOCTYPE html><html lang="en" data-theme="light"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="canonical" href="https://lpantano.github.io/blog/2026-05-01-agentic-nextflow-pipeline-factory/"><!-- SEO --><title>A Lab-Scale Pipeline Factory: Agentic Infrastructure for Nextflow Development — Lorena Pantano</title><meta name="description" content="How one bioinformatician used AI agents to eliminate pipeline development bottlenecks — architecture, agents, memory system, and hard-won rules from Nextflow Summit 2026."><meta name="author" content="Lorena Pantano"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:url" content="https://lpantano.github.io/blog/2026-05-01-agentic-nextflow-pipeline-factory/"><meta property="og:title" content="A Lab-Scale Pipeline Factory: Agentic Infrastructure for Nextflow Development — Lorena Pantano"><meta property="og:description" content="How one bioinformatician used AI agents to eliminate pipeline development bottlenecks — architecture, agents, memory system, and hard-won rules from Nextflow Summit 2026."><meta property="og:image" content="https://lpantano.github.io/og-image.png"><!-- Twitter --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@lopantano"><meta name="twitter:title" content="A Lab-Scale Pipeline Factory: Agentic Infrastructure for Nextflow Development — Lorena Pantano"><meta name="twitter:description" content="How one bioinformatician used AI agents to eliminate pipeline development bottlenecks — architecture, agents, memory system, and hard-won rules from Nextflow Summit 2026."><meta name="twitter:image" content="https://lpantano.github.io/og-image.png"><!-- Favicon --><link rel="icon" type="image/png" href="/icon.png"><!-- Preconnect for fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="/_astro/global.b_JS8rjt.css">
+<style>.article-main[data-astro-cid-zm77yjld]{padding-top:calc(var(--nav-height) + var(--space-12));padding-bottom:var(--space-24);min-height:100vh}.article-container[data-astro-cid-zm77yjld]{max-width:760px}.article-header[data-astro-cid-zm77yjld]{margin-bottom:var(--space-12);padding-bottom:var(--space-8);border-bottom:1px solid var(--color-card-border)}.article-meta[data-astro-cid-zm77yjld]{display:flex;align-items:center;gap:var(--space-3);margin-bottom:var(--space-5)}.article-date[data-astro-cid-zm77yjld]{font-size:var(--text-sm);color:var(--color-text-tertiary);font-weight:500}.article-title[data-astro-cid-zm77yjld]{font-size:clamp(1.75rem,4vw,2.75rem);margin-bottom:var(--space-5);line-height:1.1;letter-spacing:-.015em}.article-description[data-astro-cid-zm77yjld]{font-size:var(--text-lg);color:var(--color-text-secondary);line-height:1.6;margin-bottom:var(--space-6);font-weight:400}.article-tags[data-astro-cid-zm77yjld]{display:flex;flex-wrap:wrap;gap:var(--space-2)}.article-content[data-astro-cid-zm77yjld]{margin-bottom:var(--space-12)}.article-footer[data-astro-cid-zm77yjld]{padding-top:var(--space-8);border-top:1px solid var(--color-card-border)}.back-link[data-astro-cid-zm77yjld]{display:inline-flex;align-items:center;gap:var(--space-2);font-size:var(--text-base);font-weight:500;color:var(--color-text-secondary);text-decoration:none;transition:color var(--transition-fast),gap var(--transition-fast)}.back-link[data-astro-cid-zm77yjld]:hover{color:var(--color-primary);gap:var(--space-3)}
+</style></head> <body>  <nav class="nav" id="main-nav" aria-label="Main navigation" data-astro-cid-dmqpwcec> <div class="nav-inner container" data-astro-cid-dmqpwcec> <!-- Logo --> <a href="/" class="nav-logo" aria-label="Lorena Pantano — Home" data-astro-cid-dmqpwcec>
+Lorena Pantano
+</a> <!-- Desktop nav links --> <ul class="nav-links" role="list" data-astro-cid-dmqpwcec> <li data-astro-cid-dmqpwcec> <a href="/#portfolio" class="nav-link" data-astro-cid-dmqpwcec> Portfolio </a> </li><li data-astro-cid-dmqpwcec> <a href="/#videos" class="nav-link" data-astro-cid-dmqpwcec> Videos </a> </li><li data-astro-cid-dmqpwcec> <a href="/experience" class="nav-link" data-astro-cid-dmqpwcec> Experience </a> </li><li data-astro-cid-dmqpwcec> <a href="/#writing" class="nav-link" data-astro-cid-dmqpwcec> Writing </a> </li><li data-astro-cid-dmqpwcec> <a href="/#talks" class="nav-link" data-astro-cid-dmqpwcec> Talks </a> </li><li data-astro-cid-dmqpwcec> <a href="/#publications" class="nav-link" data-astro-cid-dmqpwcec> Publications </a> </li> </ul> <!-- Right actions --> <div class="nav-actions" data-astro-cid-dmqpwcec> <button data-theme-toggle aria-label="Switch to dark mode" class="theme-toggle" onclick="window.__toggleTheme()" title="Toggle dark mode" data-astro-cid-dmqpwcec> <!-- Sun icon (shown in dark mode) --> <svg class="theme-icon-dark hidden" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-astro-cid-dmqpwcec> <circle cx="12" cy="12" r="5" data-astro-cid-dmqpwcec></circle><line x1="12" y1="1" x2="12" y2="3" data-astro-cid-dmqpwcec></line><line x1="12" y1="21" x2="12" y2="23" data-astro-cid-dmqpwcec></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64" data-astro-cid-dmqpwcec></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78" data-astro-cid-dmqpwcec></line><line x1="1" y1="12" x2="3" y2="12" data-astro-cid-dmqpwcec></line><line x1="21" y1="12" x2="23" y2="12" data-astro-cid-dmqpwcec></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36" data-astro-cid-dmqpwcec></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22" data-astro-cid-dmqpwcec></line> </svg> <!-- Moon icon (shown in light mode) --> <svg class="theme-icon-light" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-astro-cid-dmqpwcec> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" data-astro-cid-dmqpwcec></path> </svg> </button> <!-- Mobile hamburger --> <button class="hamburger" id="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu" data-astro-cid-dmqpwcec> <span data-astro-cid-dmqpwcec></span><span data-astro-cid-dmqpwcec></span><span data-astro-cid-dmqpwcec></span> </button> </div> </div> </nav> <!-- Mobile menu overlay --> <div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Navigation menu" data-astro-cid-dmqpwcec> <div class="mobile-menu-header" data-astro-cid-dmqpwcec> <a href="/" class="nav-logo" onclick="closeMobileMenu()" data-astro-cid-dmqpwcec>Lorena Pantano</a> <button class="mobile-close" id="menu-close" aria-label="Close menu" data-astro-cid-dmqpwcec> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-astro-cid-dmqpwcec> <line x1="18" y1="6" x2="6" y2="18" data-astro-cid-dmqpwcec></line><line x1="6" y1="6" x2="18" y2="18" data-astro-cid-dmqpwcec></line> </svg> </button> </div> <ul class="mobile-nav-links" role="list" data-astro-cid-dmqpwcec> <li data-astro-cid-dmqpwcec> <a href="/#portfolio" class="mobile-nav-link" onclick="closeMobileMenu()" data-astro-cid-dmqpwcec> Portfolio </a> </li><li data-astro-cid-dmqpwcec> <a href="/#videos" class="mobile-nav-link" onclick="closeMobileMenu()" data-astro-cid-dmqpwcec> Videos </a> </li><li data-astro-cid-dmqpwcec> <a href="/experience" class="mobile-nav-link" onclick="closeMobileMenu()" data-astro-cid-dmqpwcec> Experience </a> </li><li data-astro-cid-dmqpwcec> <a href="/#writing" class="mobile-nav-link" onclick="closeMobileMenu()" data-astro-cid-dmqpwcec> Writing </a> </li><li data-astro-cid-dmqpwcec> <a href="/#talks" class="mobile-nav-link" onclick="closeMobileMenu()" data-astro-cid-dmqpwcec> Talks </a> </li><li data-astro-cid-dmqpwcec> <a href="/#publications" class="mobile-nav-link" onclick="closeMobileMenu()" data-astro-cid-dmqpwcec> Publications </a> </li> </ul> <div class="mobile-social" data-astro-cid-dmqpwcec> <a href="https://github.com/lpantano" target="_blank" rel="noopener" aria-label="GitHub" data-astro-cid-dmqpwcec>GitHub</a> <a href="https://www.linkedin.com/in/lpantano/" target="_blank" rel="noopener" aria-label="LinkedIn" data-astro-cid-dmqpwcec>LinkedIn</a> <a href="https://scholar.google.co.uk/citations?user=MeQGlRwAAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar" data-astro-cid-dmqpwcec>Scholar</a> </div> </div> <div class="mobile-menu-backdrop" id="menu-backdrop" data-astro-cid-dmqpwcec></div> <script type="module">const c=document.getElementById("main-nav"),d=()=>{c?.classList.toggle("scrolled",window.scrollY>60)};window.addEventListener("scroll",d,{passive:!0});const e=document.getElementById("menu-toggle"),o=document.getElementById("mobile-menu"),s=document.getElementById("menu-close"),t=document.getElementById("menu-backdrop");function l(){o?.classList.add("open"),t?.classList.add("visible"),e?.setAttribute("aria-expanded","true"),document.body.style.overflow="hidden"}function n(){o?.classList.remove("open"),t?.classList.remove("visible"),e?.setAttribute("aria-expanded","false"),document.body.style.overflow=""}window.closeMobileMenu=n;e?.addEventListener("click",l);s?.addEventListener("click",n);t?.addEventListener("click",n);const i=document.documentElement.getAttribute("data-theme"),a=document.querySelector(".theme-icon-light"),m=document.querySelector(".theme-icon-dark");i==="dark"&&(a?.classList.add("hidden"),m?.classList.remove("hidden"));</script> <main class="article-main" data-astro-cid-zm77yjld> <div class="article-container container" data-astro-cid-zm77yjld> <header class="article-header" data-astro-cid-zm77yjld> <div class="article-meta" data-astro-cid-zm77yjld> <time class="article-date" data-astro-cid-zm77yjld>May 1, 2026</time> <span class="tag-category" data-astro-cid-zm77yjld>Data at Scale</span> </div> <h1 class="article-title" data-astro-cid-zm77yjld>A Lab-Scale Pipeline Factory: Agentic Infrastructure for Nextflow Development</h1> <p class="article-description" data-astro-cid-zm77yjld>How one bioinformatician used AI agents to eliminate pipeline development bottlenecks — architecture, agents, memory system, and hard-won rules from Nextflow Summit 2026.</p> <div class="article-tags" data-astro-cid-zm77yjld> <span class="tag" data-astro-cid-zm77yjld>Nextflow</span><span class="tag" data-astro-cid-zm77yjld>AI agents</span><span class="tag" data-astro-cid-zm77yjld>bioinformatics</span><span class="tag" data-astro-cid-zm77yjld>GCP</span><span class="tag" data-astro-cid-zm77yjld>Docker</span><span class="tag" data-astro-cid-zm77yjld>pipeline automation</span><span class="tag" data-astro-cid-zm77yjld>Claude</span> </div> </header> <div class="article-content prose" data-astro-cid-zm77yjld>  <blockquote>
+<p>Presented at Nextflow Summit 2026. Technical architecture behind the talk — for bioinformaticians who know Nextflow but are new to agentic tooling.</p>
+</blockquote>
+<hr>
+<h2 id="the-problem">The Problem</h2>
+<p>One person. Every role: sysadmin, developer, data engineer, analyst, collaborator.</p>
+<p>Multiple datasets. Hundreds of samples each. Researchers arrive with new hypotheses needing a published tool wrapped into a runnable pipeline — not in two months, now. Development time becomes the bottleneck, not the science.</p>
+<p>AI agents can close that gap — but only if you invest in context first. Speed comes not from model intelligence but from encoding what to do before the agent starts.</p>
+<p>Available @ <a href="https://github.com/ghobriallab/pipelines">https://github.com/ghobriallab/pipelines</a></p>
+<h2 id="architecture-overview">Architecture Overview</h2>
+<p>Three tiers:</p>
+<ul>
+<li><strong>Agents</strong> — autonomous workers that execute tasks, spawn sub-agents, and handle failures</li>
+<li><strong>Skills</strong> — cross-cutting resolvers invoked inline (no side effects, no sub-agent spawn)</li>
+<li><strong>Commands</strong> — shell scripts for deterministic scaffolding</li>
+</ul>
+<p>One sentence triggers the whole chain: <code>Trinity, I need a nextflow pipeline using https://github.com/RabadanLab/arcasHLA.</code></p>
+<p><a href="https://nextflow.io">Nextflow</a> is a workflow orchestration framework for scalable and reproducible scientific pipelines.</p>
+<hr>
+<h2 id="trinity-the-orchestrator">Trinity: The Orchestrator</h2>
+<p>Trinity is the only entry point for pipeline creation. It runs six phases in order, with explicit parallelism and sequential gates built in.</p>
+<p><img  loading="lazy" decoding="async"  width="2172" height="1216" src="/_astro/slide_trinity.BVBmI6ML_Z2o00u5.webp" ></p>
+<h3 id="phase-flow">Phase Flow</h3>
+<pre class="astro-code github-light" style="background-color:#fff;color:#24292e; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>Phase 0: Parse pipeline name and tools from user message</span></span>
+<span class="line"><span>Phase 1: Create skeleton (setup-pipeline.sh) or verify existing one</span></span>
+<span class="line"><span>Phase 2: Confirm pipeline intent (input type, tool list)</span></span>
+<span class="line"><span>Phase 3a: Resolve container image (docker-resolve skill)</span></span>
+<span class="line"><span>Phase 3b: Build custom container [conditional, only if NOT_FOUND]</span></span>
+<span class="line"><span>Phase 3c: Prepare test data [always, parallel with 3b if applicable]</span></span>
+<span class="line"><span>Phase 4: Local run — stub then real [sequential, must pass before Phase 5]</span></span>
+<span class="line"><span>Phase 5: GCP run — Google Batch [sequential]</span></span>
+<span class="line"><span>Phase 6: Final report</span></span></code></pre>
+<p>Phases 3b and 3c run <strong>in parallel</strong> when a Docker build is needed — container build and test data prep are independent. Phases 4 and 5 are <strong>sequential</strong> — a failing local run blocks GCP.</p>
+<h3 id="optional-seqera-ai-for-nextflow-specific-problems">Optional: Seqera AI for Nextflow-specific problems</h3>
+<p>Trinity has the <a href="https://seqera.io/ask-ai/">Seqera AI</a> CLI as a fallback for DSL2 edge cases, nf-core module patterns, or Batch executor behavior it can’t resolve from context alone:</p>
+<pre class="astro-code github-light" style="background-color:#fff;color:#24292e; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#6F42C1">seqera</span><span style="color:#032F62"> ai</span><span style="color:#005CC5"> --headless</span><span style="color:#032F62"> "How do I emit two outputs from the same process with different types in DSL2?"</span></span></code></pre>
+<p>Runs headless, returns to Trinity without breaking the conversation chain. Used sparingly — credits are limited.</p>
+<p>When to use vs. WebSearch:</p>
+<ul>
+<li><strong>WebSearch</strong>: public docs, GitHub issues, Stack Overflow — free, fast</li>
+<li><strong><a href="https://seqera.io/ask-ai/">Seqera AI</a></strong>: Nextflow-specific reasoning, nf-core module internals, Batch executor nuance — use when WebSearch returns conflicting or outdated results</li>
+</ul>
+<h3 id="critical-docker-resolve-is-a-skill-not-a-tool-call">Critical: docker-resolve is a skill, not a tool call</h3>
+<p><code>docker-resolve</code> is listed in Trinity’s frontmatter as a preloaded skill:</p>
+<pre class="astro-code github-light" style="background-color:#fff;color:#24292e; overflow-x: auto;" tabindex="0" data-language="yaml"><code><span class="line"><span style="color:#6F42C1">---</span></span>
+<span class="line"><span style="color:#22863A">name</span><span style="color:#24292E">: </span><span style="color:#032F62">trinity</span></span>
+<span class="line"><span style="color:#22863A">skills</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#24292E">  - </span><span style="color:#032F62">docker-resolve</span></span>
+<span class="line"><span style="color:#6F42C1">---</span></span></code></pre>
+<p>Trinity executes docker-resolve logic directly via Bash — not via the <code>Skill</code> tool. Invoking the <code>Skill</code> tool mid-conversation emits a response to the parent agent and <strong>terminates Trinity prematurely</strong> — Phases 3c, 4, and 5 never run.</p>
+<p>The parent assistant has a matching hard rule: <strong>never pre-run docker-resolve before spawning Trinity</strong>. Pre-supplying the image causes Trinity to skip Phases 3c–5 entirely.</p>
+<hr>
+<h2 id="docker-resolve-the-container-skill">docker-resolve: The Container Skill</h2>
+<p>Pure lookup, no side effects. Three checks in order, stops at first success.</p>
+<h3 id="check-1-artifact-registry-custom-images">Check 1: Artifact Registry (custom images)</h3>
+<pre class="astro-code github-light" style="background-color:#fff;color:#24292e; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#6F42C1">gcloud</span><span style="color:#032F62"> artifacts</span><span style="color:#032F62"> repositories</span><span style="color:#032F62"> list</span><span style="color:#005CC5"> \</span></span>
+<span class="line"><span style="color:#005CC5">  --project=</span><span style="color:#24292E">$GCP_PROJECT</span><span style="color:#005CC5"> \</span></span>
+<span class="line"><span style="color:#005CC5">  --format=</span><span style="color:#032F62">"value(name)"</span></span></code></pre>
+<p>Fuzzy-match against the tool name. For each matching repo, list images and verify reachability with <code>docker manifest inspect</code>. Prefer pinned version over <code>latest</code>.</p>
+<h3 id="check-2-existing-container-directives">Check 2: Existing container directives</h3>
+<p>For each <code>container</code> directive in pipeline modules and <code>nextflow.config</code>, verify the URL is live. Wave URLs via <code>curl --head</code>, others via <code>docker manifest inspect</code>.</p>
+<h3 id="check-3-public-registries">Check 3: Public registries</h3>
+<p><a href="https://seqera.io/wave/">Seqera Wave</a> → <a href="https://biocontainers.pro/">biocontainers</a> → <a href="https://nf-co.re/">nf-core</a> quay.io. Always verify before returning.</p>
+<h3 id="output">Output</h3>
+<pre class="astro-code github-light" style="background-color:#fff;color:#24292e; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>STRATEGY: USE_EXISTING_CUSTOM | USE_EXISTING_PUBLIC | POPULATE_PUBLIC | NOT_FOUND</span></span>
+<span class="line"><span>IMAGE_URL: &#x3C;full image URL, or "none" if NOT_FOUND></span></span>
+<span class="line"><span>NOTES: &#x3C;what was checked></span></span></code></pre>
+<p><code>NOT_FOUND</code> triggers docker-build. Otherwise Trinity records the URL and continues.</p>
+<hr>
+<h2 id="docker-build-the-container-agent">docker-build: The Container Agent</h2>
+<p>Only spawned when docker-resolve returns <code>NOT_FOUND</code>. Reads the tool’s README, writes a Dockerfile, builds, and pushes.</p>
+<p><strong>Always: <code>--platform linux/amd64</code>.</strong> GCP Batch VMs are x86_64. Apple Silicon Macs must still target x86_64 or the container won’t run on Batch.</p>
+<p><strong>One repo per tool, not per pipeline.</strong> Artifact Registry repos are named after the tool (<code>arcashla</code>, <code>cellranger</code>), not the pipeline. Containers reuse across pipelines.</p>
+<p><strong>Baked-in reference databases.</strong> Some tools (arcasHLA) need reference data downloaded at build time:</p>
+<ol>
+<li>Install <code>git-lfs</code> if the reference uses <code>git clone</code> — without it, large repos silently download pointer files only</li>
+<li>Pin the reference version (<code>--version X.Y.Z</code>) — <code>--latest</code> breaks reproducibility</li>
+</ol>
+<hr>
+<h2 id="get-test-data-the-test-data-agent">get-test-data: The Test Data Agent</h2>
+<p>Runs in parallel with docker-build. Populates <code>test_data/</code> with minimal, realistic inputs.</p>
+<h3 id="attempt-order">Attempt Order</h3>
+<ol>
+<li><strong>nf-core module fixtures</strong> — curated table of known test files per tool</li>
+<li><strong>Tool’s own GitHub repository</strong> — look for test/ or data/ directories (max 3 API calls)</li>
+<li><strong>nf-core test-datasets catalog</strong> — grep by input type (FASTQ paired/single, BAM, VCF)</li>
+<li><strong>Synthetic data</strong> — Python FASTQ generator or <code>seqtk subsample</code> (asks user first)</li>
+</ol>
+<h3 id="output-contract">Output contract</h3>
+<ul>
+<li><code>test_data/samplesheet_test.csv</code> with exact column names expected by <code>main.nf</code></li>
+<li>2 samples (<code>sample1</code>, <code>sample2</code>) — enough to exercise branching</li>
+<li>Relative paths inside <code>test_data/</code></li>
+<li>All referenced files exist and are non-empty</li>
+</ul>
+<hr>
+<h2 id="run-local-the-local-executor">run-local: The Local Executor</h2>
+<p>Stub first, then real. Never proceeds to GCP until local passes.</p>
+<pre class="astro-code github-light" style="background-color:#fff;color:#24292e; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#6A737D"># 1. Stub run — validates DSL2 syntax and channel wiring without running tools</span></span>
+<span class="line"><span style="color:#6F42C1">nextflow</span><span style="color:#032F62"> run</span><span style="color:#032F62"> main.nf</span><span style="color:#005CC5"> -profile</span><span style="color:#032F62"> test</span><span style="color:#005CC5"> -stub</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># 2. Real run</span></span>
+<span class="line"><span style="color:#6F42C1">nextflow</span><span style="color:#032F62"> run</span><span style="color:#032F62"> main.nf</span><span style="color:#005CC5"> -profile</span><span style="color:#032F62"> test</span></span></code></pre>
+<p>On failure, the agent attempts one fix per error type (max 3 attempts total):</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Error pattern</th><th>Fix</th></tr></thead><tbody><tr><td><code>samplesheet not found</code></td><td>Correct path in <code>nextflow.config</code> test profile</td></tr><tr><td><code>Unknown parameter</code></td><td>Add param to <code>nextflow.config</code> params block</td></tr><tr><td><code>No such variable</code></td><td>Fix module path or channel reference in <code>main.nf</code></td></tr><tr><td>Stub syntax error</td><td>Fix <code>stub:</code> block in process module</td></tr></tbody></table>
+<p><strong>Success gate:</strong> <code>Status : SUCCESS</code> in Nextflow log + <code>results_test/</code> non-empty.</p>
+<hr>
+<h2 id="run-gcp-the-cloud-executor">run-gcp: The Cloud Executor</h2>
+<p>Pre-flight checks before any Nextflow command. All must pass:</p>
+<ol>
+<li><code>gcloud auth list</code> — active account</li>
+<li><code>gcloud services list</code> — Batch API enabled</li>
+<li><code>gsutil ls $GCP_WORK_DIR</code> — work bucket accessible</li>
+<li><code>docker manifest inspect &#x3C;image></code> — container reachable from GCP</li>
+<li>Grep pipeline configs for placeholder strings like <code>YOUR_PROJECT</code> or <code>CHANGEME</code></li>
+<li>Executor is <code>google-batch</code> (not deprecated <code>google-lifesciences</code>)</li>
+<li>If input files >150 GB: set <code>stageInMode = 'copy'</code> and disk to 500 GB</li>
+</ol>
+<p>Exit codes 125, 14, and 50001 → retry, not failure. Batch uses spot VMs by default; preemptions are expected.</p>
+<hr>
+<h2 id="environment-variables-the-adaptability-layer">Environment Variables: The Adaptability Layer</h2>
+<p>Every agent reads <code>.env</code> at startup. Same agent definitions work across different GCP projects, registries, and filesystem layouts — no agent code changes needed.</p>
+<pre class="astro-code github-light" style="background-color:#fff;color:#24292e; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#6A737D"># .env</span></span>
+<span class="line"><span style="color:#24292E">GCP_PROJECT</span><span style="color:#D73A49">=</span><span style="color:#032F62">"team-pipelines"</span></span>
+<span class="line"><span style="color:#24292E">GCP_REGION</span><span style="color:#D73A49">=</span><span style="color:#032F62">"us-east1"</span></span>
+<span class="line"><span style="color:#24292E">GCP_WORK_DIR</span><span style="color:#D73A49">=</span><span style="color:#032F62">"gs://team-pipelines/scratch"</span></span>
+<span class="line"><span style="color:#24292E">ARTIFACT_REGISTRY</span><span style="color:#D73A49">=</span><span style="color:#032F62">"us-docker.pkg.dev/team-pipelines"</span></span>
+<span class="line"><span style="color:#24292E">PIPELINES_DIR</span><span style="color:#D73A49">=</span><span style="color:#032F62">"."</span></span>
+<span class="line"><span style="color:#24292E">DOCKER_DEFAULT_PLATFORM</span><span style="color:#D73A49">=</span><span style="color:#032F62">"linux/amd64"</span></span></code></pre>
+<p>To port to a different lab or cloud account, change <code>.env</code> — nothing else.</p>
+<p><strong>One hostname rule:</strong> <code>$ARTIFACT_REGISTRY</code> already contains the full registry prefix. Never derive a regional variant:</p>
+<pre class="astro-code github-light" style="background-color:#fff;color:#24292e; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>us-docker.pkg.dev/team-pipelines      ← correct, verbatim from $ARTIFACT_REGISTRY</span></span>
+<span class="line"><span>us-east1-docker.pkg.dev/team-pipelines ← wrong, never derive from $GCP_REGION</span></span></code></pre>
+<p>Without this rule, the model derives a plausible-looking but wrong hostname. It’s repeated verbatim in <code>.memory/containers.md</code>, docker-resolve, and docker-build.</p>
+<hr>
+<h2 id="the-memory-system">The Memory System</h2>
+<p><code>.memory/</code> is a concept-based knowledge base loaded at agent startup — not embedded into prompts.</p>
+<pre class="astro-code github-light" style="background-color:#fff;color:#24292e; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>.memory/</span></span>
+<span class="line"><span>  overview.md      — existing pipelines, quick start</span></span>
+<span class="line"><span>  structure.md     — DSL2 layout, naming conventions</span></span>
+<span class="line"><span>  templates.md     — process templates, samplesheet patterns</span></span>
+<span class="line"><span>  commands.md      — how to invoke Trinity, setup-pipeline, add-process</span></span>
+<span class="line"><span>  workflow.md      — step-by-step dev flow</span></span>
+<span class="line"><span>  testing.md       — nf-test patterns, test data sources, checklists</span></span>
+<span class="line"><span>  development.md   — VS Code + Nextflow LSP setup</span></span>
+<span class="line"><span>  patterns.md      — input handling, branching, output management</span></span>
+<span class="line"><span>  gcp.md           — GCP config, error codes, resource patterns</span></span>
+<span class="line"><span>  containers.md    — container priority, Dockerfile patterns, known images</span></span></code></pre>
+<p>Agents read only the files relevant to their phase — <code>run-gcp</code> reads <code>gcp.md</code>, <code>docker-build</code> reads <code>containers.md</code>. Loading everything into every agent wastes tokens and dilutes focus.</p>
+<p>The files encode <strong>lab-specific conventions</strong> no generic model knows:</p>
+<ul>
+<li>Use <code>pixi run nextflow</code> not bare <code>nextflow</code></li>
+<li><code>$ARTIFACT_REGISTRY</code> already includes the project — never append <code>$GCP_PROJECT</code></li>
+<li>GCP Batch spot codes: 125, 14, 50001 → retry</li>
+<li>DSL2: process names UPPERCASE, directory names lowercase_underscore</li>
+</ul>
+<hr>
+<h2 id="permissions-bounding-the-blast-radius">Permissions: Bounding the Blast Radius</h2>
+<p>Agents run Bash autonomously. Without explicit limits, the blast radius is unbounded.</p>
+<p><code>.claude/settings.local.json</code> uses an allowlist-deny model:</p>
+<pre class="astro-code github-light" style="background-color:#fff;color:#24292e; overflow-x: auto;" tabindex="0" data-language="json"><code><span class="line"><span style="color:#24292E">{</span></span>
+<span class="line"><span style="color:#005CC5">  "permissions"</span><span style="color:#24292E">: {</span></span>
+<span class="line"><span style="color:#005CC5">    "allow"</span><span style="color:#24292E">: [</span></span>
+<span class="line"><span style="color:#032F62">      "Bash(docker *)"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">      "Bash(gcloud artifacts *)"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">      "Bash(pixi run *)"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">      "Bash(nextflow *)"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">      "Bash(git *)"</span></span>
+<span class="line"><span style="color:#24292E">    ],</span></span>
+<span class="line"><span style="color:#005CC5">    "deny"</span><span style="color:#24292E">: [</span></span>
+<span class="line"><span style="color:#032F62">      "Bash(rm -rf *)"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">      "Bash(rm -r *)"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#032F62">      "Bash(rm *)"</span></span>
+<span class="line"><span style="color:#24292E">    ]</span></span>
+<span class="line"><span style="color:#24292E">  }</span></span>
+<span class="line"><span style="color:#24292E">}</span></span></code></pre>
+<p><code>rm</code> in any form requires user confirmation. Everything outside the allow list also prompts — but the deny list catches destructive cases even if a wildcard allow is added later.</p>
+<hr>
+<h2 id="three-hard-rules">Three Hard Rules</h2>
+<p><strong>Rule 1: Never pre-run docker-resolve before spawning Trinity.</strong></p>
+<p>It’s tempting to resolve the container first and pass the URL in. Don’t. Trinity skips Phases 3c, 4, and 5 when the image is pre-supplied — no test data, no local run, no GCP run.</p>
+<p><strong>Rule 2: Spawn Trinity exactly once per request.</strong></p>
+<p>One <code>Agent(subagent_type: "trinity", ...)</code> covers all six phases. Each spawn starts fresh — splitting across multiple spawns breaks state.</p>
+<p><strong>Rule 3: Context is the product.</strong></p>
+<p>Speed comes from what the model knows before it starts: <code>.memory/</code> files encoding lab conventions, <code>.env</code> resolving GCP paths, agent instructions listing failure modes and fixes. Writing those files is the engineering work. An agent without context makes the same mistakes as a model with none.</p>
+<hr>
+<h2 id="tips-for-replication">Tips for Replication</h2>
+<p><strong>Start minimal.</strong> Trinity + docker-resolve + run-local is enough to validate the pattern. Add run-gcp only after local is reliable.</p>
+<p><strong>Write <code>.memory/</code> before writing agents.</strong> An agent that knows your container registry hostname, package manager, and GCP project structure makes far fewer wrong turns.</p>
+<p><strong>Set deny rules before enabling autonomous runs.</strong> Add <code>Bash(rm *)</code> to the deny list on day one. Agents cleaning up failed builds will delete things you didn’t intend.</p>
+<p><strong>One container repo per tool.</strong> First pipeline builds and pushes. Every subsequent pipeline finds it via docker-resolve Check 1. Reuse compounds.</p>
+<p><strong>Preload skills as frontmatter, not inline invocations.</strong> If an agent must not emit a standalone response mid-conversation, load the skill via frontmatter and execute its logic directly with Bash — not via the <code>Skill</code> tool.</p>
+<hr>
+<h2 id="repository">Repository</h2>
+<p>Full agent configuration lives in the Ghobrial Lab pipelines repository. <code>.claude/</code> contains agent definitions, skills, and settings. <code>.memory/</code> contains the knowledge base. The model is the executor — the context is the system.</p>  </div> <footer class="article-footer" data-astro-cid-zm77yjld> <a href="/" class="back-link" data-astro-cid-zm77yjld> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-astro-cid-zm77yjld> <line x1="19" y1="12" x2="5" y2="12" data-astro-cid-zm77yjld></line><polyline points="12 19 5 12 12 5" data-astro-cid-zm77yjld></polyline> </svg>
+Back to home
+</a> </footer> </div> </main> <footer class="footer" data-astro-cid-sz7xmlte> <div class="container footer-inner" data-astro-cid-sz7xmlte> <div class="footer-left" data-astro-cid-sz7xmlte> <a href="/" class="footer-logo" data-astro-cid-sz7xmlte>LP</a> <p class="footer-tagline" data-astro-cid-sz7xmlte>
+Building tools that turn genomic data into clear insights.
+</p> <div class="footer-social" data-astro-cid-sz7xmlte> <a href="https://github.com/lpantano" target="_blank" rel="noopener" aria-label="GitHub" data-astro-cid-sz7xmlte> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-sz7xmlte> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" data-astro-cid-sz7xmlte></path> </svg> </a> <a href="https://www.linkedin.com/in/lpantano/" target="_blank" rel="noopener" aria-label="LinkedIn" data-astro-cid-sz7xmlte> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-sz7xmlte> <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" data-astro-cid-sz7xmlte></path> </svg> </a> <a href="https://scholar.google.co.uk/citations?user=MeQGlRwAAAAJ&hl" target="_blank" rel="noopener" aria-label="Google Scholar" data-astro-cid-sz7xmlte> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-sz7xmlte> <path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 10a8 8 0 0 1 7.162 3.44L24 9.5z" data-astro-cid-sz7xmlte></path> </svg> </a> <a href="https://twitter.com/lopantano" target="_blank" rel="noopener" aria-label="Twitter" data-astro-cid-sz7xmlte> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-sz7xmlte> <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" data-astro-cid-sz7xmlte></path> </svg> </a> </div> </div> <nav class="footer-nav" aria-label="Footer navigation" data-astro-cid-sz7xmlte> <div class="footer-nav-col" data-astro-cid-sz7xmlte> <h4 class="footer-nav-heading" data-astro-cid-sz7xmlte>Navigation</h4> <ul data-astro-cid-sz7xmlte> <li data-astro-cid-sz7xmlte><a href="#portfolio" data-astro-cid-sz7xmlte>Portfolio</a></li> <li data-astro-cid-sz7xmlte><a href="#experience" data-astro-cid-sz7xmlte>Experience</a></li> <li data-astro-cid-sz7xmlte><a href="#writing" data-astro-cid-sz7xmlte>Writing</a></li> <li data-astro-cid-sz7xmlte><a href="#talks" data-astro-cid-sz7xmlte>Talks</a></li> <li data-astro-cid-sz7xmlte><a href="#publications" data-astro-cid-sz7xmlte>Publications</a></li> </ul> </div> <div class="footer-nav-col" data-astro-cid-sz7xmlte> <h4 class="footer-nav-heading" data-astro-cid-sz7xmlte>Community</h4> <ul data-astro-cid-sz7xmlte> <li data-astro-cid-sz7xmlte><a href="https://podcast.boston-wib.org/" target="_blank" rel="noopener" data-astro-cid-sz7xmlte>A Coffee with CompBio</a></li> <li data-astro-cid-sz7xmlte><a href="https://boston-wib.org" target="_blank" rel="noopener" data-astro-cid-sz7xmlte>Women in Bioinformatics</a></li> <li data-astro-cid-sz7xmlte><a href="https://massawis.org/board-members-2024-2025/" target="_blank" rel="noopener" data-astro-cid-sz7xmlte>AWIS MASS</a></li> <li data-astro-cid-sz7xmlte><a href="https://www.nextflow.io/" target="_blank" rel="noopener" data-astro-cid-sz7xmlte>Nextflow</a></li> </ul> </div> </nav> </div> <div class="footer-bottom" data-astro-cid-sz7xmlte> <div class="container footer-bottom-inner" data-astro-cid-sz7xmlte> <p class="footer-copy" data-astro-cid-sz7xmlte>© 2026 Lorena Pantano. All rights reserved.</p> <div class="footer-links" data-astro-cid-sz7xmlte> <a href="/privacy/" data-astro-cid-sz7xmlte>Privacy</a> <a href="/terms/" data-astro-cid-sz7xmlte>Terms</a> <a href="mailto:lpantano@iscb.org" data-astro-cid-sz7xmlte>Contact</a> </div> </div> </div> </footer>  <script type="module">const o=localStorage.getItem("theme")||"light";document.documentElement.setAttribute("data-theme",o);window.__toggleTheme=()=>{const e=document.documentElement.getAttribute("data-theme")==="dark"?"light":"dark";document.documentElement.setAttribute("data-theme",e),localStorage.setItem("theme",e),document.querySelectorAll("[data-theme-toggle]").forEach(t=>{t.setAttribute("aria-label",e==="dark"?"Switch to light mode":"Switch to dark mode"),t.querySelector(".theme-icon-light")?.classList.toggle("hidden",e==="dark"),t.querySelector(".theme-icon-dark")?.classList.toggle("hidden",e!=="dark")})};</script> </body> </html>
